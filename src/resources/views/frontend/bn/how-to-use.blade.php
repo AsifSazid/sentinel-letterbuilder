@@ -17,7 +17,9 @@
         <div class="content flex-row-fluid" id="kt_content">
             <!--begin::Row-->
             <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
-                <h1 class="d-flex text-gray-800 fw-bold pt-4 pb-4" id="how_to_use">{{__('How To Use')}}</h1>
+                <h1 class="d-flex text-gray-800 fw-bold pt-4 pb-4 text-bangla" id="how_to_use">
+                    {{-- {{__('How To Use')}} --}}কিভাবে ব্যবহার করে
+                </h1>
             </div>
             <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
                 <!--begin::Col-->
@@ -37,8 +39,8 @@
                                             <!--begin::Title-->
                                             <div class="mb-6">
                                                 <a href="#"
-                                                    class="text-gray-800 text-hover-primary fs-1 fw-bold">{{__('Service
-                                                    Standard')}}</a>
+                                                    class="text-gray-800 text-hover-primary fs-1 fw-bold text-bangla">
+                                                    {{-- {{__('Service Standard')}}</a> --}}সার্ভিস স্ট্যান্ডার্ড
                                             </div>
                                             <!--end::Title-->
                                         </div>
@@ -46,16 +48,19 @@
                                         <!--begin::Body-->
                                         <div
                                             class="d-flex flex-column border border-1 border-gray-300 text-center pt-5 pb-7 mb-8 card-rounded">
-                                            <span class="fw-bold text-gray-800 fs-3">{{__('The service standard
-                                                helps to create and run great public services ...')}}</span>
+                                            <span class="fw-bold text-gray-800 fs-3 text-bangla">
+                                                {{-- {{__('The service standard helps to create and run great public services ...')}} --}}
+                                                পরিষেবার মান পাবলিক পরিষেবা তৈরি করতে এবং চালাতে সাহায্য করে…
+                                            </span>
                                         </div>
                                         <!--end::Body-->
                                         <!--begin::Footer-->
                                         <div class="d-flex flex-stack mt-auto bd-highlight">
                                             <!--begin::Actions-->
-                                            <a href="#" class="btn btn-primary btn-sm flex-shrink-0 ms-auto"
-                                                data-bs-toggle="modal" data-bs-target="#kt_modal_bidding">{{__('View
-                                                Details')}}</a>
+                                            <a href="#" class="btn btn-primary btn-sm flex-shrink-0 ms-auto text-bangla"
+                                                data-bs-toggle="modal" data-bs-target="#kt_modal_bidding">
+                                                {{-- {{__('View Details')}} --}}বিস্তারিত দেখুন
+                                            </a>
                                             <!--end::Actions-->
                                         </div>
                                         <!--end::Footer-->
@@ -88,8 +93,9 @@
                                             <!--begin::Title-->
                                             <div class="mb-6">
                                                 <a href="#"
-                                                    class="text-gray-800 text-hover-primary fs-1 fw-bold">{{__('Application
-                                                    Development Guidance')}}</a>
+                                                    class="text-gray-800 text-hover-primary fs-1 fw-bold text-bangla">
+                                                    {{-- {{__('Application Development Guidance')}} --}}অ্যাপ্লিকেশন উন্নয়ন নির্দেশিকা
+                                                </a>
                                             </div>
                                             <!--end::Title-->
                                         </div>
@@ -97,17 +103,19 @@
                                         <!--begin::Body-->
                                         <div
                                             class="d-flex flex-column border border-1 border-gray-300 text-center pt-5 pb-7 mb-8 card-rounded">
-                                            <span class="fw-bold text-gray-800 fs-3">{{__('Guidance for
-                                                application developers of applications which will be run on
-                                                devices ...')}}</span>
+                                            <span class="fw-bold text-gray-800 fs-3 text-bangla">
+                                                {{-- {{__('Guidance for application developers of applications which will be run on devices ...')}} --}}
+                                                অ্যাপ্লিকেশনগুলির অ্যাপ্লিকেশন বিকাশকারীদের জন্য নির্দেশিকা যা ডিভাইসগুলিতে চালানো হবে …
+                                            </span>
                                         </div>
                                         <!--end::Body-->
                                         <!--begin::Footer-->
                                         <div class="d-flex flex-stack mt-auto bd-highlight">
                                             <!--begin::Actions-->
-                                            <a href="#" class="btn btn-primary btn-sm flex-shrink-0 ms-auto"
-                                                data-bs-toggle="modal" data-bs-target="#kt_modal_bidding">{{__('View
-                                                Details')}}</a>
+                                            <a href="#" class="btn btn-primary btn-sm flex-shrink-0 ms-auto text-bangla"
+                                                data-bs-toggle="modal" data-bs-target="#kt_modal_bidding">
+                                                {{-- {{__('View Details')}} --}}বিস্তারিত দেখুন
+                                                </a>
                                             <!--end::Actions-->
                                         </div>
                                         <!--end::Footer-->

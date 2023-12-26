@@ -17,7 +17,9 @@
         <div class="content flex-row-fluid" id="kt_content">
             <!--begin::Row-->
             <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
-                <h1 class="d-flex text-gray-800 fw-bold pt-4 pb-4" id="how_to_use">{{__('About Us')}}</h1>
+                <h1 class="d-flex text-gray-800 fw-bold pt-4 pb-4 text-bangla" id="how_to_use">
+                    {{-- {{__('About Us')}} --}}আমাদের সম্পর্কে
+                </h1>
             </div>
             <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
                 <!--begin::Col-->
@@ -35,8 +37,10 @@
                                         <!--begin::Body-->
                                         <div
                                             class="d-flex flex-column text-left pt-5 pb-7 mb-8 card-rounded">
-                                            <span class="fw-bold text-gray-800 fs-3">{{__('The service standard
-                                                helps to create and run great public services ...')}}</span>
+                                            <span class="fw-bold text-gray-800 fs-3 text-bangla">
+                                                {{-- {{__('The service standard helps to create and run great public services ...')}} --}}
+                                                পরিষেবার মান পাবলিক পরিষেবা তৈরি করতে এবং চালাতে সাহায্য করে...
+                                            </span>
                                         </div>
                                         <!--end::Body-->
                                     </div>

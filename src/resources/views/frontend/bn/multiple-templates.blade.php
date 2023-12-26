@@ -17,7 +17,9 @@
         <div class="content flex-row-fluid" id="kt_content">
             <!--begin::Row-->
             <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
-                <h1 class="d-flex text-gray-800 fw-bold pb-4" id="templates">{{__('All Templates')}}</h1>
+                <h1 class="d-flex text-gray-800 fw-bold pb-4 text-bangla" id="templates">
+                    {{-- {{__('All Templates')}} --}}সমস্ত টেমপ্লেট
+                </h1>
             </div>
             <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
                 <!--begin::Col-->

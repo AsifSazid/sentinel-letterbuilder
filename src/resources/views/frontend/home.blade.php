@@ -9,9 +9,9 @@
                     <!--begin::Col-->
                     <div class="col-sm-6 col-xxl-8">
                         <div class="row">
-                            <h1 class="d-flex text-gray-900 opacity-75 fs-2tx fw-bold my-4">
-                                {{ __('Elevate Government
-                                                                Correspondence:') }}
+                            <h1 class="d-flex text-gray-900 opacity-75 fs-2tx fw-bold my-4 text-bangla">
+                                {{ __('Elevate GovernmentCorrespondence:') }}
+                                {{-- সরকারি চিঠিপত্র উন্নত করন: --}}
                             </h1>
                             <h2 class="d-flex text-gray-900 opacity-75 fs-2x fw-bold my-1">
                                 {{ __('Letter Builder - Where

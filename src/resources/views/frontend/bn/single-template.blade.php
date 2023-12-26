@@ -30,11 +30,15 @@
                                 <!--end::Heading-->
                                 <!--begin::Action-->
                                 <div class="mb-xl-10 mb-3">
-                                    <a href='#' class="btn btn-primary fw-semibold me-2" data-bs-toggle="modal"
-                                        data-bs-target="#kt_modal_upgrade_plan">{{__('Download')}}</a>
+                                    <a href='#' class="btn btn-primary fw-semibold me-2 text-bangla" data-bs-toggle="modal"
+                                        data-bs-target="#kt_modal_upgrade_plan">
+                                        {{-- {{__('Download')}} --}}ডাউনলোড
+                                    </a>
                                     <a href="apps/support-center/overview.html"
-                                        class="btn btn-color-white bg-transparent btn-outline fw-semibold"
-                                        style="border: 1px solid rgba(255, 255, 255, 0.3)">{{__('Preview')}}</a>
+                                        class="btn btn-color-white bg-transparent btn-outline fw-semibold text-bangla"
+                                        style="border: 1px solid rgba(255, 255, 255, 0.3)">
+                                        {{-- {{__('Preview')}} --}}পূর্বরূপ
+                                    </a>
                                 </div>
                                 <!--begin::Action-->
                             </div>
@@ -49,7 +53,9 @@
                                 <!--begin::Header-->
                                 <div class="card-header">
                                     <!--begin::Title-->
-                                    <h3 class="card-title fw-bold text-gray-900">{{__('Version Details')}}</h3>
+                                    <h3 class="card-title fw-bold text-gray-900 text-bangla">
+                                        {{-- {{__('Version Details')}} --}}সংস্করণ বিবরণ
+                                    </h3>
                                     <!--end::Title-->
                                 </div>
                                 <!--end::Header-->
@@ -60,8 +66,10 @@
                                         <div class="col-5">
                                             <div class="text-left mb-5">
                                                 <!--begin::Title-->
-                                                <span class="opacity-75 fw-bold">{{__('Last
-                                                    Update')}}</span>
+                                                <span class="opacity-75 fw-bold text-bangla">
+                                                    {{-- {{__('Last Update')}} --}}সর্বশেষ আপডেট
+
+                                                    </span>
                                                 <!--end::Title-->
                                             </div>
                                         </div>
@@ -77,7 +85,9 @@
                                         <div class="col-5">
                                             <div class="text-left mb-5">
                                                 <!--begin::Title-->
-                                                <span class="text-white opacity-75 fw-bold">{{__('Published')}}</span>
+                                                <span class="text-white opacity-75 fw-bold text-bangla">
+                                                    {{-- {{__('Published')}} --}}প্রকাশিত হয়েছে
+                                                </span>
                                                 <!--end::Title-->
                                             </div>
                                         </div>
@@ -99,11 +109,15 @@
                                 <!--begin::Header-->
                                 <div class="card-header border-0 pt-5">
                                     <h3 class="card-title align-items-start flex-column">
-                                        <span class="card-label fw-bold text-gray-800">{{__('Technology')}}</span>
+                                        <span class="card-label fw-bold text-gray-800 text-bangla">
+                                            {{-- {{__('Technology')}} --}}প্রযুক্তি
+                                        </span>
                                     </h3>
                                     <!--begin::Toolbar-->
                                     <div class="card-toolbar">
-                                        <a href="#" class="btn btn-sm btn-light">{{__('View All Technology')}}</a>
+                                        <a href="#" class="btn btn-sm btn-light text-bangla">
+                                            {{-- {{__('View All Technology')}} --}}সমস্ত প্রযুক্তি দেখুন
+                                        </a>
                                     </div>
                                     <!--end::Toolbar-->
                                 </div>
@@ -163,7 +177,9 @@
                             <div class="card-header pt-7">
                                 <!--begin::Title-->
                                 <h3 class="card-title align-items-start flex-column">
-                                    <span class="card-label fw-bold text-gray-800">{{__('Features')}}</span>
+                                    <span class="card-label fw-bold text-gray-800 text-bangla">
+                                        {{-- {{__('Features')}} --}}বৈশিষ্ট্য
+                                    </span>
                                 </h3>
                                 <!--end::Title-->
                             </div>
@@ -191,7 +207,7 @@
                             <div class="card-header pt-7">
                                 <!--begin::Title-->
                                 <h3 class="card-title align-items-start flex-column">
-                                    <span class="card-label fw-bold text-gray-800">Change Log</span>
+                                    <span class="card-label fw-bold text-gray-800 text-bangla">লগ পরিবর্তন করুন                                    </span>
                                 </h3>
                                 <!--end::Title-->
                             </div>
@@ -201,7 +217,9 @@
                                 <div class="separator separator-dashed my-5"></div>
                                 <h4 class="fw-bold text-gray-500 mb-6">{{__('Version 1.0 - Dec 30, 2023')}}</h4>
                                 <ul>
-                                    <li><span>{{__('Initial Release')}}</span></li>
+                                    <li><span class="text-bangla">
+                                        {{-- {{__('Initial Release')}} --}}প্রাথমিক রিলিজ
+                                    </span></li>
                                 </ul>
                             </div>
                             <!--end: Card Body-->
@@ -218,12 +236,16 @@
                         <div class="card-header pt-7">
                             <!--begin::Title-->
                             <h3 class="card-title align-items-start flex-column">
-                                <span class="card-label fw-bold text-gray-900">{{__('Related Letters')}}</span>
+                                <span class="card-label fw-bold text-gray-900 text-bangla">
+                                    {{-- {{__('Related Letters')}} --}}সম্পর্কিত চিঠিপত্র
+                                </span>
                             </h3>
                             <!--end::Title-->
                             <!--begin::Toolbar-->
                             <div class="card-toolbar">
-                                <a href="#" class="btn btn-sm btn-light">{{__('View More')}}</a>
+                                <a href="#" class="btn btn-sm btn-light text-bangla">
+                                    {{-- {{__('View More')}} --}}আরো দেখুন
+                                </a>
                             </div>
                             <!--end::Toolbar-->
                         </div>
