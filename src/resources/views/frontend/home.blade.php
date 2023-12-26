@@ -45,7 +45,8 @@
             <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
                 <h1 class="d-flex text-gray-800 fw-bold pb-4" id="templates">{{ __('Templates') }}</h1>
             </div>
-            <div class="row g-5 g-xl-10 mb-5 mb-xl-10"><!--begin::Col-->
+            <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
+                <!--begin::Col-->
                 <div class="col-sm-6 col-xxl-3">
                     <!--begin::Card widget 14-->
                     <div class="card card-flush h-xl-100">
@@ -74,16 +75,17 @@
                             <div class="d-flex align-items-end flex-stack mb-1">
                                 <!--begin::Title-->
                                 <div class="text-start">
-                                    <span class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">
-                                        {{ __('Notice') }}
+                                    <span
+                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">
+                                        {{__('Notice')}}
                                     </span>
                                     <span class="text-gray-500 mt-1 fw-bold fs-6">
-                                        {{ __('Total Download:') }}
+                                        {{__('Total Download:')}} 
                                     </span>
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
-                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('2,630') }}</span>
+                                <span class="text-gray-600 text-end fw-bold fs-6">{{__('2,630')}}</span>
                                 <!--end::Total-->
                             </div>
                             <!--end::Info-->
@@ -92,14 +94,13 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{ __('Download:') }}
+                            <a href="{{route('pdfDownload', $docId="1")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{__('Download')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">
-                                {{ __('View Deatails:') }}
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('preview', $docId = 1)}}">
+                                {{__('View Deatails')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -137,16 +138,17 @@
                             <div class="d-flex align-items-end flex-stack mb-1">
                                 <!--begin::Title-->
                                 <div class="text-start">
-                                    <span class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">
-                                        {{ __('Office Memo') }}
+                                    <span
+                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">
+                                        {{__('Office Memo')}}
                                     </span>
                                     <span class="text-gray-500 mt-1 fw-bold fs-6">
-                                        {{ __('Total Download:') }}
+                                        {{__('Total Download:')}}
                                     </span>
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
-                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('17,035') }}</span>
+                                <span class="text-gray-600 text-end fw-bold fs-6">{{__('17,035')}}</span>
                                 <!--end::Total-->
                             </div>
                             <!--end::Info-->
@@ -155,14 +157,14 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{ __('Download:') }}
+                            <a href="{{route('pdfDownload', $docId="2")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2"
+                                >
+                                {{__('Download')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">
-                                {{ __('View Deatails:') }}
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('preview', $docId = 2)}}">
+                                {{__('View Deatails')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -200,16 +202,17 @@
                             <div class="d-flex align-items-end flex-stack mb-1">
                                 <!--begin::Title-->
                                 <div class="text-start">
-                                    <span class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">
-                                        {{ __('Circular Sample') }}
+                                    <span
+                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">
+                                        {{__('Circular Sample')}}
                                     </span>
                                     <span class="text-gray-500 mt-1 fw-bold fs-6">
-                                        {{ __('Total Download:') }}
+                                        {{__('Total Download:')}}
                                     </span>
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
-                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('2,630') }}</span>
+                                <span class="text-gray-600 text-end fw-bold fs-6">{{__('2,630')}}</span>
                                 <!--end::Total-->
                             </div>
                             <!--end::Info-->
@@ -218,14 +221,14 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{ __('Download:') }}
+                            <a href="{{route('pdfDownload', $docId="3")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2"
+                                >
+                                {{__('Download')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">
-                                {{ __('View Deatails:') }}
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('preview', $docId = 3)}}">
+                                {{__('View Deatails')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -282,14 +285,14 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{__('Download:')}}
+                            <a href="{{route('pdfDownload', $docId="6")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2"
+                                >
+                                {{__('Download')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">
-                                {{__('View Deatails:')}}
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('preview', $docId = 6)}}">
+                                {{__('View Deatails')}}
                             </a>
                             <!--end::Link-->
                         </div>

@@ -4,6 +4,9 @@ use Illuminate\Support\Facades\Route;
 
 use Sentinel\Letterbuilder\Http\Controllers\LetterBuilderController;
 use Sentinel\Letterbuilder\Http\Controllers\LetterBuilderBNController;
+use Sentinel\Letterbuilder\Http\Controllers\PdfController;
+use Sentinel\Letterbuilder\Http\Controllers\PreviewController;
+
 //use namespace
 
 Route::get('/home', [LetterBuilderController::class, 'home'])->name('home');
@@ -21,3 +24,9 @@ Route::group(['prefix' => 'bn', 'as' => 'bn.'], function () {
     Route::get('/about-us', [LetterBuilderBNController::class, 'about'])->name('aboutUs');
     Route::get('/contact-us', [LetterBuilderBNController::class, 'contact'])->name('contactUs');
 });
+
+
+Route::get('/pdf/{docId}', [PdfController::class, 'downloadPdf'])->name('pdfDownload');
+Route::get('/details-view/{docId}', [PreviewController::class, 'detailsView'])->name('details');
+Route::get('/bn/details-view/{docId}', [PreviewController::class, 'detailsViewBn'])->name('bn.details');
+Route::get('/preview/{docId}', [PreviewController::class, 'preview'])->name('preview');

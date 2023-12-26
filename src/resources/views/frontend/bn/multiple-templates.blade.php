@@ -5,7 +5,7 @@
             <!--begin::Page title-->
             <div class="page-title d-flex flex-column me-3">
                 <!--begin::Title-->
-                <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 fs-3"><a href="{{route('home')}}" class="text-gray-900">{{__('Home')}}</a> &nbsp;{{__('/ All Templates ')}}</h1>
+                <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 text-bangla fs-2x"><a href="{{route('bn.home')}}" class="text-gray-900">{{__('হোম')}}</a> &nbsp;{{__('/ সমস্ত টেমপ্লেট ')}}</h1>
                 <!--end::Title-->
             </div>
             <!--end::Page title-->
@@ -70,13 +70,13 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding" data-bs-toggle="modal">
-                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            <a href="{{route('pdfDownload', $docId="1")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{__('ডাউনলোড')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
-                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.details', $docId = 1)}}">
+                                {{__('বিস্তারিত দেখুন')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -133,14 +133,13 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            <a href="{{route('pdfDownload', $docId="2")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{__('ডাউনলোড')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
-                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.details', $docId = 2)}}">
+                                {{__('বিস্তারিত দেখুন')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -197,14 +196,13 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            <a href="{{route('pdfDownload', $docId="3")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{__('ডাউনলোড')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
-                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.details', $docId = 3)}}">
+                                {{__('বিস্তারিত দেখুন')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -261,14 +259,13 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            <a href="{{route('pdfDownload', $docId="4")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{__('ডাউনলোড')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
-                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.details', $docId = 4)}}">
+                                {{__('বিস্তারিত দেখুন')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -325,14 +322,13 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            <a href="{{route('pdfDownload', $docId="5")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{__('ডাউনলোড')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
-                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.details', $docId = 5)}}">
+                                {{__('বিস্তারিত দেখুন')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -389,14 +385,13 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            <a href="{{route('pdfDownload', $docId="6")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{__('ডাউনলোড')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
-                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.details', $docId = 6)}}">
+                                {{__('বিস্তারিত দেখুন')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -453,14 +448,13 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            <a href="{{route('pdfDownload', $docId="7")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{__('ডাউনলোড')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
-                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.details', $docId = 7)}}">
+                                {{__('বিস্তারিত দেখুন')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -517,14 +511,13 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            <a href="{{route('pdfDownload', $docId="8")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{__('ডাউনলোড')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
-                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.details', $docId = 8)}}">
+                                {{__('বিস্তারিত দেখুন')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -581,14 +574,13 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            <a href="{{route('pdfDownload', $docId="9")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{__('ডাউনলোড')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
-                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.details', $docId = 9)}}">
+                                {{__('বিস্তারিত দেখুন')}}
                             </a>
                             <!--end::Link-->
                         </div>

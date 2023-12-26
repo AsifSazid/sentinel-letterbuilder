@@ -68,13 +68,13 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding" data-bs-toggle="modal">
-                                {{__('Download:')}}
+                            <a href="{{route('pdfDownload', $docId="1")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{__('Download')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">
-                                {{__('View Deatails:')}}
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('details', $docId = 1)}}">
+                                {{__('View Deatails')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -131,14 +131,14 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{__('Download:')}}
+                            <a href="{{route('pdfDownload', $docId="2")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2"
+                                >
+                                {{__('Download')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">
-                                {{__('View Deatails:')}}
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('details', $docId = 2)}}">
+                                {{__('View Deatails')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -195,14 +195,14 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{__('Download:')}}
+                            <a href="{{route('pdfDownload', $docId="3")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2"
+                                >
+                                {{__('Download')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">
-                                {{__('View Deatails:')}}
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('details', $docId = 3)}}">
+                                {{__('View Deatails')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -259,14 +259,14 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{__('Download:')}}
+                            <a href="{{route('pdfDownload', $docId="4")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2"
+                                >
+                                {{__('Download')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">
-                                {{__('View Deatails:')}}
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('details', $docId = 4)}}">
+                                {{__('View Deatails')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -323,14 +323,14 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{__('Download:')}}
+                            <a href="{{route('pdfDownload', $docId="5")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2"
+                                >
+                                {{__('Download')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">
-                                {{__('View Deatails:')}}
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('details', $docId = 5)}}">
+                                {{__('View Deatails')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -387,14 +387,14 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{__('Download:')}}
+                            <a href="{{route('pdfDownload', $docId="6")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2"
+                                >
+                                {{__('Download')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">
-                                {{__('View Deatails:')}}
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('details', $docId = 6)}}">
+                                {{__('View Deatails')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -451,14 +451,14 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{__('Download:')}}
+                            <a href="{{route('pdfDownload', $docId="7")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2"
+                                >
+                                {{__('Download')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">
-                                {{__('View Deatails:')}}
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('details', $docId = 7)}}">
+                                {{__('View Deatails')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -515,14 +515,14 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{__('Download:')}}
+                            <a href="{{route('pdfDownload', $docId="8")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2"
+                                >
+                                {{__('Download')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">
-                                {{__('View Deatails:')}}
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('details', $docId = 8)}}">
+                                {{__('View Deatails')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -579,14 +579,13 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{__('Download:')}}
+                            <a href="{{route('pdfDownload', $docId="9")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{__('Download')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">
-                                {{__('View Deatails:')}}
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('details', $docId = 9)}}">
+                                {{__('View Deatails')}}
                             </a>
                             <!--end::Link-->
                         </div>

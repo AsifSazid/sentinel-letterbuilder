@@ -26,14 +26,14 @@
                         <!--begin::Body-->
                         <div class="card-body d-flex justify-content-between flex-column ps-xl-18">
                             <!--begin::Heading-->
-                            <h3 class="fw-bold text-white fs-4x mb-5 ms-n1">{{__('নোটিশ')}}</h3>
+                            <span class="text-white text-bangla fs-2x mb-5">{{__('নোটিশ')}}</span>
                                 <!--begin::Action-->
                                 <div class="mb-xl-10 mb-3">
                                     <a href='#' class="btn btn-primary fw-semibold me-2 text-bangla" data-bs-toggle="modal"
                                         data-bs-target="#kt_modal_upgrade_plan">
                                         {{-- {{__('Download')}} --}}ডাউনলোড
                                     </a>
-                                    <a href="apps/support-center/overview.html"
+                                    <a href="{{route('preview', $docId = 1)}}"
                                         class="btn btn-color-white bg-transparent btn-outline fw-semibold text-bangla"
                                         style="border: 1px solid rgba(255, 255, 255, 0.3)">
                                         {{-- {{__('Preview')}} --}}পূর্বরূপ

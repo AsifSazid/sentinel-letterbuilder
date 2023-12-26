@@ -79,10 +79,10 @@
                                 <div class="text-start">
                                     <span
                                         class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block text-bangla">
-                                        {{-- {{__('Notice')}} --}}নোটিশ 
+                                        {{-- {{__('Notice')}} --}}নোটিশ
                                     </span>
                                     <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
-                                        {{-- {{__('Total Download:')}}  --}}মোট ডাউনলোড:
+                                        {{-- {{__('Total Download:')}} --}} মোট ডাউনলোড 
                                     </span>
                                 </div>
                                 <!--end::Title-->
@@ -96,14 +96,13 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding" data-bs-toggle="modal">
-                                {{-- {{__('Download:')}} --}}ডাউনলোড
-
+                            <a href="{{route('pdfDownload', $docId="1")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{__('ডাউনলোড')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
-                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন:
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('preview', $docId = 1)}}">
+                                {{__('বিস্তারিত দেখুন')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -143,10 +142,10 @@
                                 <div class="text-start">
                                     <span
                                         class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block text-bangla">
-                                        {{-- {{__('Office Memo')}} --}}অফিস স্মারক 
+                                        {{-- {{__('Office Memo')}} --}}অফিস স্মারক
                                     </span>
                                     <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
-                                        {{-- {{__('Total Download:')}} --}}মোট ডাউনলোড:
+                                        {{-- {{__('Total Download:')}} --}}মোট ডাউনলোড 
                                     </span>
                                 </div>
                                 <!--end::Title-->
@@ -160,14 +159,13 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            <a href="{{route('pdfDownload', $docId="2")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{__('ডাউনলোড')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
-                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন:
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('preview', $docId = 2)}}">
+                                {{__('বিস্তারিত দেখুন')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -187,7 +185,7 @@
                                 href="{{ asset('ui/frontend/assets') }}/media/forms/circular-sample.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/circular-sample.png'); background-position: center top;">
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/circular-sample.png'); background-position: center top;>
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -210,7 +208,7 @@
                                         {{-- {{__('Circular Sample')}} --}}পরিপত্রের নমুনা 
                                     </span>
                                     <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
-                                        {{-- {{__('Total Download:')}} --}}মোট ডাউনলোড:
+                                        {{-- {{__('Total Download:')}} --}}মোট ডাউনলোড 
                                     </span>
                                 </div>
                                 <!--end::Title-->
@@ -224,14 +222,13 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            <a href="{{route('pdfDownload', $docId="3")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{__('ডাউনলোড')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
-                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন:
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('preview', $docId = 3)}}">
+                                {{__('বিস্তারিত দেখুন')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -248,10 +245,10 @@
                         <div class="card-body text-center pb-5">
                             <!--begin::Overlay-->
                             <a class="d-block overlay" data-fslightbox="lightbox-hot-sales"
-                                href="{{ asset('ui/frontend/assets') }}/media/forms/government-letter-sample.png">
+                                href="{{ asset('ui/frontend/assets') }}/media/forms/meeting-minutes.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/government-letter-sample.png'); background-position: center top;">
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/meeting-minutes.png'); background-position: center top;>
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -270,11 +267,11 @@
                                 <!--begin::Title-->
                                 <div class="text-start">
                                     <span
-                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block text-bangla">
-                                        {{-- {{__('Government Letter Sample')}} --}}সরকারি পত্রের নমুনা 
+                                        class="fw-bold text-bangla text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">
+                                        {{-- {{__('Meeting Minutes')}} --}}সভার কার্যবিবরণী
                                     </span>
-                                    <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
-                                        {{-- {{__('Total Download:')}} --}}মোট ডাউনলোড:
+                                    <span class="text-gray-500 text-bangla mt-1 fw-bold fs-6">
+                                        {{-- {{__('Total Download:')}} --}} মোট ডাউনলোড 
                                     </span>
                                 </div>
                                 <!--end::Title-->
@@ -288,14 +285,13 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">
-                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            <a href="{{route('pdfDownload', $docId="6")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{__('ডাউনলোড')}}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
-                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন:
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('preview', $docId = 6)}}">
+                                {{__('বিস্তারিত দেখুন')}}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -305,7 +301,7 @@
                 </div>
                 <!--end::Col-->
                 <div class="col-sm-12 col-xxl-12 text-center">
-                    <a href="{{route('multipleTemplate')}}" class="btn btn-primary btn-sm flex-shrink-0 ms-auto text-bangla">
+                    <a href="{{route('bn.multipleTemplate')}}" class="btn btn-primary btn-sm flex-shrink-0 ms-auto text-bangla">
                         {{-- {{__('View More')}} --}}আরো দেখুন
 
                     </a>

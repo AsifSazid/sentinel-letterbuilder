@@ -5,7 +5,7 @@
             <!--begin::Page title-->
             <div class="page-title d-flex flex-column me-3">
                 <!--begin::Title-->
-                <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 fs-3"><a href="{{route('home')}}" class="text-gray-900">{{__('Home')}}</a> &nbsp;{{__('/ How to Use ')}}</h1>
+                <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 text-bangla fs-2x"><a href="{{route('bn.home')}}" class="text-gray-900">{{__('হোম')}}</a> &nbsp;{{__('/ কিভাবে ব্যবহার করে ')}}</h1>
                 <!--end::Title-->
             </div>
             <!--end::Page title-->
