@@ -1,0 +1,132 @@
+<x-lbs-bn-master>
+    <div class="toolbar py-5 pb-lg-15" id="kt_toolbar">
+        <!--begin::Container-->
+        <div id="kt_toolbar_container" class="container-xxl d-flex flex-stack flex-wrap">
+            <!--begin::Page title-->
+            <div class="page-title d-flex flex-column me-3">
+                <!--begin::Title-->
+                <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 fs-3"><a href="{{route('home')}}" class="text-gray-900">{{__('Home')}}</a> &nbsp;{{__('/ How to Use ')}}</h1>
+                <!--end::Title-->
+            </div>
+            <!--end::Page title-->
+        </div>
+        <!--end::Container-->
+    </div>
+    <div id="kt_content_container" class="d-flex flex-column-fluid align-items-start container-xxl">
+        <!--begin::Post-->
+        <div class="content flex-row-fluid" id="kt_content">
+            <!--begin::Row-->
+            <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
+                <h1 class="d-flex text-gray-800 fw-bold pt-4 pb-4" id="how_to_use">{{__('How To Use')}}</h1>
+            </div>
+            <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
+                <!--begin::Col-->
+                <div class="col-xxl-6">
+                    <!--begin::Card widget 15-->
+                    <div class="card card-flush h-xl-90">
+                        <!--begin::Body-->
+                        <div class="card-body py-9">
+                            <!--begin::Row-->
+                            <div class="row gx-9 h-100">
+                                <!--begin::Col-->
+                                <div class="col-sm-12">
+                                    <!--begin::Wrapper-->
+                                    <div class="d-flex flex-column h-100">
+                                        <!--begin::Header-->
+                                        <div class="mb-7">
+                                            <!--begin::Title-->
+                                            <div class="mb-6">
+                                                <a href="#"
+                                                    class="text-gray-800 text-hover-primary fs-1 fw-bold">{{__('Service
+                                                    Standard')}}</a>
+                                            </div>
+                                            <!--end::Title-->
+                                        </div>
+                                        <!--end::Header-->
+                                        <!--begin::Body-->
+                                        <div
+                                            class="d-flex flex-column border border-1 border-gray-300 text-center pt-5 pb-7 mb-8 card-rounded">
+                                            <span class="fw-bold text-gray-800 fs-3">{{__('The service standard
+                                                helps to create and run great public services ...')}}</span>
+                                        </div>
+                                        <!--end::Body-->
+                                        <!--begin::Footer-->
+                                        <div class="d-flex flex-stack mt-auto bd-highlight">
+                                            <!--begin::Actions-->
+                                            <a href="#" class="btn btn-primary btn-sm flex-shrink-0 ms-auto"
+                                                data-bs-toggle="modal" data-bs-target="#kt_modal_bidding">{{__('View
+                                                Details')}}</a>
+                                            <!--end::Actions-->
+                                        </div>
+                                        <!--end::Footer-->
+                                    </div>
+                                    <!--end::Wrapper-->
+                                </div>
+                                <!--end::Col-->
+                            </div>
+                            <!--end::Row-->
+                        </div>
+                        <!--end::Body-->
+                    </div>
+                    <!--end::Card widget 15-->
+                </div>
+                <!--end::Col-->
+                <!--begin::Col-->
+                <div class="col-xxl-6">
+                    <!--begin::Card widget 15-->
+                    <div class="card card-flush h-xl-90">
+                        <!--begin::Body-->
+                        <div class="card-body py-9">
+                            <!--begin::Row-->
+                            <div class="row gx-9 h-100">
+                                <!--begin::Col-->
+                                <div class="col-sm-12">
+                                    <!--begin::Wrapper-->
+                                    <div class="d-flex flex-column h-100">
+                                        <!--begin::Header-->
+                                        <div class="mb-7">
+                                            <!--begin::Title-->
+                                            <div class="mb-6">
+                                                <a href="#"
+                                                    class="text-gray-800 text-hover-primary fs-1 fw-bold">{{__('Application
+                                                    Development Guidance')}}</a>
+                                            </div>
+                                            <!--end::Title-->
+                                        </div>
+                                        <!--end::Header-->
+                                        <!--begin::Body-->
+                                        <div
+                                            class="d-flex flex-column border border-1 border-gray-300 text-center pt-5 pb-7 mb-8 card-rounded">
+                                            <span class="fw-bold text-gray-800 fs-3">{{__('Guidance for
+                                                application developers of applications which will be run on
+                                                devices ...')}}</span>
+                                        </div>
+                                        <!--end::Body-->
+                                        <!--begin::Footer-->
+                                        <div class="d-flex flex-stack mt-auto bd-highlight">
+                                            <!--begin::Actions-->
+                                            <a href="#" class="btn btn-primary btn-sm flex-shrink-0 ms-auto"
+                                                data-bs-toggle="modal" data-bs-target="#kt_modal_bidding">{{__('View
+                                                Details')}}</a>
+                                            <!--end::Actions-->
+                                        </div>
+                                        <!--end::Footer-->
+                                    </div>
+                                    <!--end::Wrapper-->
+                                </div>
+                                <!--end::Col-->
+                            </div>
+                            <!--end::Row-->
+                        </div>
+                        <!--end::Body-->
+                    </div>
+                    <!--end::Card widget 15-->
+                </div>
+                <!--end::Col-->
+            </div>
+            <!--end::Row-->
+        </div>
+        <!--end::Post-->
+    </div>
+
+</x-lbs-bn-master>

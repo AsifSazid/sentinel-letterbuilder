@@ -30,6 +30,12 @@
 	<link href="{{ asset('ui/frontend/assets')}}/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
 	<link href="{{ asset('ui/frontend/assets')}}/css/style.bundle.css" rel="stylesheet" type="text/css" />
 	<!--end::Global Stylesheets Bundle-->
+	<link href='http://sonnetdp.github.io/nikosh/css/nikosh.css' rel='stylesheet' type='text/css'>
+	<style>
+		.text-bangla{
+			font-family: "Nikosh", sans-serif;
+		}
+	</style>
 	<script>// Frame-busting to prevent site from being loaded within a frame without permission (click-jacking) if (window.top != window.self) { window.top.location.replace(window.self.location.href); }</script>
 </head>
 <!--end::Head-->
@@ -47,11 +53,11 @@
 			<!--begin::Wrapper-->
 			<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
 				<!--begin::Header-->
-				<x-lbs-header />
+				<x-lbs-bn-header />
 				<!--end::Header-->
 					{{$slot}}
 				<!--begin::Footer-->
-				<x-lbs-footer />
+				<x-lbs-bn-footer />
 				<!--end::Footer-->
 			</div>
 			<!--end::Wrapper-->
