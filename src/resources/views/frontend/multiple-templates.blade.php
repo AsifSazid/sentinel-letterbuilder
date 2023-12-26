@@ -28,10 +28,10 @@
                         <div class="card-body text-center pb-5">
                             <!--begin::Overlay-->
                             <a class="d-block overlay" data-fslightbox="lightbox-hot-sales"
-                                href="{{ asset('ui/frontend/assets') }}/media/stock/600x600/img-39.jpg">
+                                href="{{ asset('ui/frontend/assets') }}/media/forms/notice.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/stock/600x600/img-39.jpg">
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/notice.png">
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -50,8 +50,7 @@
                                 <!--begin::Title-->
                                 <div class="text-start">
                                     <span
-                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">{{__('Wavy
-                                        Curved Art')}}</span>
+                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">{{__('Notice')}}</span>
                                     <span class="text-gray-500 mt-1 fw-bold fs-6">{{__('Total Download:')}} </span>
                                 </div>
                                 <!--end::Title-->
@@ -475,7 +474,6 @@
                     </div>
                     <!--end::Card widget 14-->
                 </div>
-                <!--end::Col-->
                 <!--end::Col-->
                 <!--begin::Col-->
                 <div class="col-sm-6 col-xxl-3">

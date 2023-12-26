@@ -271,8 +271,7 @@
                 </div>
                 <!--end::Col-->
                 <div class="col-sm-12 col-xxl-12 text-center">
-                    <a href="#" class="btn btn-primary btn-sm flex-shrink-0 ms-auto" data-bs-toggle="modal"
-                        data-bs-target="#kt_modal_bidding">{{__('View More')}}</a>
+                    <a href="{{route('multipleTemplate')}}" class="btn btn-primary btn-sm flex-shrink-0 ms-auto">{{__('View More')}}</a>
                 </div>
             </div>
             <!--end::Row-->
