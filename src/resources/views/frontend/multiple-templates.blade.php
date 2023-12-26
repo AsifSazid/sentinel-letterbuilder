@@ -31,7 +31,7 @@
                                 href="{{ asset('ui/frontend/assets') }}/media/forms/notice.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/notice.png">
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/notice.png'); background-position: center top;">
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -50,8 +50,12 @@
                                 <!--begin::Title-->
                                 <div class="text-start">
                                     <span
-                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">{{__('Notice')}}</span>
-                                    <span class="text-gray-500 mt-1 fw-bold fs-6">{{__('Total Download:')}} </span>
+                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block text-bangla">
+                                        {{-- {{__('Notice')}} --}}নোটিশ
+                                    </span>
+                                    <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
+                                        {{-- {{__('Total Download:')}} --}} মোট ডাউনলোড 
+                                    </span>
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
@@ -64,11 +68,14 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">{{__('Download:')}}</a>
+                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding" data-bs-toggle="modal">
+                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">View Details</a>
+                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
+                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন
+                            </a>
                             <!--end::Link-->
                         </div>
                         <!--end::Footer-->
@@ -84,10 +91,10 @@
                         <div class="card-body text-center pb-5">
                             <!--begin::Overlay-->
                             <a class="d-block overlay" data-fslightbox="lightbox-hot-sales"
-                                href="{{ asset('ui/frontend/assets') }}/media/stock/600x600/img-47.jpg">
+                                href="{{ asset('ui/frontend/assets') }}/media/forms/office-memo.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/stock/600x600/img-47.jpg">
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/office-memo.png'); background-position: center top;">
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -106,9 +113,12 @@
                                 <!--begin::Title-->
                                 <div class="text-start">
                                     <span
-                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">{{__('Happy
-                                        Kitty Art')}}</span>
-                                    <span class="text-gray-500 mt-1 fw-bold fs-6">{{__('Total Download:')}} </span>
+                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block text-bangla">
+                                        {{-- {{__('Office Memo')}} --}}অফিস স্মারক
+                                    </span>
+                                    <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
+                                        {{-- {{__('Total Download:')}} --}}মোট ডাউনলোড 
+                                    </span>
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
@@ -121,11 +131,15 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">{{__('Download:')}}</a>
+                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
+                                data-bs-toggle="modal">
+                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">{{__('View Deatails:')}}</a>
+                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
+                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন
+                            </a>
                             <!--end::Link-->
                         </div>
                         <!--end::Footer-->
@@ -141,10 +155,10 @@
                         <div class="card-body text-center pb-5">
                             <!--begin::Overlay-->
                             <a class="d-block overlay" data-fslightbox="lightbox-hot-sales"
-                                href="{{ asset('ui/frontend/assets') }}/media/stock/600x600/img-39.jpg">
+                                href="{{ asset('ui/frontend/assets') }}/media/forms/circular-sample.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/stock/600x600/img-39.jpg">
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/circular-sample.png'); background-position: center top;>
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -163,9 +177,12 @@
                                 <!--begin::Title-->
                                 <div class="text-start">
                                     <span
-                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">{{__('Wavy
-                                        Curved Art')}}</span>
-                                    <span class="text-gray-500 mt-1 fw-bold fs-6">{{__('Total Download:')}} </span>
+                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block text-bangla">
+                                        {{-- {{__('Circular Sample')}} --}}পরিপত্রের নমুনা 
+                                    </span>
+                                    <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
+                                        {{-- {{__('Total Download:')}} --}}মোট ডাউনলোড 
+                                    </span>
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
@@ -178,11 +195,15 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">{{__('Download:')}}</a>
+                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
+                                data-bs-toggle="modal">
+                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">{{__('View Details')}}</a>
+                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
+                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন
+                            </a>
                             <!--end::Link-->
                         </div>
                         <!--end::Footer-->
@@ -198,10 +219,10 @@
                         <div class="card-body text-center pb-5">
                             <!--begin::Overlay-->
                             <a class="d-block overlay" data-fslightbox="lightbox-hot-sales"
-                                href="{{ asset('ui/frontend/assets') }}/media/stock/600x600/img-47.jpg">
+                                href="{{ asset('ui/frontend/assets') }}/media/forms/government-letter-sample.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/stock/600x600/img-47.jpg">
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/government-letter-sample.png'); background-position: center top;>
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -220,9 +241,12 @@
                                 <!--begin::Title-->
                                 <div class="text-start">
                                     <span
-                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">{{__('Happy
-                                        Kitty Art')}}</span>
-                                    <span class="text-gray-500 mt-1 fw-bold fs-6">{{__('Total Download:')}} </span>
+                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block text-bangla">
+                                        {{-- {{__('Government Letter Sample')}} --}}সরকারি পত্রের নমুনা 
+                                    </span>
+                                    <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
+                                        {{-- {{__('Total Download:')}} --}}মোট ডাউনলোড 
+                                    </span>
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
@@ -235,11 +259,15 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">{{__('Download:')}}</a>
+                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
+                                data-bs-toggle="modal">
+                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">{{__('View Deatails:')}}</a>
+                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
+                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন
+                            </a>
                             <!--end::Link-->
                         </div>
                         <!--end::Footer-->
@@ -255,10 +283,10 @@
                         <div class="card-body text-center pb-5">
                             <!--begin::Overlay-->
                             <a class="d-block overlay" data-fslightbox="lightbox-hot-sales"
-                                href="{{ asset('ui/frontend/assets') }}/media/stock/600x600/img-39.jpg">
+                                href="{{ asset('ui/frontend/assets') }}/media/forms/informal-note.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/stock/600x600/img-39.jpg">
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/informal-note.png'); background-position: center top;>
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -277,9 +305,12 @@
                                 <!--begin::Title-->
                                 <div class="text-start">
                                     <span
-                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">{{__('Wavy
-                                        Curved Art')}}</span>
-                                    <span class="text-gray-500 mt-1 fw-bold fs-6">{{__('Total Download:')}} </span>
+                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block text-bangla">
+                                        {{-- {{__('Informal Note')}} --}}অনানুষ্ঠানিক নোট
+                                    </span>
+                                    <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
+                                        {{-- {{__('Total Download:')}} --}} মোট ডাউনলোড 
+                                    </span>
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
@@ -292,11 +323,15 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">{{__('Download:')}}</a>
+                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
+                                data-bs-toggle="modal">
+                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">View Details</a>
+                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
+                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন
+                            </a>
                             <!--end::Link-->
                         </div>
                         <!--end::Footer-->
@@ -312,10 +347,10 @@
                         <div class="card-body text-center pb-5">
                             <!--begin::Overlay-->
                             <a class="d-block overlay" data-fslightbox="lightbox-hot-sales"
-                                href="{{ asset('ui/frontend/assets') }}/media/stock/600x600/img-47.jpg">
+                                href="{{ asset('ui/frontend/assets') }}/media/forms/meeting-minutes.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/stock/600x600/img-47.jpg">
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/meeting-minutes.png'); background-position: center top;>
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -334,9 +369,12 @@
                                 <!--begin::Title-->
                                 <div class="text-start">
                                     <span
-                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">{{__('Happy
-                                        Kitty Art')}}</span>
-                                    <span class="text-gray-500 mt-1 fw-bold fs-6">{{__('Total Download:')}} </span>
+                                        class="fw-bold text-bangla text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">
+                                        {{-- {{__('Meeting Minutes')}} --}}সভার কার্যবিবরণী
+                                    </span>
+                                    <span class="text-gray-500 text-bangla mt-1 fw-bold fs-6">
+                                        {{-- {{__('Total Download:')}} --}} মোট ডাউনলোড 
+                                    </span>
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
@@ -349,11 +387,15 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">{{__('Download:')}}</a>
+                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
+                                data-bs-toggle="modal">
+                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">{{__('View Deatails:')}}</a>
+                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
+                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন
+                            </a>
                             <!--end::Link-->
                         </div>
                         <!--end::Footer-->
@@ -369,10 +411,10 @@
                         <div class="card-body text-center pb-5">
                             <!--begin::Overlay-->
                             <a class="d-block overlay" data-fslightbox="lightbox-hot-sales"
-                                href="{{ asset('ui/frontend/assets') }}/media/stock/600x600/img-39.jpg">
+                                href="{{ asset('ui/frontend/assets') }}/media/forms/notification-sample.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/stock/600x600/img-39.jpg">
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/notification-sample.png'); background-position: center top;>
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -391,9 +433,12 @@
                                 <!--begin::Title-->
                                 <div class="text-start">
                                     <span
-                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">{{__('Wavy
-                                        Curved Art')}}</span>
-                                    <span class="text-gray-500 mt-1 fw-bold fs-6">{{__('Total Download:')}} </span>
+                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block text-bangla">
+                                        {{-- {{__('Notification Sample')}} --}}প্রজ্ঞাপনের নমুনা 
+                                    </span>
+                                    <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
+                                        {{-- {{__('Total Download:')}} --}} মোট ডাউনলোড 
+                                    </span>
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
@@ -406,11 +451,15 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">{{__('Download:')}}</a>
+                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
+                                data-bs-toggle="modal">
+                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">{{__('View Details')}}</a>
+                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
+                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন
+                            </a>
                             <!--end::Link-->
                         </div>
                         <!--end::Footer-->
@@ -426,10 +475,10 @@
                         <div class="card-body text-center pb-5">
                             <!--begin::Overlay-->
                             <a class="d-block overlay" data-fslightbox="lightbox-hot-sales"
-                                href="{{ asset('ui/frontend/assets') }}/media/stock/600x600/img-47.jpg">
+                                href="{{ asset('ui/frontend/assets') }}/media/forms/office-order-sample.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/stock/600x600/img-47.jpg">
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/office-order-sample.png'); background-position: center top;>
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -448,9 +497,12 @@
                                 <!--begin::Title-->
                                 <div class="text-start">
                                     <span
-                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">{{__('Happy
-                                        Kitty Art')}}</span>
-                                    <span class="text-gray-500 mt-1 fw-bold fs-6">{{__('Total Download:')}} </span>
+                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block text-bangla">
+                                        {{-- {{__('Office Order Sample')}} --}}অফিস আদেশের নমুনা 
+                                    </span>
+                                    <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
+                                        {{-- {{__('Total Download:')}} --}} মোট ডাউনলোড 
+                                    </span>
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
@@ -463,11 +515,15 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">{{__('Download:')}}</a>
+                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
+                                data-bs-toggle="modal">
+                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">{{__('View Deatails:')}}</a>
+                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
+                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন
+                            </a>
                             <!--end::Link-->
                         </div>
                         <!--end::Footer-->
@@ -483,10 +539,10 @@
                         <div class="card-body text-center pb-5">
                             <!--begin::Overlay-->
                             <a class="d-block overlay" data-fslightbox="lightbox-hot-sales"
-                                href="{{ asset('ui/frontend/assets') }}/media/stock/600x600/img-47.jpg">
+                                href="{{ asset('ui/frontend/assets') }}/media/forms/semi-govt-letter-sample.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/stock/600x600/img-47.jpg">
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/semi-govt-letter-sample.png'); background-position: center top;>
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -505,9 +561,12 @@
                                 <!--begin::Title-->
                                 <div class="text-start">
                                     <span
-                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">{{__('Happy
-                                        Kitty Art')}}</span>
-                                    <span class="text-gray-500 mt-1 fw-bold fs-6">{{__('Total Download:')}} </span>
+                                        class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block text-bangla">
+                                        {{-- {{__('Semi Govt Letter Sample')}} --}}আধা-সরকারি পত্রের নমুনা 
+                                    </span>
+                                    <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
+                                        {{-- {{__('Total Download:')}} --}} মোট ডাউনলোড 
+                                    </span>
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
@@ -520,11 +579,15 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2" data-bs-target="#kt_modal_bidding"
-                                data-bs-toggle="modal">{{__('Download:')}}</a>
+                            <a class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla" data-bs-target="#kt_modal_bidding"
+                                data-bs-toggle="modal">
+                                {{-- {{__('Download:')}} --}}ডাউনলোড
+                            </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="#">{{__('View Deatails:')}}</a>
+                            <a class="btn btn-sm btn-light flex-shrink-0 text-bangla" href="#">
+                                {{-- {{__('View Deatails:')}} --}}বিস্তারিত দেখুন
+                            </a>
                             <!--end::Link-->
                         </div>
                         <!--end::Footer-->
