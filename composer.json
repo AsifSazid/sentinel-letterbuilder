@@ -1,0 +1,32 @@
+{
+            "name": "sentinel/letterbuilder",
+            "type": "library",
+            "description": "Letter Builder Application",
+            "keywords": [
+                "Laravel"
+            ],
+            "authors": [
+                   {
+                    "name": "Sentinel Technology Ltd",
+                    "homepage": "www.sentineltechno.com"
+                    }
+            ],
+            "autoload": {
+                "psr-4": {
+                    "Sentinel\\Letterbuilder\\": "src/"
+                }
+            },
+            "autoload-dev": {},
+           
+            "extra": {
+                "copyright": "www.sentineltechno.com",
+                "laravel": {
+                    "providers": [
+                        "Sentinel\\Letterbuilder\\LetterBuilderServiceProvider"
+                    ],
+                    "aliases": {}
+                } 
+            },
+            "version":"1.0.0",
+            "license": "MIT"
+        }
