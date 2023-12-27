@@ -159,7 +159,7 @@
                                 href="{{ asset('ui/frontend/assets') }}/media/forms/circular-sample.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/circular-sample.png'); background-position: center top;>
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/circular-sample.png'); background-position: center top;">
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
