@@ -19,7 +19,7 @@
         <!-- Image -->
         <table>
             <tr>
-                <td style="text-align: center;"><img src="./img/govtlogo.png" alt="" width="100" height="100"></td>
+                <td style="text-align: center;"><img src="{{ asset('ui/frontend/assets/media/forms/govtlogo.png') }}" alt="" width="100" height="100"></td>
             </tr>
         </table>
         <!-- Header -->

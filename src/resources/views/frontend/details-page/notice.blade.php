@@ -7,7 +7,7 @@
                 <!--begin::Title-->
                 <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 fs-3"><a href="{{ route('home') }}"
                         class="text-gray-900">{{ __('Home') }}</a>
-                    &nbsp;{{ __('/ All Templates ') }}{{ __('/ Template Name') }}</h1>
+                    &nbsp;{{ __('/ All Templates ') }}{{ __('/ Notice') }}</h1>
                 <!--end::Title-->
             </div>
             <!--end::Page title-->
@@ -28,13 +28,13 @@
                             <!--begin::Body-->
                             <div class="card-body d-flex justify-content-between flex-column ps-xl-18">
                                 <!--begin::Heading-->
-                                <h3 class="fw-bold text-white fs-4x mb-5 ms-n1">Utah Case</h3>
+                                <h3 class="fw-bold text-white fs-2x mb-5 ms-n1">Notice</h3>
                                 <!--end::Heading-->
                                 <!--begin::Action-->
                                 <div class="mb-xl-10 mb-3">
                                     <a href='#' class="btn btn-primary fw-semibold me-2" data-bs-toggle="modal"
                                         data-bs-target="#kt_modal_upgrade_plan">{{ __('Download') }}</a>
-                                    <a href="apps/support-center/overview.html"
+                                    <a href="{{route('preview', $docId = 1)}}"
                                         class="btn btn-color-white bg-transparent btn-outline fw-semibold"
                                         style="border: 1px solid rgba(255, 255, 255, 0.3)">{{ __('Preview') }}</a>
                                 </div>
