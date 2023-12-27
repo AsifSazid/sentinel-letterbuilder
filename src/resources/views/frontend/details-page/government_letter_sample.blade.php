@@ -106,10 +106,10 @@
                                         <span class="card-label fw-bold text-gray-800">{{ __('Technology') }}</span>
                                     </h3>
                                     <!--begin::Toolbar-->
-                                    <div class="card-toolbar">
+                                    {{-- <div class="card-toolbar">
                                         <a href="#"
                                             class="btn btn-sm btn-light">{{ __('View All Technology') }}</a>
-                                    </div>
+                                    </div> --}}
                                     <!--end::Toolbar-->
                                 </div>
                                 <!--end::Header-->

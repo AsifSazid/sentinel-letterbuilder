@@ -75,19 +75,19 @@
                                 <h4 class="fw-bold text-gray-500 mb-6 text-bangla">কুইক লিংকস</h4>
                                 <!--end::Subtitle-->
                                 <!--begin::Link-->
-                                <a href="#"
+                                <a href="https://cabinet.gov.bd/"
                                     class="text-gray-800 opacity-50 text-hover-primary fs-5 mb-3 text-bangla">মন্ত্রিপরিষদ বিভাগ</a>
                                 <!--end::Link-->
                                 <!--begin::Link-->
-                                <a href="#"
+                                <a href="https://ictd.gov.bd/"
                                     class="text-gray-800 opacity-50 text-hover-primary fs-5 mb-3 text-bangla">আইসিটি বিভাগ</a>
                                 <!--end::Link-->
                                 <!--begin::Link-->
-                                <a href="#"
+                                <a href="https://www.undp.org/bangladesh"
                                     class="text-gray-800 opacity-50 text-hover-primary fs-5 mb-3 text-bangla">ইউনাইটেড নেশন ডেভেলপমেন্ট <br> প্রোগ্রাম (ইউএনডিপি), বাংলাদেশ</a>
                                 <!--end::Link-->
                                 <!--begin::Link-->
-                                <a href="#"
+                                <a href="https://a2i.gov.bd/"
                                     class="text-gray-800 opacity-50 text-hover-primary fs-5 mb-3 text-bangla">এটুআই প্রোগ্রাম </a>
                                 <!--end::Link-->
                             </div>

@@ -53,7 +53,7 @@
                                 <div class="card-header">
                                     <!--begin::Title-->
                                     <h3 class="card-title fw-bold text-gray-900 text-bangla">
-                                        {{-- {{__('Version Details')}} --}}সংস্করণ বিবরণ
+                                        {{-- {{__('Version Details')}} --}}ভার্সন ডিটেলস
                                     </h3>
                                     <!--end::Title-->
                                 </div>
@@ -109,15 +109,15 @@
                                 <div class="card-header border-0 pt-5">
                                     <h3 class="card-title align-items-start flex-column">
                                         <span class="card-label fw-bold text-gray-800 text-bangla">
-                                            {{-- {{__('Technology')}} --}}প্রযুক্তি
+                                            {{-- {{__('Technology')}} --}}টেকনোলজি 
                                         </span>
                                     </h3>
                                     <!--begin::Toolbar-->
-                                    <div class="card-toolbar">
+                                    {{-- <div class="card-toolbar">
                                         <a href="#" class="btn btn-sm btn-light text-bangla">
-                                            {{-- {{__('View All Technology')}} --}}সমস্ত প্রযুক্তি দেখুন
+                                            {{__('View All Technology')}}সমস্ত প্রযুক্তি দেখুন
                                         </a>
-                                    </div>
+                                    </div> --}}
                                     <!--end::Toolbar-->
                                 </div>
                                 <!--end::Header-->
@@ -206,7 +206,7 @@
                             <div class="card-header pt-7">
                                 <!--begin::Title-->
                                 <h3 class="card-title align-items-start flex-column">
-                                    <span class="card-label fw-bold text-gray-800 text-bangla">লগ পরিবর্তন করুন                                    </span>
+                                    <span class="card-label fw-bold text-gray-800 text-bangla">লগ পরিবর্তন                                   </span>
                                 </h3>
                                 <!--end::Title-->
                             </div>

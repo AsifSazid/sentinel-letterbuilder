@@ -101,7 +101,7 @@
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('preview', $docId = 1)}}">
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.details', $docId = 1)}}">
                                 {{__('বিস্তারিত দেখুন')}}
                             </a>
                             <!--end::Link-->
@@ -164,7 +164,7 @@
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('preview', $docId = 2)}}">
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.details', $docId = 2)}}">
                                 {{__('বিস্তারিত দেখুন')}}
                             </a>
                             <!--end::Link-->
@@ -227,7 +227,7 @@
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('preview', $docId = 3)}}">
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.details', $docId = 3)}}">
                                 {{__('বিস্তারিত দেখুন')}}
                             </a>
                             <!--end::Link-->
@@ -290,7 +290,7 @@
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('preview', $docId = 6)}}">
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.details', $docId = 6)}}">
                                 {{__('বিস্তারিত দেখুন')}}
                             </a>
                             <!--end::Link-->
