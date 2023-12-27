@@ -36,7 +36,7 @@
                                     <a href="{{route('preview', $docId = 1)}}"
                                         class="btn btn-color-white bg-transparent btn-outline fw-semibold text-bangla"
                                         style="border: 1px solid rgba(255, 255, 255, 0.3)">
-                                        {{-- {{__('Preview')}} --}}পূর্বরূপ
+                                        {{-- {{__('Preview')}} --}}প্রিভিউ 
                                     </a>
                                 </div>
                                 <!--begin::Action-->

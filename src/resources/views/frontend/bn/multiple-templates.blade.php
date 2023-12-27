@@ -222,7 +222,7 @@
                                 href="{{ asset('ui/frontend/assets') }}/media/forms/government-letter-sample.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/government-letter-sample.png'); background-position: center top;>
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/government-letter-sample.png'); background-position: center top;">
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -285,7 +285,7 @@
                                 href="{{ asset('ui/frontend/assets') }}/media/forms/informal-note.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/informal-note.png'); background-position: center top;>
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/informal-note.png'); background-position: center top;">
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -348,7 +348,7 @@
                                 href="{{ asset('ui/frontend/assets') }}/media/forms/meeting-minutes.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/meeting-minutes.png'); background-position: center top;>
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/meeting-minutes.png'); background-position: center top;">
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -411,7 +411,7 @@
                                 href="{{ asset('ui/frontend/assets') }}/media/forms/notification-sample.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/notification-sample.png'); background-position: center top;>
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/notification-sample.png'); background-position: center top;">
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -474,7 +474,7 @@
                                 href="{{ asset('ui/frontend/assets') }}/media/forms/office-order-sample.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/office-order-sample.png'); background-position: center top;>
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/office-order-sample.png'); background-position: center top;">
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -537,7 +537,7 @@
                                 href="{{ asset('ui/frontend/assets') }}/media/forms/semi-govt-letter-sample.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/semi-govt-letter-sample.png'); background-position: center top;>
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/semi-govt-letter-sample.png'); background-position: center top;">
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->

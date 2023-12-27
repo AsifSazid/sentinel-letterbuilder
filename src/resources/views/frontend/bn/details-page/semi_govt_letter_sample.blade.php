@@ -33,10 +33,10 @@
                                         data-bs-target="#kt_modal_upgrade_plan">
                                         {{-- {{__('Download')}} --}}ডাউনলোড
                                     </a>
-                                    <a href="{{route('preview', $docId = 1)}}"
+                                    <a href="{{route('preview', $docId = 9)}}"
                                         class="btn btn-color-white bg-transparent btn-outline fw-semibold text-bangla"
                                         style="border: 1px solid rgba(255, 255, 255, 0.3)">
-                                        {{-- {{__('Preview')}} --}}পূর্বরূপ
+                                        {{-- {{__('Preview')}} --}}প্রিভিউ 
                                     </a>
                                 </div>
                                 <!--begin::Action-->
