@@ -49,10 +49,8 @@
                                         <!--end::Header-->
                                         <!--begin::Body-->
                                         <div
-                                            class="d-flex flex-column border border-1 border-gray-300 text-center pt-5 pb-7 mb-8 card-rounded">
+                                            class="d-flex flex-column text-left pt-5 pb-7 mb-8 card-rounded">
                                             <span class="fw-bold text-gray-800 fs-3 text-bangla">
-                                                {{-- {{__('The service standard helps to create and run great public services ...')}} --}}
-                                                {{-- পরিষেবার মান পাবলিক পরিষেবা তৈরি করতে এবং চালাতে সাহায্য করে… --}}
                                                 লেটার বিল্ডার ব্যবহার করার জন্য, সরকারী কর্মচারীদের কেবলমাত্র একটি ওয়েব ব্রাউজার এবং একটি ইন্টারনেট সংযোগ প্রয়োজন। তারা লেটার বিল্ডার ওয়েবসাইটে যান এবং একটি ব্যবহারকারী নাম এবং পাসওয়ার্ড তৈরি করেন। একবার তারা সাইন ইন করলে, তারা একটি নতুন চিঠি তৈরি করতে পারেন বা একটি বিদ্যমান চিঠি সম্পাদনা করতে পারেন।                                            </span>
                                         </div>
                                         <!--end::Body-->
@@ -105,7 +103,7 @@
                                         <!--end::Header-->
                                         <!--begin::Body-->
                                         <div
-                                            class="d-flex flex-column border border-1 border-gray-300 text-center pt-5 pb-7 mb-8 card-rounded">
+                                            class="d-flex flex-column text-left pt-5 pb-7 mb-8 card-rounded">
                                             <span class="fw-bold text-gray-800 fs-3 text-bangla">
                                                 {{-- {{__('Guidance for application developers of applications which will be run on devices ...')}} --}}
                                                 {{-- অ্যাপ্লিকেশনগুলির অ্যাপ্লিকেশন বিকাশকারীদের জন্য নির্দেশিকা যা ডিভাইসগুলিতে চালানো হবে … --}}
