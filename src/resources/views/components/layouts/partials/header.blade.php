@@ -15,7 +15,7 @@
         <!--end::Heaeder menu toggle-->
         <!--begin::Header Logo-->
         <div class="header-logo me-5 me-md-10 flex-grow-1 flex-lg-grow-0">
-            <a href="#">
+            <a href="{{route('home')}}">
                 <img alt="Logo" src="{{ asset('ui/frontend/assets') }}/media/logos/logo-gray-900.png"
                     class="logo-default opacity-50 h-25px" />
                 <img alt="Logo" src="{{ asset('ui/frontend/assets') }}/media/logos/logo-sticky.png"
@@ -209,11 +209,15 @@
                     </a>
                     <!--begin::Menu toggle-->
                     <!--begin::Menu-->
+                    @php
+                        $currentUrl = Route::current()->getName();
+                        $urlWillBe = 'bn.'.$currentUrl;
+                    @endphp
                     <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-title-gray-700 menu-icon-gray-500 menu-active-bg menu-state-color fw-semibold py-4 fs-base w-150px"
                         data-kt-menu="true" data-kt-element="theme-mode-menu">
                         <!--begin::Menu item-->
                         <div class="menu-item px-3 my-0">
-                            <a href="{{route('bn.home')}}" class="menu-link px-3 py-2">
+                            <a href="{{route($urlWillBe)}}" class="menu-link px-3 py-2">
                                 <span class="menu-title">BN</span>
                             </a>
                         </div>

@@ -18,7 +18,7 @@
             <!--begin::Row-->
             <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
                 <h1 class="d-flex text-gray-800 fw-bold pt-4 pb-4 text-bangla" id="how_to_use">
-                    {{-- {{__('How To Use')}} --}}কিভাবে ব্যবহার করে
+                    {{-- {{__('How To Use')}} --}}যেভাবে ব্যবহার করব
                 </h1>
             </div>
             <div class="row g-5 g-xl-10 mb-5 mb-xl-10">

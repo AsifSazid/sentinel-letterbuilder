@@ -15,7 +15,7 @@
         <!--end::Heaeder menu toggle-->
         <!--begin::Header Logo-->
         <div class="header-logo me-5 me-md-10 flex-grow-1 flex-lg-grow-0">
-            <a href="#">
+            <a href="{{route('bn.home')}}">
                 <img alt="Logo" src="{{ asset('ui/frontend/assets') }}/media/logos/logo-gray-900.png"
                     class="logo-default opacity-50 h-25px" />
                 <img alt="Logo" src="{{ asset('ui/frontend/assets') }}/media/logos/logo-sticky.png"
@@ -66,7 +66,8 @@
                             <!--begin:Menu link-->
                             <a href="{{ route('bn.howToUse') }}" class="menu-link">
                                 <span class="menu-link py-3">
-                                    <span class="menu-title opacity-75 text-bangla fs-2x">{{ __('কিভাবে ব্যবহার করব') }}</span>
+                                    <span
+                                        class="menu-title opacity-75 text-bangla fs-2x">{{ __('যেভাবে ব্যবহার করব') }}</span>
                                 </span>
                             </a>
                             <!--end:Menu link-->
@@ -211,18 +212,22 @@
                     </a>
                     <!--begin::Menu toggle-->
                     <!--begin::Menu-->
+                    <!--begin::Menu item-->
+                    @php
+                        $currentUrl = Route::current()->getName();
+                        $urlWillBe = substr($currentUrl, 3);
+                    @endphp
                     <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-title-gray-700 menu-icon-gray-500 menu-active-bg menu-state-color fw-semibold py-4 fs-base w-150px"
                         data-kt-menu="true" data-kt-element="theme-mode-menu">
                         <!--begin::Menu item-->
                         <div class="menu-item px-3 my-0">
-                            <a href="{{route('bn.home')}}" class="menu-link px-3 py-2">
+                            <a href="{{ route('bn.home') }}" class="menu-link px-3 py-2">
                                 <span class="menu-title">BN</span>
                             </a>
                         </div>
                         <!--end::Menu item-->
-                        <!--begin::Menu item-->
                         <div class="menu-item px-3 my-0">
-                            <a href="{{route('home')}}" class="menu-link px-3 py-2">
+                            <a href="{{ route($urlWillBe) }}" class="menu-link px-3 py-2">
                                 <span class="menu-title">EN</span>
                             </a>
                         </div>

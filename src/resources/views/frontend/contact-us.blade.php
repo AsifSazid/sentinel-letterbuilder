@@ -21,7 +21,7 @@
             </div>
             <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
                 <!--begin::Col-->
-                <div class="col-xxl-6">
+                <div class="col-xxl-12">
                     <!--begin::Card widget 15-->
                     <div class="card card-flush h-xl-90">
                         <!--begin::Body-->
@@ -36,6 +36,8 @@
                                         <div
                                             class="d-flex flex-column text-left pt-5 pb-7 mb-8 card-rounded">
                                             <span class="fw-bold text-gray-800 text-center fs-2x mb-8">{{ __('Get in Touch') }}</span>
+                                            <span class="fw-bold text-gray-800 text-center fs-x mb-8">{{ __('Address') }}</span>
+                                            <span class="text-gray-800 text-center fs-x mb-8">{{ __('Aspire to Innovate (a2i) Programme E-14/X, ICT Tower Agargaon, Sher-e-Bangla Nagar, Dhaka-1207, Bangladesh') }}</span>
                                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.120334738318!2d90.37203927411558!3d23.77872887865108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c16df8d7f94b%3A0x48321391c16a15c6!2sAspire%20to%20Innovate%20(a2i)%20Programme!5e0!3m2!1sen!2sbd!4v1703664373203!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                         </div>
                                         <!--end::Body-->

@@ -14,20 +14,18 @@
                                 {{-- সরকারি চিঠিপত্র উন্নত করন: --}}
                             </h1>
                             <h2 class="d-flex text-gray-900 opacity-75 fs-2x fw-bold my-1">
-                                {{ __('Letter Builder - Where
-                                                                Time-saving
-                                                                Solutions Meet Precision') }}
+                                {{ __('Letter Builder - Where Time-Saving Solutions ') }}
                             </h2>
                             <h2 class="d-flex text-gray-900 opacity-75 fs-2x fw-bold my-1">
-                                {{ __('in Communication Excellence!') }}
+                                {{ __('Meet Precision in Communication Excellence!') }}
                             </h2>
                         </div>
                     </div>
                     <!--end::Col-->
                     <!--begin::Col-->
                     <div class="col-sm-6 col-xxl-4">
-                        <div class="a2i-no-repeat mb-7"
-                            style="height: 180px; width: auto; background-image:url('{{ asset('ui/frontend/assets') }}/media/logos/a2i-logo.png'); background-position: right top; background-size: 25% auto;">
+                        <div class="a2i-no-repeat mb-7 opacity-75"
+                            style="height: 180px; width: auto; background-image:url('{{ asset('ui/frontend/assets') }}/media/logos/a2i-logo.png'); background-position: right top; background-size: 20% auto;">
                         </div>
                     </div>
                     <!--end::Col-->

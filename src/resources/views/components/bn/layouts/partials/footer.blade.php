@@ -7,7 +7,7 @@
             <!--begin::Col-->
             <div class="col-lg-6 pe-lg-16 mb-10 mb-lg-0">
                 <div class="header-logo me-5 me-md-10 flex-grow-1 flex-lg-grow-0">
-                    <a href="#">
+                    <a href="{{route('bn.home')}}">
                         <img alt="Logo" src="{{ asset('ui/frontend/assets')}}/media/logos/logo-sticky.png"
                             class="logo-sticky h-40px" />
                     </a>

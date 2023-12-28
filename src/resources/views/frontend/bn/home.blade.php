@@ -26,8 +26,8 @@
                     <!--end::Col-->
                     <!--begin::Col-->
                     <div class="col-sm-6 col-xxl-4">
-                        <div class="a2i-no-repeat mb-7"
-                            style="height: 180px; width: auto; background-image:url('{{ asset('ui/frontend/assets') }}/media/logos/a2i-logo.png'); background-position: right top; background-size: 25% auto;">
+                        <div class="a2i-no-repeat mb-7 opacity-75"
+                            style="height: 180px; width: auto; background-image:url('{{ asset('ui/frontend/assets') }}/media/logos/a2i-logo.png'); background-position: right top; background-size: 20% auto;">
                         </div>
                     </div>
                     <!--end::Col-->
@@ -311,7 +311,7 @@
             <!--begin::Row-->
             <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
                 <h1 class="d-flex text-gray-800 fw-bold pt-4 pb-4 text-bangla" id="how_to_use">
-                    {{-- {{__('How To Use')}} --}}কিভাবে ব্যবহার করে
+                    {{-- {{__('How To Use')}} --}}যেভাবে ব্যবহার করব
                 </h1>
             </div>
             <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
