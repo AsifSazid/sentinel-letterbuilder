@@ -29,6 +29,7 @@
 	<!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
 	<link href="{{ asset('ui/frontend/assets')}}/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
 	<link href="{{ asset('ui/frontend/assets')}}/css/style.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('ui/frontend/assets')}}/css/carousal.css" rel="stylesheet" type="text/css" />
 	<!--end::Global Stylesheets Bundle-->
 	<link href='http://sonnetdp.github.io/nikosh/css/nikosh.css' rel='stylesheet' type='text/css'>
 	<style>
@@ -91,6 +92,7 @@
 	<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
 	<!--end::Vendors Javascript-->
 	<!--begin::Custom Javascript(used for this page only)-->
+	<script src="{{ asset('ui/frontend/assets')}}/js/carousal.bundle.js"></script>
 	<script src="{{ asset('ui/frontend/assets')}}/js/widgets.bundle.js"></script>
 	<script src="{{ asset('ui/frontend/assets')}}/js/custom/widgets.js"></script>
 	<script src="{{ asset('ui/frontend/assets')}}/js/custom/apps/chat/chat.js"></script>

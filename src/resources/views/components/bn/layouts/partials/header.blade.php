@@ -15,8 +15,8 @@
         <!--end::Heaeder menu toggle-->
         <!--begin::Header Logo-->
         <div class="header-logo me-5 me-md-10 flex-grow-1 flex-lg-grow-0">
-            <a href="{{route('bn.home')}}">
-                <img alt="Logo" src="{{ asset('ui/frontend/assets') }}/media/logos/logo-gray-900.png"
+            <a href="{{ route('bn.home') }}">
+                <img alt="Logo" src="{{ asset('ui/frontend/assets') }}/media/logos/logo-dark-green.png"
                     class="logo-default opacity-50 h-25px" />
                 <img alt="Logo" src="{{ asset('ui/frontend/assets') }}/media/logos/logo-sticky.png"
                     class="logo-sticky h-25px" />
@@ -80,7 +80,8 @@
                             <!--begin:Menu link-->
                             <a href="{{ route('bn.aboutUs') }}" class="menu-link">
                                 <span class="menu-link py-3">
-                                    <span class="menu-title opacity-75 text-bangla fs-2x">{{ __('আমাদের সম্পর্কে') }}</span>
+                                    <span
+                                        class="menu-title opacity-75 text-bangla fs-2x">{{ __('আমাদের সম্পর্কে') }}</span>
                                 </span>
                             </a>
                             <!--end:Menu link-->
@@ -191,49 +192,28 @@
                 </div>
                 <!--end::Quick links-->
                 <!--begin::Theme mode-->
-                <div class="d-flex align-items-center ms-1 ms-lg-3">
-                    <!--begin::Menu toggle-->
-                    <a href="#"
-                        class="btn btn-icon btn-active-light-primary btn-custom w-30px h-30px w-md-40px h-md-40px"
-                        data-kt-menu-trigger="{default:'click', lg: 'hover'}" data-kt-menu-attach="parent"
-                        data-kt-menu-placement="bottom-end">
-                        <!--begin::Svg Icon | path: /var/www/preview.keenthemes.com/keenthemes/metronic/docs/core/html/src/media/icons/duotune/general/gen019.svg-->
-                        <span class="svg-icon svg-icon-muted opacity-75 svg-icon-2x"><svg width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M17.5 11H6.5C4 11 2 9 2 6.5C2 4 4 2 6.5 2H17.5C20 2 22 4 22 6.5C22 9 20 11 17.5 11ZM15 6.5C15 7.9 16.1 9 17.5 9C18.9 9 20 7.9 20 6.5C20 5.1 18.9 4 17.5 4C16.1 4 15 5.1 15 6.5Z"
-                                    fill="currentColor" />
-                                <path opacity="0.3"
-                                    d="M17.5 22H6.5C4 22 2 20 2 17.5C2 15 4 13 6.5 13H17.5C20 13 22 15 22 17.5C22 20 20 22 17.5 22ZM4 17.5C4 18.9 5.1 20 6.5 20C7.9 20 9 18.9 9 17.5C9 16.1 7.9 15 6.5 15C5.1 15 4 16.1 4 17.5Z"
-                                    fill="currentColor" />
-                            </svg>
-                        </span>
-                        <!--end::Svg Icon-->
-                    </a>
-                    <!--begin::Menu toggle-->
-                    <!--begin::Menu-->
-                    <!--begin::Menu item-->
-                    @php
-                        $currentUrl = $_SERVER['REQUEST_URI'];
-                        $urlWillBe = substr($currentUrl, 3);
-                    @endphp
-                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-title-gray-700 menu-icon-gray-500 menu-active-bg menu-state-color fw-semibold py-4 fs-base w-150px"
-                        data-kt-menu="true" data-kt-element="theme-mode-menu">
-                        <!--begin::Menu item-->
+                @php
+                    $currentUrl = $_SERVER['REQUEST_URI'];
+                    $urlWillBe = substr($currentUrl, 3);
+                @endphp
+                <div class="menu menu-rounded menu-column menu-lg-row menu-active-bg menu-title-gray-700 menu-state-primary menu-arrow-gray-500 fw-semibold my-5 my-lg-0 align-items-stretch px-2 px-lg-0"
+                    id="#kt_header_menu" data-kt-menu="true">
+                    <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start"
+                        class="menu-item p-0 m-0">
+                        <!--begin:Menu link-->
                         <div class="menu-item px-3 my-0">
                             <a href="{{ url($currentUrl) }}" class="menu-link px-3 py-2">
                                 <span class="menu-title">BN</span>
                             </a>
                         </div>
-                        <!--end::Menu item-->
+                        <span>/</span>
                         <div class="menu-item px-3 my-0">
                             <a href="{{ url($urlWillBe) }}" class="menu-link px-3 py-2">
                                 <span class="menu-title">EN</span>
                             </a>
                         </div>
-                        <!--end::Menu item-->
+                        <!--end:Menu link-->
                     </div>
-                    <!--end::Menu-->
                 </div>
                 <!--end::Theme mode-->
             </div>
