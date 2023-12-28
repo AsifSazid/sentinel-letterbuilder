@@ -80,7 +80,7 @@
                             <!--begin:Menu link-->
                             <a href="{{ route('bn.aboutUs') }}" class="menu-link">
                                 <span class="menu-link py-3">
-                                    <span class="menu-title opacity-75 text-bangla fs-2x">{{ __('সম্পর্কে') }}</span>
+                                    <span class="menu-title opacity-75 text-bangla fs-2x">{{ __('আমাদের সম্পর্কে') }}</span>
                                 </span>
                             </a>
                             <!--end:Menu link-->

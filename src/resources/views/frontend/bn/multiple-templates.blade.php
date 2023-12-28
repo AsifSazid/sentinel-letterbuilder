@@ -5,7 +5,7 @@
             <!--begin::Page title-->
             <div class="page-title d-flex flex-column me-3">
                 <!--begin::Title-->
-                <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 text-bangla fs-2x"><a href="{{route('bn.home')}}" class="text-gray-900">{{__('হোম')}}</a> &nbsp;{{__('/ সমস্ত টেমপ্লেট ')}}</h1>
+                <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 text-bangla fs-2x"><a href="{{route('bn.home')}}" class="text-gray-900">{{__('হোম')}}</a> &nbsp;{{__('/ সকল টেমপ্লেট ')}}</h1>
                 <!--end::Title-->
             </div>
             <!--end::Page title-->
@@ -18,7 +18,7 @@
             <!--begin::Row-->
             <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
                 <h1 class="d-flex text-gray-800 fw-bold pb-4 text-bangla" id="templates">
-                    {{-- {{__('All Templates')}} --}}সমস্ত টেমপ্লেট
+                    {{-- {{__('All Templates')}} --}}সকল টেমপ্লেট
                 </h1>
             </div>
             <div class="row g-5 g-xl-10 mb-5 mb-xl-10">

@@ -5,7 +5,7 @@
             <!--begin::Page title-->
             <div class="page-title d-flex flex-column me-3">
                 <!--begin::Title-->
-                <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 text-bangla fs-2x"><a href="{{route('bn.home')}}" class="text-gray-900">{{__('হোম')}}</a> <a href="{{route('bn.multipleTemplate')}}" class="text-gray-900"> &nbsp;{{__('/ সমস্ত টেমপ্লেট ')}} </a> &nbsp;{{__('/ আধা-সরকারি পত্রের নমুনা ')}}</h1>
+                <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 text-bangla fs-2x"><a href="{{route('bn.home')}}" class="text-gray-900">{{__('হোম')}}</a> <a href="{{route('bn.multipleTemplate')}}" class="text-gray-900"> &nbsp;{{__('/ সকল টেমপ্লেট ')}} </a> &nbsp;{{__('/ আধা-সরকারি পত্রের নমুনা ')}}</h1>
                 <!--end::Title-->
             </div>
             <!--end::Page title-->
