@@ -210,21 +210,21 @@
                     <!--begin::Menu toggle-->
                     <!--begin::Menu-->
                     @php
-                        $currentUrl = Route::current()->getName();
-                        $urlWillBe = 'bn.'.$currentUrl;
+                        $currentUrl = $_SERVER['REQUEST_URI'];
+                        $urlWillBe = 'bn'.$currentUrl
                     @endphp
                     <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-title-gray-700 menu-icon-gray-500 menu-active-bg menu-state-color fw-semibold py-4 fs-base w-150px"
                         data-kt-menu="true" data-kt-element="theme-mode-menu">
                         <!--begin::Menu item-->
                         <div class="menu-item px-3 my-0">
-                            <a href="{{route($urlWillBe)}}" class="menu-link px-3 py-2">
+                            <a href="{{url($urlWillBe)}}" class="menu-link px-3 py-2">
                                 <span class="menu-title">BN</span>
                             </a>
                         </div>
                         <!--end::Menu item-->
                         <!--begin::Menu item-->
                         <div class="menu-item px-3 my-0">
-                            <a href="{{route('home')}}" class="menu-link px-3 py-2">
+                            <a href="{{url($currentUrl)}}" class="menu-link px-3 py-2">
                                 <span class="menu-title">EN</span>
                             </a>
                         </div>
