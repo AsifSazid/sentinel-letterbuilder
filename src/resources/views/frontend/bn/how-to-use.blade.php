@@ -40,8 +40,10 @@
                                             <div class="mb-6">
                                                 <a href="#"
                                                     class="text-gray-800 text-hover-primary fs-1 fw-bold text-bangla">
-                                                    {{-- {{__('Service Standard')}}</a> --}}সার্ভিস স্ট্যান্ডার্ড
-                                            </div>
+                                                    {{-- {{__('Service Standard')}}সার্ভিস স্ট্যান্ডার্ড --}}
+                                                    লেটার বিল্ডার যেভাবে কাজ করে
+                                                </a>
+                                                </div>
                                             <!--end::Title-->
                                         </div>
                                         <!--end::Header-->
@@ -50,8 +52,8 @@
                                             class="d-flex flex-column border border-1 border-gray-300 text-center pt-5 pb-7 mb-8 card-rounded">
                                             <span class="fw-bold text-gray-800 fs-3 text-bangla">
                                                 {{-- {{__('The service standard helps to create and run great public services ...')}} --}}
-                                                পরিষেবার মান পাবলিক পরিষেবা তৈরি করতে এবং চালাতে সাহায্য করে…
-                                            </span>
+                                                {{-- পরিষেবার মান পাবলিক পরিষেবা তৈরি করতে এবং চালাতে সাহায্য করে… --}}
+                                                লেটার বিল্ডার ব্যবহার করার জন্য, সরকারী কর্মচারীদের কেবলমাত্র একটি ওয়েব ব্রাউজার এবং একটি ইন্টারনেট সংযোগ প্রয়োজন। তারা লেটার বিল্ডার ওয়েবসাইটে যান এবং একটি ব্যবহারকারী নাম এবং পাসওয়ার্ড তৈরি করেন। একবার তারা সাইন ইন করলে, তারা একটি নতুন চিঠি তৈরি করতে পারেন বা একটি বিদ্যমান চিঠি সম্পাদনা করতে পারেন।                                            </span>
                                         </div>
                                         <!--end::Body-->
                                         <!--begin::Footer-->
@@ -94,7 +96,8 @@
                                             <div class="mb-6">
                                                 <a href="#"
                                                     class="text-gray-800 text-hover-primary fs-1 fw-bold text-bangla">
-                                                    {{-- {{__('Application Development Guidance')}} --}}অ্যাপ্লিকেশন উন্নয়ন নির্দেশিকা
+                                                    {{-- {{__('Application Development Guidance')}}অ্যাপ্লিকেশন উন্নয়ন নির্দেশিকা --}}
+                                                    লেটার বিল্ডারের ভবিষ্যত
                                                 </a>
                                             </div>
                                             <!--end::Title-->
@@ -105,7 +108,9 @@
                                             class="d-flex flex-column border border-1 border-gray-300 text-center pt-5 pb-7 mb-8 card-rounded">
                                             <span class="fw-bold text-gray-800 fs-3 text-bangla">
                                                 {{-- {{__('Guidance for application developers of applications which will be run on devices ...')}} --}}
-                                                অ্যাপ্লিকেশনগুলির অ্যাপ্লিকেশন বিকাশকারীদের জন্য নির্দেশিকা যা ডিভাইসগুলিতে চালানো হবে …
+                                                {{-- অ্যাপ্লিকেশনগুলির অ্যাপ্লিকেশন বিকাশকারীদের জন্য নির্দেশিকা যা ডিভাইসগুলিতে চালানো হবে … --}}
+                                                লেটার বিল্ডার বাংলাদেশ সরকারের উচ্চাভিলাষী উদ্যোগ, 'স্মার্ট বাংলাদেশ,' রূপকল্প ২০৪১-এর সাথেও সংযুক্ত। এই প্ল্যাটফর্মটি সরকারী অফিসগুলিকে আরও দক্ষ এবং কার্যকর করে তোলার জন্য সহায়তা করে, যা শেষ পর্যন্ত নাগরিকদের জন্য আরও ভাল পরিষেবা প্রদান করে।
+লেটার বিল্ডার একটি উদ্ভাবনী প্ল্যাটফর্ম যা সরকারী যোগাযোগকে আরও সহজ, দক্ষ এবং কার্যকর করে তুলতে সহায়তা করছে এবং ভবিষ্যতেও এটি অব্যাহত থাকবে। 
                                             </span>
                                         </div>
                                         <!--end::Body-->

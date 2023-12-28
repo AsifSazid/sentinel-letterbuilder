@@ -7,10 +7,10 @@
                 <!--begin::Title-->
                 <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
                     <!--begin::Col-->
-                    <div class="col-sm-6 col-xxl-8">
+                    <div class="col-sm-8 col-xxl-8">
                         <div class="row">
-                            <h1 class="d-flex text-gray-900 opacity-75 fs-2tx fw-bold my-4 text-bangla">
-                                {{ __('Elevate GovernmentCorrespondence:') }}
+                            <h1 class="d-flex text-gray-900 opacity-75 fs-2tx fw-bold my-4">
+                                {{ __('Elevate Government Correspondence:') }}
                                 {{-- সরকারি চিঠিপত্র উন্নত করন: --}}
                             </h1>
                             <h2 class="d-flex text-gray-900 opacity-75 fs-2x fw-bold my-1">
@@ -19,13 +19,17 @@
                             <h2 class="d-flex text-gray-900 opacity-75 fs-2x fw-bold my-1">
                                 {{ __('Meet Precision in Communication Excellence!') }}
                             </h2>
+                            <h2 class="d-flex text-gray-900 opacity-75 fs-xl my-1">
+                                {{-- {{ __('Meet Precision in Communication Excellence!') }} --}}
+                                "Letter Builder" is a system for creating letters in various formats according to the user's needs easily, in less time, using technology for online or external communication in government offices.
+                            </h2>
                         </div>
                     </div>
                     <!--end::Col-->
                     <!--begin::Col-->
-                    <div class="col-sm-6 col-xxl-4">
+                    <div class="col-sm-4 col-xxl-4">
                         <div class="a2i-no-repeat mb-7 opacity-75"
-                            style="height: 180px; width: auto; background-image:url('{{ asset('ui/frontend/assets') }}/media/logos/a2i-logo.png'); background-position: right top; background-size: 20% auto;">
+                            style="height: 180px; width: auto; background-image:url('{{ asset('ui/frontend/assets') }}/media/logos/a2i-logo.png'); background-position: center top; background-size: 20% auto;">
                         </div>
                     </div>
                     <!--end::Col-->
@@ -36,6 +40,91 @@
         </div>
         <!--end::Container-->
     </div>
+    {{-- Counter --}}
+    <!--begin::Row-->
+    <div class="d-flex flex-wrap flex-center justify-content-lg-between mx-auto w-xl-1000px">
+        <!--begin::Item-->
+        <div class="d-flex flex-column flex-center h-150px w-150px h-lg-200px w-lg-200px m-3 rounded-circle">
+            <!--begin::Info-->
+            <div class="mb-0">
+                <!--begin::Value-->
+                <div class="fs-lg-2hx fs-2x fw-bold d-flex flex-center">
+                    <div class="min-w-70px" data-kt-countup="true" data-kt-countup-value="46"
+                        data-kt-countup-suffix="">0</div>
+                </div>
+                <!--end::Value-->
+
+                <!--begin::Label-->
+                <span class="text-gray-600 fw-semibold fs-5 lh-0">
+                    Ministries/Divisions
+                </span>
+                <!--end::Label-->
+            </div>
+            <!--end::Info-->
+        </div>
+        <!--end::Item-->
+        <!--begin::Item-->
+        <div class="d-flex flex-column flex-center h-150px w-150px h-lg-200px w-lg-200px m-3 rounded-circle">
+            <!--begin::Info-->
+            <div class="mb-0">
+                <!--begin::Value-->
+                <div class="fs-lg-2hx fs-2x fw-bold d-flex flex-center">
+                    <div class="min-w-70px" data-kt-countup="true" data-kt-countup-value="12"
+                        data-kt-countup-suffix="k+">0</div>
+                </div>
+                <!--end::Value-->
+
+                <!--begin::Label-->
+                <span class="text-gray-600 fw-semibold fs-5 lh-0">
+                    Offices
+                </span>
+                <!--end::Label-->
+            </div>
+            <!--end::Info-->
+        </div>
+        <!--end::Item-->
+        <!--begin::Item-->
+        <div class="d-flex flex-column flex-center h-150px w-150px h-lg-200px w-lg-200px m-3 rounded-circle">
+            <!--begin::Info-->
+            <div class="mb-0">
+                <!--begin::Value-->
+                <div class="fs-lg-2hx fs-2x fw-bold d-flex flex-center">
+                    <div class="min-w-70px" data-kt-countup="true" data-kt-countup-value="101"
+                        data-kt-countup-suffix="k+">0</div>
+                </div>
+                <!--end::Value-->
+
+                <!--begin::Label-->
+                <span class="text-gray-600 fw-semibold fs-5 lh-0">
+                    Users
+                </span>
+                <!--end::Label-->
+            </div>
+            <!--end::Info-->
+        </div>
+        <!--end::Item-->
+        <!--begin::Item-->
+        <div class="d-flex flex-column flex-center h-150px w-150px h-lg-200px w-lg-200px m-3 rounded-circle">
+            <!--begin::Info-->
+            <div class="mb-0">
+                <!--begin::Value-->
+                <div class="fs-lg-2hx fs-2x fw-bold d-flex flex-center">
+                    <div class="min-w-70px" data-kt-countup="true" data-kt-countup-value="10"
+                        data-kt-countup-suffix="+">0</div>
+                </div>
+                <!--end::Value-->
+
+                <!--begin::Label-->
+                <span class="text-gray-600 fw-semibold fs-5 lh-0">
+                    Services
+                </span>
+                <!--end::Label-->
+            </div>
+            <!--end::Info-->
+        </div>
+        <!--end::Item-->
+    </div>
+
     <div id="kt_content_container" class="d-flex flex-column-fluid align-items-start container-xxl">
         <!--begin::Post-->
         <div class="content flex-row-fluid" id="kt_content">
@@ -422,4 +511,61 @@
         </div>
         <!--end::Post-->
     </div>
+
+   {{-- carousel --}}
+    <!--begin::Row-->
+            <div id="kt_carousel_2_carousel" class="carousel carousel-custom slide" data-bs-ride="carousel"
+                data-bs-interval="3000">
+                <!--begin::Heading-->
+                <div class="d-flex align-items-center justify-content-between flex-wrap">
+                    <!--begin::Label-->
+                    <span class="fs-4 fw-bold pe-2">Letter Builder services are being utilized by myGov & e-নথি
+                        platforms.</span>
+                    <!--end::Label-->
+
+                    <!--begin::Carousel Indicators-->
+                    <ol class="p-0 m-0 carousel-indicators carousel-indicators-bullet">
+                        <li data-bs-target="#kt_carousel_2_carousel" data-bs-slide-to="0" class="ms-1 active"></li>
+                        <li data-bs-target="#kt_carousel_2_carousel" data-bs-slide-to="1" class="ms-1"></li>
+                        <li data-bs-target="#kt_carousel_2_carousel" data-bs-slide-to="2" class="ms-1"></li>
+                    </ol>
+                    <!--end::Carousel Indicators-->
+                </div>
+                <!--end::Heading-->
+
+                <!--begin::Carousel-->
+                <div class="carousel-inner pt-8">
+                    <!--begin::Item-->
+                    <div class="carousel-item active">
+                        <a href="link-to-logo1">
+                            <img src="https://doptor-portal-admin-v2.bokhshi.com/images/platformimage/oL8ZybJ6D9MxVnWozhR8N7jOPrs0UpYr2zjGyptI.png"
+                                class="d-block img-fluid" alt="...">
+                        </a>
+                    </div>
+                    <!--end::Item-->
+
+                    <!--begin::Item-->
+                    <div class="carousel-item">
+                        <a href="link-to-logo2">
+                            <img src="https://doptor-portal-admin-v2.bokhshi.com/images/platformimage/qLpfYfXudizHxxPJZvbVCjv2x2jKWYgfg5LocoOE.png"
+                                class="d-block img-fluid" alt="...">
+                        </a>
+                    </div>
+                    <!--end::Item-->
+
+                    <!--begin::Item-->
+                    <div class="carousel-item">
+                        <a href="link-to-logo3">
+                            <img src="https://doptor-portal-admin-v2.bokhshi.com/images/platformimage/fr2WoCc6lboingESDjKFQiSr9CFYx01V6zUGXjn4.png"
+                                class="d-block img-fluid" alt="...">
+                        </a>
+                    </div>
+                    <!--end::Item-->
+                </div>
+                <!--end::Carousel-->
+            </div>
+            <!--end::Row-->
+            <br />
+    <!--end::row-->
+
 </x-lbs-master>
