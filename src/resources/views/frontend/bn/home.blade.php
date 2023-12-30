@@ -11,7 +11,7 @@
                         <div class="row">
                             <h1 class="d-flex text-gray-900 opacity-75 fs-2tx fw-bold my-4 text-bangla">
                                 {{-- {{__('Elevate Government Correspondence:')}} --}}
-                                সরকারি চিঠিপত্র উন্নত করন:
+                                সরকারি চিঠিপত্র আধুনিকীকরণ
                             </h1>
                             <h2 class="d-flex text-gray-900 opacity-75 fs-2x fw-bold my-1 text-bangla">
                                 {{-- {{__('Letter Builder - Where Time-saving Solutions Meet Precision')}} --}}
@@ -555,32 +555,46 @@
                                 <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
                                         <div class="col-md-4">
-                                            <div class="d-flex justify-content-center">
-                                                <a href="https://www.mygov.bd/">
-                                                    <img src="https://doptor-portal-admin-v2.bokhshi.com/images/platformimage/oL8ZybJ6D9MxVnWozhR8N7jOPrs0UpYr2zjGyptI.png"
-                                                        class="d-block img-fluid" alt="...">
-                                                </a>
-                                            </div>
+                                            {{-- <div class="card">
+                                                <div class="card-img"> --}}
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="https://www.mygov.bd/">
+                                                            <img src="https://doptor-portal-admin-v2.bokhshi.com/images/platformimage/oL8ZybJ6D9MxVnWozhR8N7jOPrs0UpYr2zjGyptI.png"
+                                                                class="d-block img-fluid" alt="...">
+                                                        </a>
+                                                    </div>
+                                                {{-- </div> 
+                                            </div> --}}
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <div class="col-md-4">
-                                            <div class="d-flex justify-content-center">
-                                                <a href="https://www.grs.gov.bd/">
-                                                    <img src="https://doptor-portal-admin-v2.bokhshi.com/images/platformimage/qLpfYfXudizHxxPJZvbVCjv2x2jKWYgfg5LocoOE.png"
-                                                        class="d-block img-fluid" alt="...">
-                                                </a>
-                                            </div>
+                                            {{-- <div class="card">
+                                                <div class="card-img"> --}}
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="https://www.grs.gov.bd/">
+                                                            <img src="https://doptor-portal-admin-v2.bokhshi.com/images/platformimage/qLpfYfXudizHxxPJZvbVCjv2x2jKWYgfg5LocoOE.png"
+                                                                class="d-block img-fluid" alt="...">
+                                                        </a>
+                                                    </div>
+                                                {{-- </div> 
+                                            </div> --}}
                                         </div>
                                     </div>
                                     <div class="carousel-item">
                                         <div class="col-md-4">
-                                            <div class="d-flex justify-content-center">
-                                                <a href="https://www.report.gov.bd/">
-                                                    <img src="https://doptor-portal-admin-v2.bokhshi.com/images/platformimage/fr2WoCc6lboingESDjKFQiSr9CFYx01V6zUGXjn4.png"
-                                                        class="d-block img-fluid" height="50%" width="50%" alt="...">
-                                                </a>
-                                            </div>
+                                            {{-- <div class="card" style="background-color: rgb(255, 255, 255, 0.1);">
+                                                <div class="card-img"> --}}
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="https://www.report.gov.bd/">
+                                                            <div class="d-flex justify-content-center">
+                                                            <img src="https://doptor-portal-admin-v2.bokhshi.com/images/platformimage/fr2WoCc6lboingESDjKFQiSr9CFYx01V6zUGXjn4.png"
+                                                                class="d-block img-fluid" height="50%" width="50%" alt="...">
+                                                            </div> 
+                                                        </a>
+                                                    </div>
+                                                {{-- </div> 
+                                            </div> --}}
                                         </div>
                                     </div>
                                 </div>
