@@ -27,6 +27,29 @@ class PreviewController
         }
     }
 
+    public function webPreview($docId){
+        if($docId == 1){
+            return view('letterbuilder::frontend.web-preview.notice');
+        }
+        // }elseif($docId == 2){
+        //     return view('letterbuilder::frontend.preview.office_memo');
+        // }elseif($docId == 3){
+        //     return view('letterbuilder::frontend.preview.circular_sample');
+        // }elseif($docId == 4){
+        //     return view('letterbuilder::frontend.preview.government_letter_sample');
+        // }elseif($docId == 5){
+        //     return view('letterbuilder::frontend.preview.informal_note');
+        // }elseif($docId == 6){
+        //     return view('letterbuilder::frontend.preview.meeting_minutes');
+        // }elseif($docId == 7){
+        //     return view('letterbuilder::frontend.preview.notification_sample');
+        // }elseif($docId == 8){
+        //     return view('letterbuilder::frontend.preview.office_order_sample');
+        // }elseif($docId == 9){
+        //     return view('letterbuilder::frontend.preview.semi_govt_letter_sample');
+        // }
+    }
+
     public function detailsView($docId)
     {
         if($docId == 1){

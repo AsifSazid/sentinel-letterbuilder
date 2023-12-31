@@ -30,3 +30,4 @@ Route::get('/pdf/{docId}', [PdfController::class, 'downloadPdf'])->name('pdfDown
 Route::get('/details-view/{docId}', [PreviewController::class, 'detailsView'])->name('details');
 Route::get('/bn/details-view/{docId}', [PreviewController::class, 'detailsViewBn'])->name('bn.details');
 Route::get('/preview/{docId}', [PreviewController::class, 'preview'])->name('preview');
+Route::get('/web-preview/{docId}', [PreviewController::class, 'webPreview'])->name('web.preview');

@@ -29,6 +29,8 @@
 	<!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
 	<link href="{{ asset('ui/frontend/assets')}}/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
 	<link href="{{ asset('ui/frontend/assets')}}/css/style.bundle.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link href="{{ asset('ui/frontend/assets')}}/css/carousal.css" rel="stylesheet" type="text/css" />
 	<!--end::Global Stylesheets Bundle-->
 	<link href='http://sonnetdp.github.io/nikosh/css/nikosh.css' rel='stylesheet' type='text/css'>

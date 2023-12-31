@@ -42,7 +42,7 @@
                             <!--begin:Menu link-->
                             <a href="{{ route('bn.home') }}" class="menu-link">
                                 <span class="menu-link py-3">
-                                    <span class="menu-title opacity-75 text-bangla fs-2x">{{ __('হোম ') }}</span>
+                                    <span class="menu-title opacity-75 text-bangla fw-bold fs-xl">{{ __('হোম ') }}</span>
                                 </span>
                             </a>
                             <!--end:Menu link-->
@@ -53,7 +53,7 @@
                             <!--begin:Menu link-->
                             <a href="{{ route('bn.multipleTemplate') }}" class="menu-link">
                                 <span class="menu-link py-3">
-                                    <span class="menu-title opacity-75 text-bangla fs-2x">{{ __('টেমপ্লেট') }}</span>
+                                    <span class="menu-title opacity-75 text-bangla fw-bold fs-xl">{{ __('টেমপ্লেট') }}</span>
                                 </span>
                             </a>
                             <!--end:Menu link-->
@@ -67,7 +67,7 @@
                             <a href="{{ route('bn.howToUse') }}" class="menu-link">
                                 <span class="menu-link py-3">
                                     <span
-                                        class="menu-title opacity-75 text-bangla fs-2x">{{ __('যেভাবে ব্যবহার করব') }}</span>
+                                        class="menu-title opacity-75 text-bangla fw-bold fs-xl">{{ __('যেভাবে ব্যবহার করব') }}</span>
                                 </span>
                             </a>
                             <!--end:Menu link-->
@@ -81,7 +81,7 @@
                             <a href="{{ route('bn.aboutUs') }}" class="menu-link">
                                 <span class="menu-link py-3">
                                     <span
-                                        class="menu-title opacity-75 text-bangla fs-2x">{{ __('আমাদের সম্পর্কে') }}</span>
+                                        class="menu-title opacity-75 text-bangla fw-bold fs-xl">{{ __('আমাদের সম্পর্কে') }}</span>
                                 </span>
                             </a>
                             <!--end:Menu link-->
@@ -94,7 +94,7 @@
                             <!--begin:Menu link-->
                             <a href="{{ route('bn.contactUs') }}" class="menu-link">
                                 <span class="menu-link py-3">
-                                    <span class="menu-title opacity-75 text-bangla fs-2x">{{ __('যোগাযোগ') }}</span>
+                                    <span class="menu-title opacity-75 text-bangla fw-bold fs-xl">{{ __('যোগাযোগ') }}</span>
                                 </span>
                             </a>
                             <!--end:Menu link-->
