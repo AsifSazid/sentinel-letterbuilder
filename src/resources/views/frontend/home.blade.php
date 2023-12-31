@@ -421,8 +421,9 @@
                                             <!--begin::Title-->
                                             <div class="mb-6">
                                                 <a href="#"
-                                                    class="text-gray-800 text-hover-primary fs-1 fw-bold">{{ __('Service
-                                                                                                                                                                                                                Standard') }}</a>
+                                                    class="text-gray-800 text-hover-primary fs-1 fw-bold">
+                                                    {{-- {{ __('Service Standard') }} --}}How Letter Builder Works
+                                                </a>
                                             </div>
                                             <!--end::Title-->
                                         </div>
@@ -431,8 +432,10 @@
                                         <div
                                             class="d-flex flex-column border border-1 border-gray-300 text-center pt-5 pb-7 mb-8 card-rounded">
                                             <span
-                                                class="fw-bold text-gray-800 fs-3">{{ __('The service standard
-                                                                                                                                                                                                helps to create and run great public services ...') }}</span>
+                                                class="fw-bold text-gray-800 fs-xl">
+                                                {{-- {{ __('The service standard helps to create and run great public services ...') }} --}}
+                                                To use Letter Builder, government employees only need a web browser and an Internet connection. They go to the Letter Builder website and create a username and password. Once they sign in, they can create a new letter or edit an existing letter.
+                                            </span>
                                         </div>
                                         <!--end::Body-->
                                         <!--begin::Footer-->
@@ -440,8 +443,7 @@
                                             <!--begin::Actions-->
                                             <a href="#" class="btn btn-primary btn-sm flex-shrink-0 ms-auto"
                                                 data-bs-toggle="modal"
-                                                data-bs-target="#kt_modal_bidding">{{ __('View
-                                                                                                                                                                                                Details') }}</a>
+                                                data-bs-target="#kt_modal_bidding">{{ __('View Details') }}</a>
                                             <!--end::Actions-->
                                         </div>
                                         <!--end::Footer-->
@@ -474,8 +476,10 @@
                                             <!--begin::Title-->
                                             <div class="mb-6">
                                                 <a href="#"
-                                                    class="text-gray-800 text-hover-primary fs-1 fw-bold">{{ __('Application
-                                                                                                                                                                                                                Development Guidance') }}</a>
+                                                    class="text-gray-800 text-hover-primary fs-1 fw-bold">
+                                                    {{-- {{ __('Application Development Guidance') }} --}}
+                                                    The future of Letter Builder
+                                                </a>
                                             </div>
                                             <!--end::Title-->
                                         </div>
@@ -484,9 +488,10 @@
                                         <div
                                             class="d-flex flex-column border border-1 border-gray-300 text-center pt-5 pb-7 mb-8 card-rounded">
                                             <span
-                                                class="fw-bold text-gray-800 fs-3">{{ __('Guidance for
-                                                                                                                                                                                                application developers of applications which will be run on
-                                                                                                                                                                                                devices ...') }}</span>
+                                                class="fw-bold text-gray-800 fs-xl">
+                                                {{-- {{ __('Guidance for application developers of applications which will be run on devices ...') }} --}}
+                                                LetterBuilder is also aligned with Bangladesh Government's ambitious initiative, 'Smart Bangladesh,' Vision 2041. This platform helps in making government offices more efficient and effective, ultimately providing better services to citizens. Letter Builder is an innovative platform that is helping to make government communications easier, more efficient and effective, and will continue to do so in the future.
+                                            </span>
                                         </div>
                                         <!--end::Body-->
                                         <!--begin::Footer-->
@@ -520,8 +525,7 @@
                     <!--begin::Heading-->
                     <div class="d-flex align-items-center justify-content-between flex-wrap">
                         <!--begin::Label-->
-                        <span class="fs-4 fw-bold pe-2">Letter Builder services are being utilized by myGov & e-নথি
-                            platforms.</span>
+                        <span class="fs-4 fw-bold pe-2">Major e-government systems that make use of Letter Builder</span>
                         <!--end::Label-->
 
                         <!--begin::Carousel Indicators-->
@@ -588,7 +592,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="carousel-item">
+                                    {{-- <div class="carousel-item">
                                         <div class="col-md-4">
                                             <div class="d-flex justify-content-center">
                                                 <a href="https://www.grs.gov.bd/">
@@ -597,8 +601,19 @@
                                                 </a>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                     <div class="carousel-item">
+                                        <div class="col-md-4">
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://www.nothi.gov.bd/login">
+                                                    <img src="https://www.nothi.gov.bd/img/nothi_logo_login.png"
+                                                        class="d-block img-fluid" alt="...">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {{-- Report Img --}}
+                                    {{-- <div class="carousel-item">
                                         <div class="col-md-4">
                                             <div class="d-flex justify-content-center">
                                                 <a href="https://www.report.gov.bd/">
@@ -607,7 +622,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                                 <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel"
                                     role="button" data-bs-slide="prev">

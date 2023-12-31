@@ -536,7 +536,7 @@
                     <!--begin::Heading-->
                     <div class="d-flex align-items-center justify-content-between flex-wrap">
                         <!--begin::Label-->
-                        <span class="d-flex text-gray-800 fw-bold pt-4 pb-4 text-bangla fw-bold" style="font-size: 1.75rem">লেটার বিল্ডার সার্ভিসগুলো মাইগভ এবং ই-নথি প্ল্যাটফর্মগুলি ব্যবহার করছে</span>
+                        <span class="d-flex text-gray-800 fw-bold pt-4 pb-4 text-bangla fw-bold" style="font-size: 1.75rem">গুরুত্বপূর্ণ সব ই-গভর্নমেন্ট সিস্টেম যা লেটার বিল্ডার ব্যবহার করে</span>
                         <!--end::Label-->
 
                         <!--begin::Carousel Indicators-->
@@ -569,22 +569,17 @@
                                     </div>
                                     <div class="carousel-item">
                                         <div class="col-md-4">
-                                            {{-- <div class="card">
-                                                <div class="card-img"> --}}
-                                                    <div class="d-flex justify-content-center">
-                                                        <a href="https://www.grs.gov.bd/">
-                                                            <img src="https://doptor-portal-admin-v2.bokhshi.com/images/platformimage/qLpfYfXudizHxxPJZvbVCjv2x2jKWYgfg5LocoOE.png"
-                                                                class="d-block img-fluid" alt="...">
-                                                        </a>
-                                                    </div>
-                                                {{-- </div> 
-                                            </div> --}}
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://www.nothi.gov.bd/login">
+                                                    <img src="https://www.nothi.gov.bd/img/nothi_logo_login.png"
+                                                        class="d-block img-fluid" alt="...">
+                                                </a>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="carousel-item">
+                                    </div>                                    
+                                    {{-- Report Img --}}
+                                    {{-- <div class="carousel-item">
                                         <div class="col-md-4">
-                                            {{-- <div class="card" style="background-color: rgb(255, 255, 255, 0.1);">
-                                                <div class="card-img"> --}}
                                                     <div class="d-flex justify-content-center">
                                                         <a href="https://www.report.gov.bd/">
                                                             <div class="d-flex justify-content-center">
@@ -593,10 +588,8 @@
                                                             </div> 
                                                         </a>
                                                     </div>
-                                                {{-- </div> 
-                                            </div> --}}
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                                 <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel"
                                     role="button" data-bs-slide="prev">
