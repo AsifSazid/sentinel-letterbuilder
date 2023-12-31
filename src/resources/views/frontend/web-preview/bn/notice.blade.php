@@ -22,8 +22,8 @@
             <div class="col-12 pt-5 pb-5">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="fw-bold fs-2x pt-10 pb-10">
-                            Notice (Letter Builder Template-1)
+                        <h3 class="fw-bold fs-2x pt-10 pb-10 text-bangla">
+                            নোটিশ
                         </h3>
                     </div>
                     <div class="card-body">

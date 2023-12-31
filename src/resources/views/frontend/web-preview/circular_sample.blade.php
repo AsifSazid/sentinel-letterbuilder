@@ -23,7 +23,7 @@
                 <div class="card">
                     <div class="card-header">
                         <h3 class="fw-bold fs-2x pt-10 pb-10">
-                            Circular Sample (Letter Builder Template-3)
+                            Circular Sample 
                         </h3>
                     </div>
                     <div style="background-color: white; padding: 2%;">

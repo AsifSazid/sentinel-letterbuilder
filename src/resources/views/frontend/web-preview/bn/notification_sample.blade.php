@@ -22,8 +22,8 @@
             <div class="col-12 pt-5 pb-5">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="fw-bold fs-2x pt-10 pb-10">
-                            Notification Sample (Letter Builder Template-7)
+                        <h3 class="fw-bold fs-2x pt-10 pb-10 text-bangla">
+                            প্রজ্ঞাপনের নমুনা
                         </h3>
                     </div>
                     <div style="background-color: white; padding: 2%;">
