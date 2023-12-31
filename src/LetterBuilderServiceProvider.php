@@ -14,6 +14,10 @@ class LetterBuilderServiceProvider extends ServiceProvider
     $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
     $this->loadViewsFrom(__DIR__ . '/resources/views', 'letterbuilder');
 
+    $this->publishes([
+        __DIR__.'/../publishable/assets' => public_path('ui/frontend/assets'),
+    ], 'public');
+
     $this->commands([
         ##InstallationCommandClass##
     ]);
