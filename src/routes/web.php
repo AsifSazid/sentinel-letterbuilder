@@ -31,3 +31,4 @@ Route::get('/details-view/{docId}', [PreviewController::class, 'detailsView'])->
 Route::get('/bn/details-view/{docId}', [PreviewController::class, 'detailsViewBn'])->name('bn.details');
 Route::get('/preview/{docId}', [PreviewController::class, 'preview'])->name('preview');
 Route::get('/web-preview/{docId}', [PreviewController::class, 'webPreview'])->name('web.preview');
+Route::get('/bn/web-preview/{docId}', [PreviewController::class, 'bnWebPreview'])->name('bn.web.preview');

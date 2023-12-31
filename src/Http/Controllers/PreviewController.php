@@ -49,6 +49,28 @@ class PreviewController
         }
     }
 
+    public function bnWebPreview($docId){
+        if($docId == 1){
+            return view('letterbuilder::frontend.web-preview.bn.notice');
+        }elseif($docId == 2){
+            return view('letterbuilder::frontend.web-preview.bn.office_memo');
+        }elseif($docId == 3){
+            return view('letterbuilder::frontend.web-preview.bn.circular_sample');
+        }elseif($docId == 4){
+            return view('letterbuilder::frontend.web-preview.bn.government_letter_sample');
+        }elseif($docId == 5){
+            return view('letterbuilder::frontend.web-preview.bn.informal_note');
+        }elseif($docId == 6){
+            return view('letterbuilder::frontend.web-preview.bn.meeting_minutes');
+        }elseif($docId == 7){
+            return view('letterbuilder::frontend.web-preview.bn.notification_sample');
+        }elseif($docId == 8){
+            return view('letterbuilder::frontend.web-preview.bn.office_order_sample');
+        }elseif($docId == 9){
+            return view('letterbuilder::frontend.web-preview.bn.semi_govt_letter_sample');
+        }
+    }
+
     public function detailsView($docId)
     {
         if($docId == 1){

@@ -34,7 +34,7 @@
                                 <div class="mb-xl-10 mb-3">
                                     <a href='#' class="btn btn-primary fw-semibold me-2" data-bs-toggle="modal"
                                         data-bs-target="#kt_modal_upgrade_plan">{{ __('Download') }}</a>
-                                    <a href="{{route('preview', $docId = 7)}}"
+                                    <a href="{{route('web.preview', $docId = 7)}}"
                                         class="btn btn-color-white bg-transparent btn-outline fw-semibold"
                                         style="border: 1px solid rgba(255, 255, 255, 0.3)">{{ __('Preview') }}</a>
                                 </div>
@@ -295,7 +295,7 @@
                                             <!--end::Link-->
                                             <!--begin::Link-->
                                             <a class="btn btn-sm btn-light flex-shrink-0"
-                                                href="{{ route('preview', $docId = 4) }}">
+                                                href="{{ route('web.preview', $docId = 4) }}">
                                                 {{ __('View Deatails') }}
                                             </a>
                                             <!--end::Link-->
@@ -363,7 +363,7 @@
                                             <!--end::Link-->
                                             <!--begin::Link-->
                                             <a class="btn btn-sm btn-light flex-shrink-0"
-                                                href="{{ route('preview', $docId = 5) }}">
+                                                href="{{ route('web.preview', $docId = 5) }}">
                                                 {{ __('View Deatails') }}
                                             </a>
                                             <!--end::Link-->
@@ -431,7 +431,7 @@
                                             <!--end::Link-->
                                             <!--begin::Link-->
                                             <a class="btn btn-sm btn-light flex-shrink-0"
-                                                href="{{ route('preview', $docId = 7) }}">
+                                                href="{{ route('web.preview', $docId = 7) }}">
                                                 {{ __('View Deatails') }}
                                             </a>
                                             <!--end::Link-->

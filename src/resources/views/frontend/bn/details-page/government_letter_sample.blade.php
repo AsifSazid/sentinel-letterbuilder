@@ -33,7 +33,7 @@
                                         data-bs-target="#kt_modal_upgrade_plan">
                                         {{-- {{__('Download')}} --}}ডাউনলোড
                                     </a>
-                                    <a href="{{route('preview', $docId = 4)}}"
+                                    <a href="{{route('bn.web.preview', $docId = 4)}}"
                                         class="btn btn-color-white bg-transparent btn-outline fw-semibold text-bangla"
                                         style="border: 1px solid rgba(255, 255, 255, 0.3)">
                                         {{-- {{__('Preview')}} --}}প্রিভিউ
@@ -308,7 +308,7 @@
                                             </a>
                                             <!--end::Link-->
                                             <!--begin::Link-->
-                                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('preview', $docId = 4)}}">
+                                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.web.preview', $docId = 4)}}">
                                                 {{__('বিস্তারিত দেখুন')}}
                                             </a>
                                             <!--end::Link-->
@@ -373,7 +373,7 @@
                                             </a>
                                             <!--end::Link-->
                                             <!--begin::Link-->
-                                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('preview', $docId = 5)}}">
+                                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.web.preview', $docId = 5)}}">
                                                 {{__('বিস্তারিত দেখুন')}}
                                             </a>
                                             <!--end::Link-->
@@ -438,7 +438,7 @@
                                             </a>
                                             <!--end::Link-->
                                             <!--begin::Link-->
-                                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('preview', $docId = 7)}}">
+                                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.web.preview', $docId = 7)}}">
                                                 {{__('বিস্তারিত দেখুন')}}
                                             </a>
                                             <!--end::Link-->
