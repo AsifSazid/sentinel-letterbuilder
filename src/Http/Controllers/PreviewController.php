@@ -19,7 +19,7 @@ class PreviewController
         }elseif($docId == 6){
             return view('letterbuilder::frontend.meeting_minutes.preview');
         }elseif($docId == 7){
-            return view('letterbuilder::frontend.preview.notification_sample');
+            return view('letterbuilder::frontend.notification_sample.preview');
         }elseif($docId == 8){
             return view('letterbuilder::frontend.preview.office_order_sample');
         }elseif($docId == 9){
@@ -41,7 +41,7 @@ class PreviewController
         }elseif($docId == 6){
             return view('letterbuilder::frontend.meeting-minutes.web-preview');
         }elseif($docId == 7){
-            return view('letterbuilder::frontend.web-preview.notification_sample');
+            return view('letterbuilder::frontend.notification-sample.web-preview');
         }elseif($docId == 8){
             return view('letterbuilder::frontend.web-preview.office_order_sample');
         }elseif($docId == 9){
@@ -63,7 +63,7 @@ class PreviewController
         }elseif($docId == 6){
             return view('letterbuilder::frontend.meeting-minutes.bn.web-preview');
         }elseif($docId == 7){
-            return view('letterbuilder::frontend.web-preview.bn.notification_sample');
+            return view('letterbuilder::frontend.notification-sample.bn.web-preview');
         }elseif($docId == 8){
             return view('letterbuilder::frontend.web-preview.bn.office_order_sample');
         }elseif($docId == 9){
@@ -86,7 +86,7 @@ class PreviewController
         }elseif($docId == 6){
             return view('letterbuilder::frontend.meeting-minutes.details');
         }elseif($docId == 7){
-            return view('letterbuilder::frontend.details-page.notification_sample');
+            return view('letterbuilder::frontend.notification-sample.details');
         }elseif($docId == 8){
             return view('letterbuilder::frontend.details-page.office_order_sample');
         }elseif($docId == 9){
@@ -109,7 +109,7 @@ class PreviewController
         }elseif($docId == 6){
             return view('letterbuilder::frontend.meeting-minutes.bn.details');
         }elseif($docId == 7){
-            return view('letterbuilder::frontend.bn.details-page.notification_sample');
+            return view('letterbuilder::frontend.notification-sample.bn.details');
         }elseif($docId == 8){
             return view('letterbuilder::frontend.bn.details-page.office_order_sample');
         }elseif($docId == 9){
