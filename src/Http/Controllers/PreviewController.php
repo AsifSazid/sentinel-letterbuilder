@@ -9,7 +9,7 @@ class PreviewController
         if($docId == 1){
             return view('letterbuilder::frontend.notice.preview');
         }elseif($docId == 2){
-            return view('letterbuilder::frontend.preview.office_memo');
+            return view('letterbuilder::frontend.office_memo.preview');
         }elseif($docId == 3){
             return view('letterbuilder::frontend.preview.circular_sample');
         }elseif($docId == 4){
@@ -31,7 +31,7 @@ class PreviewController
         if($docId == 1){
             return view('letterbuilder::frontend.notice.web-preview');
         }elseif($docId == 2){
-            return view('letterbuilder::frontend.web-preview.office_memo');
+            return view('letterbuilder::frontend.office-memo.web-preview');
         }elseif($docId == 3){
             return view('letterbuilder::frontend.web-preview.circular_sample');
         }elseif($docId == 4){
@@ -53,7 +53,7 @@ class PreviewController
         if($docId == 1){
             return view('letterbuilder::frontend.notice.bn.web-preview');
         }elseif($docId == 2){
-            return view('letterbuilder::frontend.web-preview.bn.office_memo');
+            return view('letterbuilder::frontend.office-memo.bn.web-preview');
         }elseif($docId == 3){
             return view('letterbuilder::frontend.web-preview.bn.circular_sample');
         }elseif($docId == 4){
@@ -76,7 +76,7 @@ class PreviewController
         if($docId == 1){
             return view('letterbuilder::frontend.notice.details');
         }elseif($docId == 2){
-            return view('letterbuilder::frontend.details-page.office_memo');
+            return view('letterbuilder::frontend.office-memo.details');
         }elseif($docId == 3){
             return view('letterbuilder::frontend.details-page.circular_sample');
         }elseif($docId == 4){
@@ -99,7 +99,7 @@ class PreviewController
         if($docId == 1){
             return view('letterbuilder::frontend.notice.bn.details');
         }elseif($docId == 2){
-            return view('letterbuilder::frontend.bn.details-page.office_memo');
+            return view('letterbuilder::frontend.office_memo.bn.details');
         }elseif($docId == 3){
             return view('letterbuilder::frontend.bn.details-page.circular_sample');
         }elseif($docId == 4){
