@@ -23,7 +23,7 @@ class PreviewController
         }elseif($docId == 8){
             return view('letterbuilder::frontend.office_order_sample.preview');
         }elseif($docId == 9){
-            return view('letterbuilder::frontend.preview.semi_govt_letter_sample');
+            return view('letterbuilder::frontend.semi_govt_letter_sample.preview');
         }
     }
 
@@ -45,7 +45,7 @@ class PreviewController
         }elseif($docId == 8){
             return view('letterbuilder::frontend.office-order-sample.web-preview');
         }elseif($docId == 9){
-            return view('letterbuilder::frontend.web-preview.semi_govt_letter_sample');
+            return view('letterbuilder::frontend.semi-govt-letter-sample.web-preview');
         }
     }
 
@@ -67,7 +67,7 @@ class PreviewController
         }elseif($docId == 8){
             return view('letterbuilder::frontend.office-order-sample.bn.web-preview');
         }elseif($docId == 9){
-            return view('letterbuilder::frontend.web-preview.bn.semi_govt_letter_sample');
+            return view('letterbuilder::frontend.semi-govt-letter-sample.bn.web-preview');
         }
     }
 
@@ -90,7 +90,7 @@ class PreviewController
         }elseif($docId == 8){
             return view('letterbuilder::frontend.office-order-sample.details');
         }elseif($docId == 9){
-            return view('letterbuilder::frontend.details-page.semi_govt_letter_sample');
+            return view('letterbuilder::frontend.semi-govt-letter-sample.details');
         }
     }
 
@@ -113,7 +113,7 @@ class PreviewController
         }elseif($docId == 8){
             return view('letterbuilder::frontend.office-order-sample.bn.details');
         }elseif($docId == 9){
-            return view('letterbuilder::frontend.bn.details-page.semi_govt_letter_sample');
+            return view('letterbuilder::frontend.semi-govt-letter-sample.bn.details');
         }
     }
 }
