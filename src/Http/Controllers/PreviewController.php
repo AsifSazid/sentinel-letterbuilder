@@ -21,7 +21,7 @@ class PreviewController
         }elseif($docId == 7){
             return view('letterbuilder::frontend.notification_sample.preview');
         }elseif($docId == 8){
-            return view('letterbuilder::frontend.preview.office_order_sample');
+            return view('letterbuilder::frontend.office_order_sample.preview');
         }elseif($docId == 9){
             return view('letterbuilder::frontend.preview.semi_govt_letter_sample');
         }
@@ -43,7 +43,7 @@ class PreviewController
         }elseif($docId == 7){
             return view('letterbuilder::frontend.notification-sample.web-preview');
         }elseif($docId == 8){
-            return view('letterbuilder::frontend.web-preview.office_order_sample');
+            return view('letterbuilder::frontend.office-order-sample.web-preview');
         }elseif($docId == 9){
             return view('letterbuilder::frontend.web-preview.semi_govt_letter_sample');
         }
@@ -65,7 +65,7 @@ class PreviewController
         }elseif($docId == 7){
             return view('letterbuilder::frontend.notification-sample.bn.web-preview');
         }elseif($docId == 8){
-            return view('letterbuilder::frontend.web-preview.bn.office_order_sample');
+            return view('letterbuilder::frontend.office-order-sample.bn.web-preview');
         }elseif($docId == 9){
             return view('letterbuilder::frontend.web-preview.bn.semi_govt_letter_sample');
         }
@@ -88,7 +88,7 @@ class PreviewController
         }elseif($docId == 7){
             return view('letterbuilder::frontend.notification-sample.details');
         }elseif($docId == 8){
-            return view('letterbuilder::frontend.details-page.office_order_sample');
+            return view('letterbuilder::frontend.office-order-sample.details');
         }elseif($docId == 9){
             return view('letterbuilder::frontend.details-page.semi_govt_letter_sample');
         }
@@ -111,7 +111,7 @@ class PreviewController
         }elseif($docId == 7){
             return view('letterbuilder::frontend.notification-sample.bn.details');
         }elseif($docId == 8){
-            return view('letterbuilder::frontend.bn.details-page.office_order_sample');
+            return view('letterbuilder::frontend.office-order-sample.bn.details');
         }elseif($docId == 9){
             return view('letterbuilder::frontend.bn.details-page.semi_govt_letter_sample');
         }
