@@ -44,6 +44,35 @@
                         </div>
                     </div>
                     <!--end::Engage widget 6-->
+                    <!--begin::Features-->
+                    <div class="row pb-lg-8 pb-4">
+                        <div class="card card-flush">
+                            <!--begin::Header-->
+                            <div class="card-header pt-7">
+                                <!--begin::Title-->
+                                <h3 class="card-title align-items-start flex-column">
+                                    <span class="card-label fw-bold text-gray-800">{{ __('Features') }}</span>
+                                </h3>
+                                <!--end::Title-->
+                            </div>
+                            <!--end::Header-->
+                            <!--begin::Body-->
+                            <div class="card-body pt-2 pb-4">
+                                <div class="separator separator-dashed my-5"></div>
+                                <ul>
+                                    <li><span>{{ __('Built on top of Vue JS 3.x with Vite JS compitible') }}</span>
+                                    </li>
+                                    <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
+                                    <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
+                                    <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
+                                    <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
+                                    <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
+                                </ul>
+                            </div>
+                            <!--end: Card Body-->
+                        </div>
+                    </div>
+                    <!--end::Features-->
                     <!--begin::Version Details & Technology-->
                     <div class="row pb-lg-8 pb-4">
                         <div class="col-xl-6 p-0">
@@ -161,35 +190,6 @@
                         </div>
                     </div>
                     <!--end::Version Details & Technology-->
-                    <!--begin::Features-->
-                    <div class="row pb-lg-8 pb-4">
-                        <div class="card card-flush">
-                            <!--begin::Header-->
-                            <div class="card-header pt-7">
-                                <!--begin::Title-->
-                                <h3 class="card-title align-items-start flex-column">
-                                    <span class="card-label fw-bold text-gray-800">{{ __('Features') }}</span>
-                                </h3>
-                                <!--end::Title-->
-                            </div>
-                            <!--end::Header-->
-                            <!--begin::Body-->
-                            <div class="card-body pt-2 pb-4">
-                                <div class="separator separator-dashed my-5"></div>
-                                <ul>
-                                    <li><span>{{ __('Built on top of Vue JS 3.x with Vite JS compitible') }}</span>
-                                    </li>
-                                    <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
-                                    <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
-                                    <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
-                                    <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
-                                    <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
-                                </ul>
-                            </div>
-                            <!--end: Card Body-->
-                        </div>
-                    </div>
-                    <!--end::Features-->
                     <!--begin::Change Log-->
                     <div class="row pb-lg-8 pb-4">
                         <div class="card card-flush">
@@ -224,7 +224,7 @@
                         <div class="card-header pt-7">
                             <!--begin::Title-->
                             <h3 class="card-title align-items-start flex-column">
-                                <span class="card-label fw-bold text-gray-900">{{ __('Related Letters') }}</span>
+                                <span class="card-label fw-bold text-gray-900">{{ __('Other Letters') }}</span>
                             </h3>
                             <!--end::Title-->
                             <!--begin::Toolbar-->

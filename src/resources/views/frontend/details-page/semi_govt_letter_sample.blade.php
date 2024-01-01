@@ -224,7 +224,7 @@
                         <div class="card-header pt-7">
                             <!--begin::Title-->
                             <h3 class="card-title align-items-start flex-column">
-                                <span class="card-label fw-bold text-gray-900">{{ __('Related Letters') }}</span>
+                                <span class="card-label fw-bold text-gray-900">{{ __('Other Letters') }}</span>
                             </h3>
                             <!--end::Title-->
                             <!--begin::Toolbar-->

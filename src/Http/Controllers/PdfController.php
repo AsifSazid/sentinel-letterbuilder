@@ -9,7 +9,7 @@ class PdfController
         $pathOrName = $this->pathFinder($docId);
 
 
-        $preview = view('letterbuilder::frontend.pdf.'.$pathOrName);
+        $preview = view('letterbuilder::frontend.'.$pathOrName.'pdf');
         $mpdf = new \Mpdf\Mpdf(['format' => 'A4-P']);
 
 

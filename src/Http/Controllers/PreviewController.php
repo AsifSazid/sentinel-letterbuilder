@@ -7,7 +7,7 @@ class PreviewController
     public function preview($docId)
     {
         if($docId == 1){
-            return view('letterbuilder::frontend.preview.notice');
+            return view('letterbuilder::frontend.notice.preview');
         }elseif($docId == 2){
             return view('letterbuilder::frontend.preview.office_memo');
         }elseif($docId == 3){
@@ -29,7 +29,7 @@ class PreviewController
 
     public function webPreview($docId){
         if($docId == 1){
-            return view('letterbuilder::frontend.web-preview.notice');
+            return view('letterbuilder::frontend.notice.web-preview');
         }elseif($docId == 2){
             return view('letterbuilder::frontend.web-preview.office_memo');
         }elseif($docId == 3){
@@ -51,7 +51,7 @@ class PreviewController
 
     public function bnWebPreview($docId){
         if($docId == 1){
-            return view('letterbuilder::frontend.web-preview.bn.notice');
+            return view('letterbuilder::frontend.notice.bn.web-preview');
         }elseif($docId == 2){
             return view('letterbuilder::frontend.web-preview.bn.office_memo');
         }elseif($docId == 3){
@@ -74,7 +74,7 @@ class PreviewController
     public function detailsView($docId)
     {
         if($docId == 1){
-            return view('letterbuilder::frontend.details-page.notice');
+            return view('letterbuilder::frontend.notice.details');
         }elseif($docId == 2){
             return view('letterbuilder::frontend.details-page.office_memo');
         }elseif($docId == 3){
@@ -97,7 +97,7 @@ class PreviewController
     public function detailsViewBn($docId)
     {
         if($docId == 1){
-            return view('letterbuilder::frontend.bn.details-page.notice');
+            return view('letterbuilder::frontend.notice.bn.details');
         }elseif($docId == 2){
             return view('letterbuilder::frontend.bn.details-page.office_memo');
         }elseif($docId == 3){
