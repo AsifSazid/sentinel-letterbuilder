@@ -15,7 +15,7 @@ class PreviewController
         }elseif($docId == 4){
             return view('letterbuilder::frontend.government_letter_sample.preview');
         }elseif($docId == 5){
-            return view('letterbuilder::frontend.preview.informal_note');
+            return view('letterbuilder::frontend.informal_note.preview');
         }elseif($docId == 6){
             return view('letterbuilder::frontend.preview.meeting_minutes');
         }elseif($docId == 7){
@@ -37,7 +37,7 @@ class PreviewController
         }elseif($docId == 4){
             return view('letterbuilder::frontend.government-letter-sample.web-preview');
         }elseif($docId == 5){
-            return view('letterbuilder::frontend.web-preview.informal_note');
+            return view('letterbuilder::frontend.informal-note.web-preview');
         }elseif($docId == 6){
             return view('letterbuilder::frontend.web-preview.meeting_minutes');
         }elseif($docId == 7){
@@ -59,7 +59,7 @@ class PreviewController
         }elseif($docId == 4){
             return view('letterbuilder::frontend.government-letter-sample.bn.web-preview');
         }elseif($docId == 5){
-            return view('letterbuilder::frontend.web-preview.bn.informal_note');
+            return view('letterbuilder::frontend.informal-note.bn.web-preview');
         }elseif($docId == 6){
             return view('letterbuilder::frontend.web-preview.bn.meeting_minutes');
         }elseif($docId == 7){
@@ -82,7 +82,7 @@ class PreviewController
         }elseif($docId == 4){
             return view('letterbuilder::frontend.government-letter-sample.details');
         }elseif($docId == 5){
-            return view('letterbuilder::frontend.details-page.informal_note');
+            return view('letterbuilder::frontend.informal-note.details');
         }elseif($docId == 6){
             return view('letterbuilder::frontend.details-page.meeting_minutes');
         }elseif($docId == 7){
@@ -105,7 +105,7 @@ class PreviewController
         }elseif($docId == 4){
             return view('letterbuilder::frontend.government-letter-sample.bn.details');
         }elseif($docId == 5){
-            return view('letterbuilder::frontend.bn.details-page.informal_note');
+            return view('letterbuilder::frontend.informal-note.bn.details');
         }elseif($docId == 6){
             return view('letterbuilder::frontend.bn.details-page.meeting_minutes');
         }elseif($docId == 7){
