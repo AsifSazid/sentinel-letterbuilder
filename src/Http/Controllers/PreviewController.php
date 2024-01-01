@@ -13,7 +13,7 @@ class PreviewController
         }elseif($docId == 3){
             return view('letterbuilder::frontend.circular_sample.preview');
         }elseif($docId == 4){
-            return view('letterbuilder::frontend.preview.government_letter_sample');
+            return view('letterbuilder::frontend.government_letter_sample.preview');
         }elseif($docId == 5){
             return view('letterbuilder::frontend.preview.informal_note');
         }elseif($docId == 6){
@@ -35,7 +35,7 @@ class PreviewController
         }elseif($docId == 3){
             return view('letterbuilder::frontend.circular-sample.web-preview');
         }elseif($docId == 4){
-            return view('letterbuilder::frontend.web-preview.government_letter_sample');
+            return view('letterbuilder::frontend.government-letter-sample.web-preview');
         }elseif($docId == 5){
             return view('letterbuilder::frontend.web-preview.informal_note');
         }elseif($docId == 6){
@@ -57,7 +57,7 @@ class PreviewController
         }elseif($docId == 3){
             return view('letterbuilder::frontend.circular-sample.bn.web-preview');
         }elseif($docId == 4){
-            return view('letterbuilder::frontend.web-preview.bn.government_letter_sample');
+            return view('letterbuilder::frontend.government-letter-sample.bn.web-preview');
         }elseif($docId == 5){
             return view('letterbuilder::frontend.web-preview.bn.informal_note');
         }elseif($docId == 6){
@@ -80,7 +80,7 @@ class PreviewController
         }elseif($docId == 3){
             return view('letterbuilder::frontend.circular-sample.details');
         }elseif($docId == 4){
-            return view('letterbuilder::frontend.details-page.government_letter_sample');
+            return view('letterbuilder::frontend.government-letter-sample.details');
         }elseif($docId == 5){
             return view('letterbuilder::frontend.details-page.informal_note');
         }elseif($docId == 6){
@@ -103,7 +103,7 @@ class PreviewController
         }elseif($docId == 3){
             return view('letterbuilder::frontend.circular-sample.bn.details');
         }elseif($docId == 4){
-            return view('letterbuilder::frontend.bn.details-page.government_letter_sample');
+            return view('letterbuilder::frontend.government-letter-sample.bn.details');
         }elseif($docId == 5){
             return view('letterbuilder::frontend.bn.details-page.informal_note');
         }elseif($docId == 6){
