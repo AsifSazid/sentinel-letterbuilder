@@ -35,6 +35,10 @@ class LetterBuilderServiceProvider extends ServiceProvider
     // Pdf, Preview, Web Prview Components 
     Blade::component('pdf-date', \Sentinel\Letterbuilder\App\View\Components\Pdfs\PdfDate::class);
     Blade::component('pdf-no', \Sentinel\Letterbuilder\App\View\Components\Pdfs\PdfNumber::class);
+    Blade::component('pdf-postscript', \Sentinel\Letterbuilder\App\View\Components\Pdfs\PdfPostscript::class);
+    Blade::component('pdf-instructionNo', \Sentinel\Letterbuilder\App\View\Components\Pdfs\PdfInstructionNo::class);
+    Blade::component('pdf-letterName', \Sentinel\Letterbuilder\App\View\Components\Pdfs\PdfLetterName::class);
+    Blade::component('pdf-govtMinistryWeb', \Sentinel\Letterbuilder\App\View\Components\Pdfs\PdfGovtMinistryWeb::class);
 }
     public function register()
     { }

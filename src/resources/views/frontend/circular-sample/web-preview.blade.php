@@ -23,6 +23,15 @@
         .b-bottom-dot {
             border-bottom: 2px dotted #000;
         }
+        .text-center{
+            text-align: center;
+        }
+        .text-right{
+            text-align: right;
+        }
+        .font-bold {
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -37,13 +46,13 @@
                     </div>
                     <div style="background-color: white; padding: 5%;">
                         <!-- Page -->
-                        <table>
+                        {{-- <table>
                             <tr>
                                 <td style="width: 5%;"></td>
                                 <td style="width: auto; text-align: center;"><span>৮৯</span></td>
                                 <td style="text-align: center;"></td>
                             </tr>
-                        </table>
+                        </table> --}}
                 
                         <!-- Cromopottro -->
                         <table style="width: 95%; text-align: right;">
@@ -54,18 +63,6 @@
                                 <td><span style="font-weight: bold;">(নির্দেশ নম্বর_১৩৯)</span></td>
                             </tr>
                         </table>
-                        <!-- <table style="width: 90%; text-align: right;">
-                            <tr>
-                                <td>
-                                    <span style="font-weight: bold;">ক্রোড়পত্র_১৯</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span style="font-weight: bold;">(নির্দেশ নম্বর_১৩৯)</span>
-                                </td>
-                            </tr>
-                        </table> -->
                 
                         <!-- Header -->
                         <table>
@@ -119,7 +116,7 @@
                                 </td>
                             </tr>
                         </table>
-                        <br />
+                        {{-- <br /> --}}
                         <!-- Poripotrro -->
                         <table style="text-align: center;">
                             <tr>

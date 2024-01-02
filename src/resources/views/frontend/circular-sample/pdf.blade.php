@@ -12,13 +12,73 @@
             font-family: "Nikosh", sans-serif;
             border-collapse: collapse;
         }
-        .wid-20 {
+        .w-1 {
+            width: 1%;
+        }
+        .w-3 {
+            width: 3%;
+        }
+        .w-5 {
+            width: 5%;
+        }
+        .w-10 {
+            width: 10%;
+        }
+        .w-15 {
+            width: 15%;
+        }
+        .w-20 {
             width: 20%;
         }
-        .wid-80 {
+        .w-25 {
+            width: 25%;
+        }
+        .w-30 {
+            width: 30%;
+        }
+        .w-35 {
+            width: 35%;
+        }
+        .w-40 {
+            width: 40%;
+        }
+        .w-45 {
+            width: 45%;
+        }
+        .w-50 {
+            width: 50%;
+        }
+        .w-55 {
+            width: 55%;
+        }
+        .w-60 {
+            width: 60%;
+        }
+        .w-65 {
+            width: 6%;
+        }
+        .w-70 {
+            width: 70%;
+        }
+        .w-75 {
+            width: 75%;
+        }
+        .w-80 {
             width: 80%;
         }
-        .b-bottom-dot {
+        .w-85 {
+            width: 85%;
+        }
+        .w-90 {
+            width: 90%;
+        }
+        .w-95 {
+            width: 95%;
+        }
+        .w-auto {
+            width: auto;
+        }
+        .border-bottom {
             border-bottom: 2px dotted #000;
         }
         .text-center{
@@ -27,115 +87,84 @@
         .text-right{
             text-align: right;
         }
+        .text-left{
+            text-align: left;
+        }
+        .font-bold {
+            font-weight: bold;
+        }
+        .pt-10 {
+            padding-top: 10px;
+        }
+        .pt-20 {
+            padding-top: 20px;
+        }
+        .mt-10 {
+            margin-top: 10px;
+        }
+        .mt-15 {
+            margin-top: 15px;
+        }
+        .mt-20 {
+            margin-top: 20px;
+        }
+        .whitespace-nowrap {
+            white-space: nowrap;
+        }
     </style>
 </head>
 
 <body>
-        <!-- Page -->
-        <table>
-            <tr>
-                <td class="text-center"><span>৮৯</span></td>
-            </tr>
-        </table>
+        
 
         <!-- Cromopottro -->
-        <table class="text-right">
-            <tr>
-                <td><span style="">ক্রোড়পত্র_১৯</span></td>
-            </tr>
-            <tr>
-                <td><span style="">(নির্দেশ নম্বর_১৩৯)</span></td>
-            </tr>
-        </table>
-        <!-- <table style="width: 90%; text-align: right;">
-            <tr>
-                <td>
-                    <span style="font-weight: bold;">ক্রোড়পত্র_১৯</span>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <span style="font-weight: bold;">(নির্দেশ নম্বর_১৩৯)</span>
-                </td>
-            </tr>
-        </table> -->
+        
+        <x-pdf-postscript/>
 
+        <!-- Intruction No -->
+        <x-pdf-instructionNo/>
+        
         <!-- Header -->
-        <table>
-            <tr>
-                <td style="text-align: center;">
-                    <span style="font-weight: bold;">পরিপত্রের নমুনা</span>
-                </td>
-            </tr>
-        </table>
-        <!-- Govt. -->
-        <table>
-            <tr>
-                <td style="text-align: center; padding-top: 10px;">
-                    <span style="font-weight: bold;">গণপ্রজাতন্ত্রী বাংলাদেশ সরকার</span>
-                </td>
-            </tr>
-        </table>
-        <!-- Ministry/Division Row -->
-        <table>
-            <tr>
-                <td style="width: 40%;"></td>
-                <td style="text-align: right; width: auto; white-space: nowrap;"><span>মন্ত্রণালয়/বিভাগ:</span></td>
-                <td style="width: 5%; border-bottom: 1px dashed #000;"></td>
-                <td style="width: 42%;"></td>
-            </tr>
-        </table>
-        <!-- Website Row -->
-        <table>
-            <tr>
-                <td style="text-align: right;">
-                    <table style="width: 100%; line-height: 1;">
-                        <tr>
-                            <td style="width: 44%;"></td>
-                            <td style="text-align: right; width: auto; white-space: nowrap;"><span>www</span></td>
-                            <td style="width: 5%; border-bottom: 1px dashed #000;"></td>
-                            <td style="width: 44%;"></td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
+        <x-pdf-letterName/>
+
+        <!-- Govt. Ministry/Division Row Website-->
+        <x-pdf-govtMinistryWeb/>
+        
         <!-- Time And Date -->
-        <table style="width: 100%;">
+        <table>
             <tr>
-                <td class="wid-20">
+                <td class="w-20">
                     <x-pdf-no/>
                 </td>
-                <td style="width: 60%"></td>
-                <td class="wid-20">
+                <td class="w-60"></td>
+                <td class="w-20">
                     <x-pdf-date/>
                 </td>
             </tr>
         </table>
         <br />
         <!-- Poripotrro -->
-        <table style="text-align: center;">
+        <table class="text-center">
             <tr>
-                <td><span style="font-weight: bold;">পরিপত্র</span></td>
+                <td><span class="font-bold">পরিপত্র</span></td>
             </tr>
         </table>
         <!-- Bisoy -->
         <table>
             <tr>
-                <td style="width: 18%; text-align: right;"><span>বিষয়:</span></td>
-                <td style="width: 55%; border-bottom: 1px dashed #000;"><span></span></td>
-                <td style="width: 3%;">।</td>
-                <td style="width: auto;"></td>
+                <td class="w-10"></td>
+                <td class="w-3 text-right"><span>বিষয়:</span></td>
+                <td class="w-45 border-bottom"><span></span></td>
+                <td class="w-1">।</td>
+                <td class="w-40"></td>
             </tr>
         </table>
-        <br />
-        <br />
         <!-- 1st Line -->
-        <table>
+        <table class="mt-20">
             <tr>
-                <td style="width: 12%;"></td>
-                <td style="width: auto; border-bottom: 1px dashed #000;"><span></span></td>
-                <td style="width: 7%;"></td>
+                <td class="w-10"></td>
+                <td class="w-80 border-bottom"></td>
+                <td class="w-10"></td>
             </tr>
         </table>
         <table>

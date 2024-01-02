@@ -1,6 +1,6 @@
 <table>
     <tr>
-        <td class="wid-20"><span>নম্বর:</span></td>
-        <td class="b-bottom-dot wid-80"><span></span></td>
+        <td class="w-20"><span>নম্বর:</span></td>
+        <td class="border-bottom w-80"><span></span></td>
     </tr>
 </table>

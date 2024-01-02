@@ -1,6 +1,6 @@
 <table>
     <tr>
-        <td class="wid-20"><span>তারিখ:</span></td>
-        <td class="wid-80 b-bottom-dot"><span></span></td>
+        <td class="w-20"><span>তারিখ:</span></td>
+        <td class="w-80 border-bottom"><span></span></td>
     </tr>
 </table>
