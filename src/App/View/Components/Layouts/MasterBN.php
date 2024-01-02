@@ -19,6 +19,6 @@ class MasterBN extends Component
      */
     public function render()
     {
-        return view('letterbuilder::components.bn.layouts.master');
+        return view('letterbuilder::components.frontend.bn.layouts.master');
     }
 }

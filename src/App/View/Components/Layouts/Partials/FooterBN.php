@@ -12,6 +12,6 @@ class FooterBN extends Component
 
     public function render()
     {
-        return view('letterbuilder::components.bn.layouts.partials.footer');
+        return view('letterbuilder::components.frontend.bn.layouts.partials.footer');
     }
 }

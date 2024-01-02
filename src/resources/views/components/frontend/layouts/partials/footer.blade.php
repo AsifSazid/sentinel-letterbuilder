@@ -13,7 +13,7 @@
                     </a>
                 </div>
                 <div class="rounded">
-                    <div class="a2i-no-repeat"
+                    <div class="a2i-no-repeat pt-2"
                         style="height: 180px; width: auto; background-image:url('{{ asset('ui/frontend/assets')}}/media/logos/a2i-all.png'); background-position: left top; background-size: 100% auto;">
                     </div>
                 </div>

@@ -12,6 +12,6 @@ class HeaderBN extends Component
 
     public function render()
     {
-        return view('letterbuilder::components.bn.layouts.partials.header');
+        return view('letterbuilder::components.frontend.bn.layouts.partials.header');
     }
 }

@@ -14,6 +14,15 @@
             font-family: "Nikosh", sans-serif;
             border-collapse: collapse;
         }
+        .wid-20 {
+            width: 20%;
+        }
+        .wid-80 {
+            width: 80%;
+        }
+        .b-bottom-dot {
+            border-bottom: 2px dotted #000;
+        }
     </style>
 </head>
 <body>
@@ -26,7 +35,7 @@
                             Circular Sample 
                         </h3>
                     </div>
-                    <div style="background-color: white; padding: 2%;">
+                    <div style="background-color: white; padding: 5%;">
                         <!-- Page -->
                         <table>
                             <tr>
@@ -101,13 +110,13 @@
                         <!-- Time And Date -->
                         <table style="width: 100%;">
                             <tr>
-                                <td style="width: 7%;"></td>
-                                <td style="width: 3%;"><span>নম্বর:</span></td>
-                                <td style="width: 10%; border-bottom: 1px dashed #000;"><span></span></td>
-                                <td style="width: auto;"></td>
-                                <td style="width: 3%;"><span>তারিখ:</span></td>
-                                <td style="width: 10%; border-bottom: 1px dashed #000;"><span></span></td>
-                                <td style="width: 7%;"></td>
+                                <td class="wid-20">
+                                    <x-pdf-no/>
+                                </td>
+                                <td style="width: 60%"></td>
+                                <td class="wid-20">
+                                    <x-pdf-date/>
+                                </td>
                             </tr>
                         </table>
                         <br />

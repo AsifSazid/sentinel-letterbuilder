@@ -28,10 +28,14 @@ class LetterBuilderServiceProvider extends ServiceProvider
     Blade::component('lbs-bn-header', \Sentinel\Letterbuilder\App\View\Components\Layouts\Partials\HeaderBN::class);
     Blade::component('lbs-footer', \Sentinel\Letterbuilder\App\View\Components\Layouts\Partials\Footer::class);
     Blade::component('lbs-bn-footer', \Sentinel\Letterbuilder\App\View\Components\Layouts\Partials\FooterBN::class);
-// \Illuminate\Support\Facades\Blade::component('layouts.header', \Sentinel\Letterbuilder\App\View\Components\Layouts::class);
-##||ANOTHERCOMPONENT||##
+    // \Illuminate\Support\Facades\Blade::component('layouts.header', \Sentinel\Letterbuilder\App\View\Components\Layouts::class);
+    ##||ANOTHERCOMPONENT||##
     
-    }
+
+    // Pdf, Preview, Web Prview Components 
+    Blade::component('pdf-date', \Sentinel\Letterbuilder\App\View\Components\Pdfs\PdfDate::class);
+    Blade::component('pdf-no', \Sentinel\Letterbuilder\App\View\Components\Pdfs\PdfNumber::class);
+}
     public function register()
     { }
 }

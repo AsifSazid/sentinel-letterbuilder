@@ -9,7 +9,7 @@ class PdfController
         $pathOrName = $this->pathFinder($docId);
 
 
-        $preview = view('letterbuilder::frontend.'.$pathOrName.'pdf');
+        $preview = view('letterbuilder::frontend.'.$pathOrName.'.pdf');
         $mpdf = new \Mpdf\Mpdf(['format' => 'A4-P']);
 
 
@@ -39,21 +39,21 @@ class PdfController
         if($docId == 1){
             return "notice";
         }elseif($docId == 2){
-            return "office_memo";
+            return "office-memo";
         }elseif($docId == 3){
-            return "circular_sample";
+            return "circular-sample";
         }elseif($docId == 4){
-            return "government_letter_sample";
+            return "government-letter-sample";
         }elseif($docId == 5){
-            return "informal_note";
+            return "informal-note";
         }elseif($docId == 6){
-            return "meeting_minutes";
+            return "meeting-minutes";
         }elseif($docId == 7){
-            return "notification_sample";
+            return "notification-sample";
         }elseif($docId == 8){
-            return "office_order_sample";
+            return "office-order-sample";
         }elseif($docId == 9){
-            return "semi_govt_letter_sample";
+            return "semi-govt-letter-sample";
         }
     }
 }

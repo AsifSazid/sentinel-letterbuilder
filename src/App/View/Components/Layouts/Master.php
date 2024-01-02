@@ -19,6 +19,6 @@ class Master extends Component
      */
     public function render()
     {
-        return view('letterbuilder::components.layouts.master');
+        return view('letterbuilder::components.frontend.layouts.master');
     }
 }
