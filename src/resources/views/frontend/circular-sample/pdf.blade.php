@@ -9,6 +9,7 @@
     <style>
         table {
             width: 100%;
+            table-layout: auto;
             font-family: "Nikosh", sans-serif;
             border-collapse: collapse;
         }
@@ -108,6 +109,12 @@
         .mt-20 {
             margin-top: 20px;
         }
+        .mt-30 {
+            margin-top: 30px;
+        }
+        .mt-40 {
+            margin-top: 40px;
+        }
         .whitespace-nowrap {
             white-space: nowrap;
         }
@@ -154,13 +161,13 @@
             <tr>
                 <td class="w-10"></td>
                 <td class="w-3 text-right"><span>বিষয়:</span></td>
-                <td class="w-45 border-bottom"><span></span></td>
+                <td class="w-45 border-bottom"></td>
                 <td class="w-1">।</td>
                 <td class="w-40"></td>
             </tr>
         </table>
         <!-- 1st Line -->
-        <table class="mt-20">
+        <table class="mt-30">
             <tr>
                 <td class="w-10"></td>
                 <td class="w-80 border-bottom"></td>
@@ -169,29 +176,27 @@
         </table>
         <table>
             <tr>
-                <td style="width: 7%;"></td>
-                <td style="width: 42%; border-bottom: 1px dashed #000;"><span></span></td>
-                <td style="width: 3%;">।</td>
-                <td style="width: auto;"></td>
+                <td class="w-5"></td>
+                <td class="w-40 border-bottom"></td>
+                <td class="w-1" >।</td>
+                <td class="w-55" ></td>
             </tr>
         </table>
         <br />
         <!-- 2nd line -->
+        {{-- in progress --}}
         <table>
             <tr>
-                <td style="width: 7%;"></td>
-                <td style="width: 2%; text-align: right;"><span>২।</span></td>
-                <td style="width: 5%;"></td>
-                <td style="width: auto; border-bottom: 1px dashed #000;"></td>
-                <td style="width: 7%;"></td>
+                <td class="w-1 whitespace-nowrap"><span>২।</span></td>
+                <td class="w-1"></td>
+                <td class="w-90 border-bottom"></td>
             </tr>
         </table>
         <table>
             <tr>
-                <td style="width: 7%;"></td>
-                <td style="width: 42%; border-bottom: 1px dashed #000;"><span></span></td>
-                <td style="width: 3%;">।</td>
-                <td style="width: 47%;"></td>
+                <td class="w-40 border-bottom" ><span></span></td>
+                <td class="w-5" >।</td>
+                <td class="w-55" ></td>
             </tr>
         </table>
         <br />
