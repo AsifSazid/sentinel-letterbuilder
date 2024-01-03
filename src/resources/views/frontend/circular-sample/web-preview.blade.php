@@ -169,6 +169,12 @@
             border-top: 2px dashed black;
             text-align: right;
         }
+
+        .card-body {
+            background-color: white;
+            padding: 5%;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -182,7 +188,7 @@
                             Circular Sample
                         </h3>
                     </div>
-                    <div style="background-color: white; padding: 5%;">
+                    <div class="card-body">
 
                         <!-- Cromopottro -->
 
