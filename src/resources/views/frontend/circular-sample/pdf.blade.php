@@ -7,13 +7,15 @@
     <title>Circular Sample</title>
     <link href='http://sonnetdp.github.io/nikosh/css/nikosh.css' rel='stylesheet' type='text/css'>
     <style>
+        body{
+            font-size: 14px
+        }
         table {
             width: 100%;
             table-layout: auto;
             font-family: "Nikosh", sans-serif;
             border-collapse: collapse;
         }
-
         .w-1px {
             width: 1px !important;
         }

@@ -50,11 +50,12 @@
                 <!--begin::Value-->
                 <div class="text-center">
                     <div class="fs-lg-2hx fs-2x fw-bold d-flex flex-center">
-                        <div class="min-w-70px" data-kt-countup="true" data-kt-countup-value="46" data-kt-countup-suffix="">
+                        <div class="min-w-70px" data-kt-countup="true" data-kt-countup-value="46"
+                            data-kt-countup-suffix="">
                             0</div>
                     </div>
                     <!--end::Value-->
-    
+
                     <!--begin::Label-->
                     <span class="text-gray-600 fw-semibold fs-5 lh-0">
                         Ministries/Divisions
@@ -76,7 +77,7 @@
                             data-kt-countup-suffix="k+">0</div>
                     </div>
                     <!--end::Value-->
-    
+
                     <!--begin::Label-->
                     <span class="text-gray-600 fw-semibold fs-5 lh-0">
                         Offices
@@ -98,7 +99,7 @@
                             data-kt-countup-suffix="k+">0</div>
                     </div>
                     <!--end::Value-->
-    
+
                     <!--begin::Label-->
                     <span class="text-gray-600 fw-semibold fs-5 lh-0">
                         Users
@@ -120,7 +121,7 @@
                             data-kt-countup-suffix="">0</div>
                     </div>
                     <!--end::Value-->
-    
+
                     <!--begin::Label-->
                     <span class="text-gray-600 fw-semibold fs-5 lh-0">
                         Templates
@@ -431,10 +432,12 @@
                                         <!--begin::Body-->
                                         <div
                                             class="d-flex flex-column border border-1 border-gray-300 text-center pt-5 pb-7 mb-8 card-rounded">
-                                            <span
-                                                class="fw-bold text-gray-800 fs-xl">
+                                            <span class="fw-bold text-gray-800 fs-xl">
                                                 {{-- {{ __('The service standard helps to create and run great public services ...') }} --}}
-                                                To use Letter Builder, government employees only need a web browser and an Internet connection. They go to the Letter Builder website and create a username and password. Once they sign in, they can create a new letter or edit an existing letter.
+                                                To use Letter Builder, government employees only need a web browser and
+                                                an Internet connection. They go to the Letter Builder website and create
+                                                a username and password. Once they sign in, they can create a new letter
+                                                or edit an existing letter.
                                             </span>
                                         </div>
                                         <!--end::Body-->
@@ -487,10 +490,14 @@
                                         <!--begin::Body-->
                                         <div
                                             class="d-flex flex-column border border-1 border-gray-300 text-center pt-5 pb-7 mb-8 card-rounded">
-                                            <span
-                                                class="fw-bold text-gray-800 fs-xl">
+                                            <span class="fw-bold text-gray-800 fs-xl">
                                                 {{-- {{ __('Guidance for application developers of applications which will be run on devices ...') }} --}}
-                                                LetterBuilder is also aligned with Bangladesh Government's ambitious initiative, 'Smart Bangladesh,' Vision 2041. This platform helps in making government offices more efficient and effective, ultimately providing better services to citizens. Letter Builder is an innovative platform that is helping to make government communications easier, more efficient and effective, and will continue to do so in the future.
+                                                LetterBuilder is also aligned with Bangladesh Government's ambitious
+                                                initiative, 'Smart Bangladesh,' Vision 2041. This platform helps in
+                                                making government offices more efficient and effective, ultimately
+                                                providing better services to citizens. Letter Builder is an innovative
+                                                platform that is helping to make government communications easier, more
+                                                efficient and effective, and will continue to do so in the future.
                                             </span>
                                         </div>
                                         <!--end::Body-->
@@ -500,7 +507,7 @@
                                             <a href="#" class="btn btn-primary btn-sm flex-shrink-0 ms-auto"
                                                 data-bs-toggle="modal"
                                                 data-bs-target="#kt_modal_bidding">{{ __('View
-                                                                                                                                                                                                Details') }}</a>
+                                                                                                                                                                                                                                                Details') }}</a>
                                             <!--end::Actions-->
                                         </div>
                                         <!--end::Footer-->
@@ -525,7 +532,8 @@
                     <!--begin::Heading-->
                     <div class="d-flex align-items-center justify-content-between flex-wrap">
                         <!--begin::Label-->
-                        <span class="fs-4 fw-bold pe-2">Major e-government systems that make use of Letter Builder</span>
+                        <span class="fs-4 fw-bold pe-2">Major e-government systems that make use of Letter
+                            Builder</span>
                         <!--end::Label-->
 
                         <!--begin::Carousel Indicators-->
@@ -540,7 +548,7 @@
                     <!--end::Heading-->
 
                     <!--begin::Carousel-->
-                    {{-- <div class="carousel-inner pt-8">
+                    <div class="carousel-inner pt-8">
                         <!--begin::Item-->
                         <div class="carousel-item active">
                             <div class="d-flex justify-content-center">
@@ -551,90 +559,30 @@
                             </div>
                         </div>
                         <!--end::Item-->
-    
+
                         <!--begin::Item-->
                         <div class="carousel-item">
                             <div class="d-flex justify-content-center">
-                                                            <a href="link-to-logo2">
-                                <img src="https://doptor-portal-admin-v2.bokhshi.com/images/platformimage/qLpfYfXudizHxxPJZvbVCjv2x2jKWYgfg5LocoOE.png"
-                                    class="d-block img-fluid" alt="...">
-                            </a>
+                                <a href="https://www.nothi.gov.bd/login">
+                                    <img src="https://www.nothi.gov.bd/img/nothi_logo_login.png"
+                                        class="d-block img-fluid" height="20px" alt="...">
+                                </a>
 
                             </div>
                         </div>
                         <!--end::Item-->
-    
-                        <!--begin::Item-->
-                        <div class="carousel-item">
-                            <div class="d-flex justify-content-center">
-                                                            <a href="link-to-logo3">
-                                <img src="https://doptor-portal-admin-v2.bokhshi.com/images/platformimage/fr2WoCc6lboingESDjKFQiSr9CFYx01V6zUGXjn4.png"
-                                    class="d-block img-fluid" alt="...">
-                            </a>
-
-                            </div>
-                        </div>
-                        <!--end::Item-->
-                    </div> --}}
+                    </div>
                     <!--end::Carousel-->
 
-                    <div class="container text-center my-3">
-                        <div class="row mx-auto my-auto justify-content-center">
-                            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="carousel-item active">
-                                        <div class="col-md-4">
-                                            <div class="d-flex justify-content-center">
-                                                <a href="https://www.mygov.bd/">
-                                                    <img src="https://doptor-portal-admin-v2.bokhshi.com/images/platformimage/oL8ZybJ6D9MxVnWozhR8N7jOPrs0UpYr2zjGyptI.png"
-                                                        class="d-block img-fluid" alt="...">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {{-- <div class="carousel-item">
-                                        <div class="col-md-4">
-                                            <div class="d-flex justify-content-center">
-                                                <a href="https://www.grs.gov.bd/">
-                                                    <img src="https://doptor-portal-admin-v2.bokhshi.com/images/platformimage/qLpfYfXudizHxxPJZvbVCjv2x2jKWYgfg5LocoOE.png"
-                                                        class="d-block img-fluid" alt="...">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div> --}}
-                                    <div class="carousel-item">
-                                        <div class="col-md-4">
-                                            <div class="d-flex justify-content-center">
-                                                <a href="https://www.nothi.gov.bd/login">
-                                                    <img src="https://www.nothi.gov.bd/img/nothi_logo_login.png"
-                                                        class="d-block img-fluid" alt="...">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {{-- Report Img --}}
-                                    {{-- <div class="carousel-item">
-                                        <div class="col-md-4">
-                                            <div class="d-flex justify-content-center">
-                                                <a href="https://www.report.gov.bd/">
-                                                    <img src="https://doptor-portal-admin-v2.bokhshi.com/images/platformimage/fr2WoCc6lboingESDjKFQiSr9CFYx01V6zUGXjn4.png"
-                                                        class="d-block img-fluid" height="50%" width="50%" alt="...">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div> --}}
-                                </div>
-                                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel"
-                                    role="button" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                </a>
-                                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel"
-                                    role="button" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+
+                        <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
                 </div>
             </div>
             <!--begin::Row-->
