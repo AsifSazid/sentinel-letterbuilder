@@ -19,87 +19,87 @@
         }
 
         .w-1 {
-            width: 1%;
+            width: 1% !important;
         }
 
         .w-3 {
-            width: 3%;
+            width: 3% !important;
         }
 
         .w-5 {
-            width: 5%;
+            width: 5% !important;
         }
 
         .w-10 {
-            width: 10%;
+            width: 10% !important;
         }
 
         .w-15 {
-            width: 15%;
+            width: 15% !important;
         }
 
         .w-20 {
-            width: 20%;
+            width: 20% !important;
         }
 
         .w-25 {
-            width: 25%;
+            width: 25% !important;
         }
 
         .w-30 {
-            width: 30%;
+            width: 30% !important;
         }
 
         .w-35 {
-            width: 35%;
+            width: 35% !important;
         }
 
         .w-40 {
-            width: 40%;
+            width: 40% !important;
         }
 
         .w-45 {
-            width: 45%;
+            width: 45% !important;
         }
 
         .w-50 {
-            width: 50%;
+            width: 50% !important;
         }
 
         .w-55 {
-            width: 55%;
+            width: 55% !important;
         }
 
         .w-60 {
-            width: 60%;
+            width: 60% !important;
         }
 
         .w-65 {
-            width: 6%;
+            width: 65% !important;
         }
 
         .w-70 {
-            width: 70%;
+            width: 70% !important;
         }
 
         .w-75 {
-            width: 75%;
+            width: 75% !important;
         }
 
         .w-80 {
-            width: 80%;
+            width: 80% !important;
         }
 
         .w-85 {
-            width: 85%;
+            width: 85% !important;
         }
 
         .w-90 {
-            width: 90%;
+            width: 90% !important;
         }
 
         .w-95 {
-            width: 95%;
+            width: 95% !important;
         }
 
         .w-auto {
@@ -107,7 +107,7 @@
         }
 
         .border-bottom {
-            border-bottom: 2px dotted #000;
+            border-bottom: 2px dotted #000 !important;
         }
 
         .text-center {
@@ -127,39 +127,39 @@
         }
 
         .pt-10 {
-            padding-top: 10px;
+            padding-top: 10px !important;
         }
 
         .pt-20 {
-            padding-top: 20px;
+            padding-top: 20px !important;
+        }
+
+        .mt-5 {
+            margin-top: 5px !important;
         }
 
         .mt-10 {
-            margin-top: 5px;
-        }
-
-        .mt-10 {
-            margin-top: 10px;
+            margin-top: 10px !important;
         }
 
         .mt-15 {
-            margin-top: 15px;
+            margin-top: 15px !important;
         }
 
         .mt-20 {
-            margin-top: 20px;
+            margin-top: 20px !important;
         }
 
         .mt-30 {
-            margin-top: 30px;
+            margin-top: 30px !important;
         }
 
         .mt-40 {
-            margin-top: 40px;
+            margin-top: 40px !important;
         }
 
         .whitespace-nowrap {
-            white-space: nowrap;
+            white-space: nowrap !important;
         }
 
         .dashed-line {
@@ -275,7 +275,7 @@
             <td>
                 <table>
                     <tr>
-                        <td class="w-1px"><span>স্বাক্ষর</span></td>
+                        <td class="w-1px whitespace-nowrap"><span>স্বাক্ষর</span></td>
                         <td class="border-bottom"></td>
                     </tr>
                 </table>
@@ -285,7 +285,7 @@
                         <td class="border-bottom"></td>
                     </tr>
                 </table>
-                <table class="mt-10">
+                <table class="mt-5">
                     <tr>
                         <td class="w-1px whitespace-nowrap"><span>পরিচিতি নম্বর (যদি থাকে)</span></td>
                         <td class="border-bottom"></td>
@@ -293,7 +293,7 @@
                 </table>
                 <table class="mt-5">
                     <tr>
-                        <td class="w-1px"><span>পদনাম</span></td>
+                        <td class="w-1px whitespace-nowrap"><span>পদনাম</span></td>
                         <td class="border-bottom"></td>
                     </tr>
                 </table>
@@ -311,7 +311,7 @@
                 </table>
                 <table class="mt-5">
                     <tr>
-                        <td class="w-1px"><span>ই-মেইল</span></td>
+                        <td class="w-1px whitespace-nowrap"><span>ই-মেইল</span></td>
                         <td class="border-bottom"></td>
                     </tr>
                 </table>
