@@ -1,3 +1,5 @@
+@props(['date' => 'default value'])
+
 <table>
     <tr>
         <td class="w-20"><span>তারিখ:</span></td>

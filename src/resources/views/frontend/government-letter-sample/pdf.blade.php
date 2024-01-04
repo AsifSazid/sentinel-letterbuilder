@@ -9,18 +9,181 @@
     <style>
         table {
             width: 100%;
+            table-layout: auto;
             font-family: "Nikosh", sans-serif;
             border-collapse: collapse;
         }
 
-        tr td {
-            padding-top: 3px;
-            padding-bottom: 2px;
+        .w-1px {
+            width: 1px !important;
+        }
+
+        .w-1 {
+            width: 1% !important;
+        }
+
+        .w-2 {
+            width: 2% !important;
+        }
+
+        .w-3 {
+            width: 3% !important;
+        }
+
+        .w-4 {
+            width: 4% !important;
+        }
+
+        .w-5 {
+            width: 5% !important;
+        }
+
+        .w-6 {
+            width: 6% !important;
+        }
+
+        .w-10 {
+            width: 10% !important;
+        }
+
+        .w-15 {
+            width: 15% !important;
+        }
+
+        .w-20 {
+            width: 20% !important;
+        }
+
+        .w-25 {
+            width: 25% !important;
+        }
+
+        .w-30 {
+            width: 30% !important;
+        }
+
+        .w-35 {
+            width: 35% !important;
+        }
+
+        .w-40 {
+            width: 40% !important;
+        }
+
+        .w-45 {
+            width: 45% !important;
+        }
+
+        .w-50 {
+            width: 50% !important;
+        }
+
+        .w-55 {
+            width: 55% !important;
+        }
+
+        .w-60 {
+            width: 60% !important;
+        }
+
+        .w-65 {
+            width: 65% !important;
+        }
+
+        .w-70 {
+            width: 70% !important;
+        }
+
+        .w-75 {
+            width: 75% !important;
+        }
+
+        .w-80 {
+            width: 80% !important;
+        }
+
+        .w-85 {
+            width: 85% !important;
+        }
+
+        .w-90 {
+            width: 90% !important;
+        }
+
+        .w-95 {
+            width: 95% !important;
+        }
+
+        .w-auto {
+            width: auto !important;
+        }
+
+        .border-bottom {
+            border-bottom: 1px dotted #000 !important;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        .font-bold {
+            font-weight: bold;
+        }
+
+        .pt-10 {
+            padding-top: 10px !important;
+        }
+
+        .pt-20 {
+            padding-top: 20px !important;
+        }
+
+        .mt-5 {
+            margin-top: 5px !important;
+        }
+
+        .mt-10 {
+            margin-top: 10px !important;
+        }
+
+        .mt-15 {
+            margin-top: 15px !important;
+        }
+
+        .mt-20 {
+            margin-top: 20px !important;
+        }
+
+        .mt-30 {
+            margin-top: 30px !important;
+        }
+
+        .mt-40 {
+            margin-top: 40px !important;
+        }
+
+        .whitespace-nowrap {
+            white-space: nowrap !important;
         }
     </style>
 </head>
 
 <body>
+    {{-- postscript --}}
+
+    <x-pdf-postscript :postscript="'ক্রোড়পত্র_১৬'"/>
+
+    <!-- Intruction No -->
+    <x-pdf-instructionNo :instruction="'নির্দেশ নম্বর_১৩৬ (৩)'" />
+
     <!-- Header section -->
     <table>
         <tr>

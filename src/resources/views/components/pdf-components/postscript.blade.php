@@ -1,5 +1,7 @@
+@props(['postscript' => 'default value'])
+
 <table class="text-right">
     <tr>
-        <td><span class="font-bold">ক্রোড়পত্র_১৯</span></td>
+        <td><span class="font-bold">{{ $postscript }}</span></td>
     </tr>
 </table>

@@ -173,12 +173,6 @@
         .whitespace-nowrap {
             white-space: nowrap !important;
         }
-
-        .dashed-line {
-            width: 5%;
-            border-top: 2px dashed black;
-            text-align: right;
-        }
     </style>
 </head>
 
@@ -187,13 +181,13 @@
 
     <!-- Cromopottro -->
 
-    <x-pdf-postscript />
+    <x-pdf-postscript :postscript="'ক্রোড়পত্র_১৯'"/>
 
     <!-- Intruction No -->
-    <x-pdf-instructionNo />
+    <x-pdf-instructionNo :instruction="'নির্দেশ নম্বর_১৩৯'" />
 
     <!-- Header -->
-    <x-pdf-letterName />
+    <x-pdf-letterName :letterName="'পরিপত্রের নমুনা'" />
 
     <!-- Govt. Ministry/Division Row Website-->
     <x-pdf-govtMinistryWeb />

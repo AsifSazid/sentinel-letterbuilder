@@ -30,18 +30,3 @@
         </td>
     </tr>
 </table>
-
-{{-- <table>
-    <tr>
-        <td style="text-align: right;">
-            <table style="width: 100%; line-height: 1;">
-                <tr>
-                    <td style="width: 44%;"></td>
-                    <td style="text-align: right; width: auto; white-space: nowrap;"><span>www</span></td>
-                    <td style="width: 5%; border-bottom: 1px dashed #000;"></td>
-                    <td style="width: 44%;"></td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table> --}}
