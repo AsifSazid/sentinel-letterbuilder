@@ -114,6 +114,10 @@
             width: 95% !important;
         }
 
+        .w-100 {
+            width: 100% !important;
+        }
+
         .w-auto {
             width: auto !important;
         }
