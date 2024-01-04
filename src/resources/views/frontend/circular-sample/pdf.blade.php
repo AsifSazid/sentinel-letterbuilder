@@ -119,7 +119,7 @@
         }
 
         .border-bottom {
-            border-bottom: 2px dotted #000 !important;
+            border-bottom: 1px dotted #000 !important;
         }
 
         .text-center {
