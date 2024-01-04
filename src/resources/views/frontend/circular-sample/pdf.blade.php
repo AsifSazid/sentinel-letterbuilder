@@ -7,9 +7,7 @@
     <title>Circular Sample</title>
     <link href='http://sonnetdp.github.io/nikosh/css/nikosh.css' rel='stylesheet' type='text/css'>
     <style>
-        body{
-            font-size: 14px
-        }
+         
         table {
             width: 100%;
             table-layout: auto;
@@ -348,6 +346,18 @@
             <td class="w-1px text-left"><span>৩।</span></td>
             <td class="w-25 border-bottom"></td>
             <td class="w-70"></td>
+        </tr>
+    </table>
+    <!-- Page Number -->
+    <table class="mt-10">
+        <tr>
+            <td class="w-4 text-left"><span>১২---</span></td>
+            <td style="w-4"></td>
+            <td class="w-2"></td>
+            <td class="w-90"></td>
+        </tr>
+        <tr>
+            {{-- <td style="border-top: 2px solid"></td> --}}
         </tr>
     </table>
 

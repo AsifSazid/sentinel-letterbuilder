@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
+        body{
+            font-size: 14px !important;
+        }
         table {
             width: 100%;
             table-layout: auto;
@@ -109,7 +112,7 @@
         }
 
         .border-bottom {
-            border-bottom: 2px dotted #000 !important;
+            border-bottom: 1px dotted #000 !important;
         }
 
         .text-center {
@@ -337,35 +340,59 @@
                             </tr>
                         </table>
                         <!-- Bitoron -->
-                        <table class="mt-10">
+                        <table class="mt-10 text-left">
                             <tr>
                                 <td class="w-1px whitespace-nowrap"><span>বিতরণ :</span></td>
                             </tr>
                         </table>
                         <table class="mt-5">
                             <tr>
-                                <td class="w-5"></td>
-                                <td class="w-1px text-left"><span>১।</span></td>
+                                <td class="w-4"></td>
+                                <td class="w-1 text-left"><span>১।</span></td>
                                 <td class="w-25 border-bottom"></td>
                                 <td class="w-70"></td>
                             </tr>
                         </table>
                         <table class="mt-10">
                             <tr>
-                                <td class="w-5"></td>
-                                <td class="w-1px text-left"><span>২।</span></td>
+                                <td class="w-4"></td>
+                                <td class="w-1 text-left"><span>২।</span></td>
                                 <td class="w-25 border-bottom"></td>
                                 <td class="w-70"></td>
                             </tr>
                         </table>
                         <table class="mt-10">
                             <tr>
-                                <td class="w-5"></td>
-                                <td class="w-1px text-left"><span>৩।</span></td>
+                                <td class="w-4"></td>
+                                <td class="w-1 text-left"><span>৩।</span></td>
                                 <td class="w-25 border-bottom"></td>
                                 <td class="w-70"></td>
                             </tr>
                         </table>
+                        <!-- Page Number -->
+                        <table>
+                            <tr>
+                                <td class="w-4 text-left"><span>১২---</span></td>
+                                <td style="w-4 border-top: 2px solid"></td>
+                                <td class="w-2"></td>
+                                <td class="w-90"></td>
+                            </tr>
+                            <tr>
+                                {{-- <td style="border-top: 2px solid"></td> --}}
+                            </tr>
+                        </table>
+                        {{-- <table>
+                            <tr>
+                                <td rowspan="2" style="width: 5%;"></td>
+                                <td rowspan="2" style="width: 5%; text-align: right;"><span>১২</span></td>
+                                <td style="width: 5;"></td>
+                                <td rowspan="2" style="width: 25%;"></td>
+                                <td rowspan="2" style="width: 60%;"></td>
+                            </tr>
+                            <tr>
+                                <td style="border-top: 2px solid"></td>
+                            </tr>
+                        </table> --}}
                     </div>
                     <div class="card-footer">
                         <a href="#" class="btn btn-primary">Download PDF</a>

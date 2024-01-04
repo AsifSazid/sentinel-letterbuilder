@@ -9,10 +9,10 @@
 <!-- Ministry/Division Row -->
 <table>
     <tr>
-        <td class="w-40"></td>
-        <td class="text-right w-auto whitespace-nowrap"><span>মন্ত্রণালয়/বিভাগ:</span></td>
+        <td class="w-45"></td>
+        <td class="text-center w-5 whitespace-nowrap"><span>মন্ত্রণালয়/বিভাগ:</span></td>
         <td class="w-5 border-bottom"></td>
-        <td class="w-40"></td>
+        <td class="w-45"></td>
     </tr>
 </table>
 <!-- Website Row -->
