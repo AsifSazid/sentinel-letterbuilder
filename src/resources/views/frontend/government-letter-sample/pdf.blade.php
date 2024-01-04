@@ -11,6 +11,7 @@
             width: 100%;
             table-layout: auto;
             font-family: "Nikosh", sans-serif;
+            font-size: 16px;
             border-collapse: collapse;
         }
 
@@ -42,12 +43,36 @@
             width: 6% !important;
         }
 
+        .w-7 {
+            width: 7% !important;
+        }
+
+        .w-8 {
+            width: 8% !important;
+        }
+
+        .w-9 {
+            width: 9% !important;
+        }
+
         .w-10 {
             width: 10% !important;
         }
 
+        .w-11 {
+            width: 11% !important;
+        }
+
+        .w-12 {
+            width: 12% !important;
+        }
+
         .w-15 {
             width: 15% !important;
+        }
+
+        .w-18 {
+            width: 18% !important;
         }
 
         .w-20 {
@@ -134,6 +159,10 @@
             text-align: left;
         }
 
+        .vertial-align-top {
+            vertical-align: top;
+        }
+
         .font-bold {
             font-weight: bold;
         }
@@ -179,128 +208,82 @@
 <body>
     {{-- postscript --}}
 
-    <x-pdf-postscript :postscript="'ক্রোড়পত্র_১৬'"/>
+    <x-pdf-postscript :postscript="'ক্রোড়পত্র_১৬'" />
 
     <!-- Intruction No -->
     <x-pdf-instructionNo :instruction="'নির্দেশ নম্বর_১৩৬ (৩)'" />
 
     <!-- Header section -->
-    <table>
-        <tr>
-            <td style="text-align: center; font-weight: bold; padding: 8px;">
-                সরকারি পত্রের নমুনা
-            </td>
-        </tr>
-        <tr>
-            <td style="text-align: center; font-weight: bold;">
-                গণপ্রজাতন্ত্রী বাংলাদেশ সরকার
-            </td>
-        </tr>
-        <!-- Ministry/Division Row -->
-        <tr>
-            <td style="text-align: right;">
-                <table style="width: 100%;  line-height: 1;">
-                    <tr>
-                        <td style="width: 40%;"></td>
-                        <td style="text-align: right; width: auto; white-space: nowrap;">
-                            মন্ত্রণালয়/বিভাগ:
-                        </td>
-                        <td style="width: 5%; border-bottom: 1px dotted #000; text-align: left;"></td>
-                        <td style="width: 42%;"></td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
+    {{-- letter name --}}
+    <x-pdf-letterName :name="'সরকারি পত্রের নমুনা'" />
 
-        <!-- Website Row -->
-        <tr>
-            <td style="text-align: right;">
-                <table style="width: 100%;  line-height: 1;">
-                    <tr>
-                        <td style="width: 42%;"></td>
-                        <td style="text-align: right; width: auto; white-space: nowrap;">
-                            www
-                        </td>
-                        <td style="width: 8%; border-bottom: 1px dotted #000; text-align: left;"></td>
-                        <td style="width: 44%;"></td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+    {{-- govt ministry web --}}
+    <x-pdf-govtMinistryWeb />
+
     <!-- Date and Number Row -->
-
     <table>
         <tr>
-            <td style="text-align: left; width: 3%; ">
-                নম্বর:
+            <td class="w-20">
+                <x-pdf-no />
             </td>
-            <td style="border-bottom: 1px dotted #000; width: 12%;"></td>
-            <td style="width: auto;"></td>
-            <td style="text-align: right; width: 3%; ">
-                তারিখ:
+            <td class="w-60"></td>
+            <td class="w-20">
+                <x-pdf-date />
             </td>
-            <td style="border-bottom: 1px dotted #000; width: 15%;"></td>
         </tr>
     </table>
 
-    <!-- new line -->
-    <table>
-        <tr>
-            <td><br /></td>
-        </tr>
-    </table>
 
     <!-- Sender info section -->
-    <table>
+    <table class="mt-20">
         <tr>
-            <td rowspan="4" style="width: 6%; vertical-align: top;">
+            <td class="w-9 vertial-align-top">
                 প্রাপক:
             </td>
-            <td style="width: auto;">
+            <td class="w-60">
                 <table>
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            পদনাম
+                        <td class="w-9 whitespace-nowrap">
+                            <span>পদনাম</span>
                         </td>
-                        <td style="border-bottom: 1px dotted #000; width: 30%;"></td>
-                        <td style="width: auto;"></td>
+                        <td class="w-25 border-bottom"></td>
+                        <td class="w-65"></td>
                     </tr>
                 </table>
                 <table>
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            অফিসের ঠিকানা
+                        <td class="w-18 whitespace-nowrap">
+                            <span>অফিসের ঠিকানা</span>
                         </td>
-                        <td style="border-bottom: 1px dotted #000; width: 35%;"></td>
-                        <td style="width: auto;"></td>
+                        <td class="w-35 border-bottom"></td>
+                        <td class="w-45"></td>
                     </tr>
                 </table>
                 <table>
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            বিষয়:
+                        <td class="w-8">
+                            <span>বিষয়:</span>
                         </td>
-                        <td style="border-bottom: 1px dotted #000; width: 90%;"></td>
-                        <td style="width: auto;">।</td>
+                        <td class="w-90 border-bottom"></td>
+                        <td class="w-5">।</td>
                     </tr>
                 </table>
                 <table>
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            সূত্র: (যদি থাকে)
+                        <td class="w-20 whitespace-nowrap">
+                            <span>সূত্র: (যদি থাকে)</span>
                         </td>
-                        <td style="border-bottom: 1px dotted #000; width: 50%;"></td>
-                        <td style="width: auto;"></td>
+                        <td class="w-60 border-bottom"></td>
+                        <td class="w-20"></td>
                     </tr>
                 </table>
             </td>
-            <td style="width: 30%;"></td>
+            <td class="w-30"></td>
         </tr>
     </table>
     <!-- Letter body section -->
-    <table>
-        <tr style="text-align: left;">
+    <table class="mt-10">
+        <tr>
             <td>
                 <span>জনাব/মহোদয়</span>
             </td>
@@ -308,139 +291,126 @@
     </table>
     <table>
         <tr>
-            <td style="width: 8%;"></td>
-            <td style="width: 1px; white-space: nowrap;">
+            <td class="w-8"></td>
+            <td class="w-1px whitespace-nowrap">
                 <span>উপর্যুক্ত বিষয় ও সূর্ত্রের বরাতে নির্দেশক্রমে জানাইতেছি যে,</span>
             </td>
-            <td style="border-bottom: 1px dotted #000; width: auto;"></td>
+            <td class="border-bottom"></td>
         </tr>
     </table>
     <table>
         <tr>
-            <td style="border-bottom: 1px dotted #000; width: auto; text-align: right;">
+            <td class="border-bottom w-80 text-right">
                 ।
             </td>
-            <td style="width: 12%;"></td>
+            <td></td>
         </tr>
     </table>
-    <table>
+    <table class="mt-20">
         <tr>
-            <td style="width: 12%;"></td>
-            <td style="border-bottom: 1px dotted #000; width: auto; text-align: right; color: aliceblue;">
-                ,
+            <td></td>
+            <td class="border-bottom w-90">
             </td>
         </tr>
     </table>
     <table>
         <tr>
-            <td style="border-bottom: 1px dotted #000; width: auto; text-align: right;">
+            <td class="border-bottom w-70 text-right">
                 ।
             </td>
-            <td style="width: 25%;"></td>
+            <td></td>
         </tr>
     </table>
-    <table>
+    {{-- personal details --}}
+    <table class="mt-20">
         <tr>
-            <td style="width: 60%;"></td>
-            <td style="width: auto; text-align: left;">
+            <td class="w-60"></td>
+            <td class="w-auto">
                 <table>
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            আপনার বিশ্বস্ত
+                        <td class="whitespace-nowrap">
+                            <span>আপনার বিশ্বস্ত</span>
                         </td>
-                        <td style="width: auto;"></td>
+                        <td></td>
                     </tr>
                 </table>
                 <table>
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            স্বাক্ষর
+                        <td class="w-1px whitespace-nowrap">
+                            <span>স্বাক্ষর</span>
                         </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
+                        <td class="border-bottom"></td>
                     </tr>
                 </table>
                 <table>
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            নাম
+                        <td class="w-1px whitespace-nowrap">
+                            <span>নাম</span>
                         </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
+                        <td class="border-bottom"></td>
                     </tr>
                 </table>
                 <table>
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            পরিচিতি নম্বর (যদি থাকে)
+                        <td class="w-1px whitespace-nowrap">
+                            <span>পরিচিতি নম্বর (যদি থাকে)</span>
                         </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
+                        <td class="border-bottom"></td>
                     </tr>
                 </table>
                 <table>
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            পদনাম
+                        <td class="w-1px whitespace-nowrap">
+                            <span>পদনাম</span>
                         </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
+                        <td class="border-bottom"></td>
                     </tr>
                 </table>
                 <table>
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            ফোন
+                        <td class="w-1px whitespace-nowrap">
+                            <span>ফোন</span>
                         </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
+                        <td class="border-bottom"></td>
                     </tr>
                 </table>
                 <table>
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            ফ্যাক্স
+                        <td class="w-1px whitespace-nowrap">
+                            <span>ফ্যাক্স</span>
                         </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
+                        <td class="border-bottom"></td>
                     </tr>
                 </table>
                 <table>
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            ই-মেইল
+                        <td class="w-1px whitespace-nowrap">
+                            <span>ই-মেইল</span>
                         </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td><br /></td>
+                        <td class="border-bottom"></td>
                     </tr>
                 </table>
             </td>
         </tr>
     </table>
 
-    <table style="width: 100%;">
+    <!-- Date and Number Row -->
+    <table class="mt-20">
         <tr>
-            <td style="text-align: left; width: 3%; ">
-                <span style="font-weight: bold">নম্বর:</span>
+            <td class="w-20">
+                <x-pdf-no />
             </td>
-            <td style="border-bottom: 1px dotted #000; width: 20%;"></td>
-            <td style="width: auto;"></td>
-            <td style="text-align: right; width: 3%; ">
-                <span style="font-weight: bold">তারিখ:</span>
+            <td class="w-50"></td>
+            <td class="w-30">
+                <x-pdf-date />
             </td>
-            <td style="border-bottom: 1px dotted #000; width: 20%;"></td>
         </tr>
     </table>
 
-    <table>
+    <table class="mt-20 text-center">
         <tr>
-            <td>
-                <span><br /></span>
-            </td>
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <td>
-                <span style="width: 1px; white-space: nowrap;">অবগতি ও প্রয়োজনীয় (প্রযোজ্য ক্ষেত্রে) ব্যবস্থা গ্রহণের
+            <td class="w-1px whitespace-nowrap">
+                <span>অবগতি ও প্রয়োজনীয় (প্রযোজ্য ক্ষেত্রে) ব্যবস্থা গ্রহণের
                     জন্য অনুলিপি প্রেরণ করা হইল: </span>
             </td>
         </tr>
@@ -449,65 +419,104 @@
 
     <table>
         <tr>
-            <td style="width: 1%; white-space: nowrap; text-align: left;">
-                ১।
+            <td class="w-3 whitespace-nowrap">
+                <span>১।</span>
             </td>
-            <td style="border-bottom: 1px dotted #000; width: 20%;"></td>
-            <td style="width: 1%; white-space: nowrap;">
+            <td class="border-bottom"></td>
+            <td class="w-1px whitespace-nowrap">
                 <span>
                     মন্ত্রণালয়/বিভাগ
                 </span>
             </td>
-            <td style="width: 50%"></td>
+            <td class="w-55"></td>
         </tr>
     </table>
 
     <table>
         <tr>
-            <td style="width: 1%; white-space: nowrap;">
+            <td class="w-3 whitespace-nowrap">
                 ২।
             </td>
-            <td style="border-bottom: 1px dotted #000; width: auto;"></td>
-            <td style="width: 50%"></td>
+            <td class="border-bottom"></td>
+            <td class="w-55"></td>
         </tr>
     </table>
 
-
-
-    <table>
+    {{-- signature --}}
+    <table class="mt-10">
         <tr>
-            <td><br /></td>
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <td style="width: 60%;"></td>
+            <td class="w-65"></td>
             <td>
                 <table>
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
+                        <td class="w-1px whitespace-nowrap">
                             স্বাক্ষর
                         </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
+                        <td class="border-bottom"></td>
                     </tr>
                 </table>
                 <table>
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
+                        <td class="w-1px whitespace-nowrap">
                             নাম
                         </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
+                        <td class="border-bottom"></td>
                     </tr>
                 </table>
                 <table>
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
+                        <td class="w-1px whitespace-nowrap">
                             পদনাম
                         </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
+                        <td class="border-bottom"></td>
                     </tr>
                 </table>
             </td>
+        </tr>
+    </table>
+
+    {{-- terms --}}
+    <table>
+        <tr>
+            <td>
+                <span>টীকা :</span>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td class="w-5"></td>
+            <td class="w-4 whitespace-nowrap"><span>(১)</span></td>
+            <td class="whitespace-nowrap">
+                <span>
+                    বেসরকারি ব্যক্তি অথবা প্রতিষ্ঠানের বরাবর লিখিত পত্রের ক্ষেত্রে সম্ভাষণে 'প্রিয় মহোদয়/মহোদয়গণ';
+                </span>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td class="w-5"></td>
+            <td class="w-4 whitespace-nowrap"><span>(২)</span></td>
+            <td class="whitespace-nowrap">
+                <span>
+                    সমাপনান্তে 'আপনার/আপনাদের বিশ্বস্ত' সৌজন্য উক্তি লিখিতে হইবে; এবং
+                </span>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td class="w-5"></td>
+            <td class="w-4 whitespace-nowrap"><span>(৩)</span></td>
+            <td class="whitespace-nowrap">
+                <span>
+                    পত্রের গুরুত্ব অনুযায়ী প্রয়োজনবোধে নির্দেশ নম্বর ১৯ ও ২৫ অনুসারে ধরন চিহ্নিত করা যাইবে;
+                </span>
+            </td>
+            <td></td>
         </tr>
     </table>
 
