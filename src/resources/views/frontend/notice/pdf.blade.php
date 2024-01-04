@@ -240,7 +240,7 @@
         </tr>
     </table>
     {{-- <br /> --}}
-    <!-- Time -->
+    <!-- Date -->
     <table class="mt-10">
         <tr>
             <td class="w-80"></td>
@@ -260,7 +260,7 @@
     <!-- Number -->
     <table>
         <tr>
-            <td class="w-10"><span>নম্বর:</span></td>
+            <td class="w-10 font-bold"><span>নম্বর:</span></td>
             <td class="w-90"></td>
         </tr>
     </table>
@@ -268,13 +268,13 @@
     <!-- Notice -->
     <table class="mt-10">
         <tr>
-            <td class="text-center"><span style="">বিজ্ঞপ্তি/নোটিশ</span></td>
+            <td class="text-center font-bold"><span style="">বিজ্ঞপ্তি/নোটিশ</span></td>
         </tr>
     </table>
     <!-- Bisoy -->
     <table>
         <tr>
-            <td class="w-5"><span>বিষয়:</span></td>
+            <td class="w-5 font-bold"><span>বিষয়:</span></td>
             <td class="w-10 border-bottom"><span></span></td>
             <td class="w-85"></td>
         </tr>
