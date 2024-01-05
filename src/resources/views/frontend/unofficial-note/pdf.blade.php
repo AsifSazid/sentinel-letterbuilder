@@ -67,6 +67,10 @@
             width: 12% !important;
         }
 
+        .w-13 {
+            width: 13% !important;
+        }
+
         .w-15 {
             width: 15% !important;
         }
@@ -135,6 +139,10 @@
             width: 90% !important;
         }
 
+        .w-92 {
+            width: 92% !important;
+        }
+
         .w-95 {
             width: 95% !important;
         }
@@ -191,12 +199,24 @@
             margin-top: 20px !important;
         }
 
+        .mt-25 {
+            margin-top: 25px !important;
+        }
+
         .mt-30 {
             margin-top: 30px !important;
         }
 
         .mt-40 {
             margin-top: 40px !important;
+        }
+
+        .mb-10 {
+            margin-bottom: 10px !important;
+        }
+
+        .mb-20 {
+            margin-bottom: 20px !important;
         }
 
         .whitespace-nowrap {
@@ -206,117 +226,97 @@
 </head>
 
 <body>
-    {{-- postscript --}}
+    {{-- ক্রোড়পত্র / postscript --}}
 
     <x-pdf-postscript :postscript="'ক্রোড়পত্র_২১'" />
 
-    <!-- Intruction No -->
+    <!-- Intruction No / নির্দেশ নম্বর-->
     <x-pdf-instructionNo :instruction="'নির্দেশ নম্বর_১৪১'" />
 
-    <!-- Header section -->
     {{-- letter name --}}
     <x-pdf-letterName :name="'অনানুষ্ঠানিক নোটের নমুনা'" />
 
-    <!-- Sender info section -->
-    <table class="mt-20">
+    {{-- মন্ত্রণালয়/বিভাগ --}}
+    <table class="mt-40">
         <tr>
-            <td class="w-9 vertial-align-top">
-                প্রাপক:
-            </td>
-            <td class="w-60">
-                <table>
-                    <tr>
-                        <td class="w-9 whitespace-nowrap">
-                            <span>পদনাম</span>
-                        </td>
-                        <td class="w-25 border-bottom"></td>
-                        <td class="w-65"></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td class="w-18 whitespace-nowrap">
-                            <span>অফিসের ঠিকানা</span>
-                        </td>
-                        <td class="w-35 border-bottom"></td>
-                        <td class="w-45"></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td class="w-8">
-                            <span>বিষয়:</span>
-                        </td>
-                        <td class="w-90 border-bottom"></td>
-                        <td class="w-5">।</td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td class="w-20 whitespace-nowrap">
-                            <span>সূত্র: (যদি থাকে)</span>
-                        </td>
-                        <td class="w-60 border-bottom"></td>
-                        <td class="w-20"></td>
-                    </tr>
-                </table>
-            </td>
-            <td class="w-30"></td>
+            <td class="w-70"></td>
+            <td class="w-15 border-bottom"></td>
+            <td class="text-lef w-5 whitespace-nowrap"><span>মন্ত্রণালয়/বিভাগ</span></td>
         </tr>
     </table>
-    <!-- Letter body section -->
+    {{-- শাখা/অধিশাখা --}}
+    <table class="">
+        <tr>
+            <td class="w-70"></td>
+            <td class="w-15 border-bottom"></td>
+            <td class="text-lef w-5 whitespace-nowrap"><span>শাখা/অধিশাখা</span></td>
+        </tr>
+    </table>
+
+    <!-- বিষয়-->
     <table class="mt-10">
         <tr>
-            <td>
-                <span>জনাব/মহোদয়</span>
+            <td class="w-6">
+                <span>বিষয় :</span>
             </td>
+            <td class="w-50 border-bottom"></td>
+            <td><span>।</span></td>
         </tr>
     </table>
-    <table>
+    <!-- সূত্র-->
+    <table class="mt-10">
         <tr>
-            <td class="w-8"></td>
-            <td class="w-1px whitespace-nowrap">
-                <span>উপর্যুক্ত বিষয় ও সূর্ত্রের বরাতে নির্দেশক্রমে জানাইতেছি যে,</span>
+            <td class="w-15 whitespace-nowrap">
+                <span>সূত্র : (যদি থাকে)</span>
             </td>
+            <td class="w-40 border-bottom"></td>
+            <td></td>
+        </tr>
+    </table>
+    <!-- নোটের বিষয়বস্তু-->
+    <table class="mt-10">
+        <tr>
+            <td class="w-18 whitespace-nowrap">
+                <span>নোটের বিষয়বস্তু বর্ণনা</span>
+            </td>
+            <td class="w-80 border-bottom"></td>
+        </tr>
+    </table>
+    <!-- dotted underline-->
+    <table class="mt-25">
+        <tr>
             <td class="border-bottom"></td>
         </tr>
     </table>
+    <!-- dotted underline-->
     <table>
         <tr>
-            <td class="border-bottom w-80 text-right">
-                ।
-            </td>
-            <td></td>
+            <td class="w-25 border-bottom"></td>
+            <td><span>।</span></td>
         </tr>
     </table>
-    <table class="mt-20">
+
+    <!-- প্রস্তাবনা -->
+    <table class="mt-15">
         <tr>
-            <td></td>
-            <td class="border-bottom w-90">
+            <td class="w-8 whitespace-nowrap">
+                <span>প্রস্তাবনা </span>
             </td>
+            <td class="w-92 border-bottom"></td>
         </tr>
     </table>
+    <!-- dotted underline-->
     <table>
         <tr>
-            <td class="border-bottom w-70 text-right">
-                ।
-            </td>
-            <td></td>
+            <td class="w-40 border-bottom"></td>
+            <td><span>।</span></td>
         </tr>
     </table>
-    {{-- personal details --}}
-    <table class="mt-20">
+    {{-- writter official info --}}
+    <table class="mt-30">
         <tr>
-            <td class="w-60"></td>
+            <td class="w-65"></td>
             <td class="w-auto">
-                <table>
-                    <tr>
-                        <td class="whitespace-nowrap">
-                            <span>আপনার বিশ্বস্ত</span>
-                        </td>
-                        <td></td>
-                    </tr>
-                </table>
                 <table>
                     <tr>
                         <td class="w-1px whitespace-nowrap">
@@ -329,14 +329,6 @@
                     <tr>
                         <td class="w-1px whitespace-nowrap">
                             <span>নাম</span>
-                        </td>
-                        <td class="border-bottom"></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td class="w-1px whitespace-nowrap">
-                            <span>পরিচিতি নম্বর (যদি থাকে)</span>
                         </td>
                         <td class="border-bottom"></td>
                     </tr>
@@ -377,89 +369,44 @@
         </tr>
     </table>
 
-    <!-- Date and Number Row -->
-    <table class="mt-20">
-        <tr>
-            <td class="w-20">
-                <x-pdf-no />
-            </td>
-            <td class="w-50"></td>
-            <td class="w-30">
-                <x-pdf-date />
-            </td>
-        </tr>
-    </table>
-
-    <table class="mt-20 text-center">
-        <tr>
-            <td class="w-1px whitespace-nowrap">
-                <span>অবগতি ও প্রয়োজনীয় (প্রযোজ্য ক্ষেত্রে) ব্যবস্থা গ্রহণের
-                    জন্য অনুলিপি প্রেরণ করা হইল: </span>
-            </td>
-        </tr>
-    </table>
-
-
-    <table>
-        <tr>
-            <td class="w-3 whitespace-nowrap">
-                <span>১।</span>
-            </td>
-            <td class="border-bottom"></td>
-            <td class="w-1px whitespace-nowrap">
-                <span>
-                    মন্ত্রণালয়/বিভাগ
-                </span>
-            </td>
-            <td class="w-55"></td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <td class="w-3 whitespace-nowrap">
-                ২।
-            </td>
-            <td class="border-bottom"></td>
-            <td class="w-55"></td>
-        </tr>
-    </table>
-
-    {{-- signature --}}
+    <!-- প্রাপকের পদনাম-->
     <table class="mt-10">
         <tr>
-            <td class="w-65"></td>
-            <td>
-                <table>
-                    <tr>
-                        <td class="w-1px whitespace-nowrap">
-                            স্বাক্ষর
-                        </td>
-                        <td class="border-bottom"></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td class="w-1px whitespace-nowrap">
-                            নাম
-                        </td>
-                        <td class="border-bottom"></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td class="w-1px whitespace-nowrap">
-                            পদনাম
-                        </td>
-                        <td class="border-bottom"></td>
-                    </tr>
-                </table>
+            <td class="w-13">
+                <span>প্রাপকের পদনাম </span>
             </td>
+            <td class="w-20 border-bottom"></td>
+            <td></td>
+        </tr>
+    </table>
+    <!-- ঠিকানা-->
+    <table class="mb-20">
+        <tr>
+            <td class="w-6">
+                <span>ঠিকানা</span>
+            </td>
+            <td class="w-25 border-bottom"></td>
+            <td class="border-bottom w-2"></td>
+            <td></td>
+        </tr>
+    </table>
+    {{-- horizontal row --}}
+    <hr>
+
+    <!-- ইউ.ও.নোট নম্বর / তারিখ -->
+    <table>
+        <tr>
+            <td class="w-15"><span>ইউ.ও.নোট নম্বর:</span></td>
+            <td class="border-bottom"></td>
+            <td class="w-20 border-bottom"></td>
+            <td class="w-35"></td>
+            <td class="w-7"><span>তারিখ:</span></td>
+            <td class="w-15 border-bottom"><span></span></td>
         </tr>
     </table>
 
-    {{-- terms --}}
-    <table>
+    {{-- টীকা --}}
+    <table class="mt-30">
         <tr>
             <td>
                 <span>টীকা :</span>
@@ -472,7 +419,7 @@
             <td class="w-4 whitespace-nowrap"><span>(১)</span></td>
             <td class="whitespace-nowrap">
                 <span>
-                    বেসরকারি ব্যক্তি অথবা প্রতিষ্ঠানের বরাবর লিখিত পত্রের ক্ষেত্রে সম্ভাষণে 'প্রিয় মহোদয়/মহোদয়গণ';
+                    অনানুষ্ঠানিক নোট নোটশিটে প্রেরণ করিতে হয়;
                 </span>
             </td>
             <td></td>
@@ -484,7 +431,7 @@
             <td class="w-4 whitespace-nowrap"><span>(২)</span></td>
             <td class="whitespace-nowrap">
                 <span>
-                    সমাপনান্তে 'আপনার/আপনাদের বিশ্বস্ত' সৌজন্য উক্তি লিখিতে হইবে; এবং
+                    অভ্যন্তরীণ পরামর্শ/যোগাযোগের জন্য ইউ ও নোট ব্যবহৃত হয়;
                 </span>
             </td>
             <td></td>
@@ -496,7 +443,19 @@
             <td class="w-4 whitespace-nowrap"><span>(৩)</span></td>
             <td class="whitespace-nowrap">
                 <span>
-                    পত্রের গুরুত্ব অনুযায়ী প্রয়োজনবোধে নির্দেশ নম্বর ১৯ ও ২৫ অনুসারে ধরন চিহ্নিত করা যাইবে;
+                    অনানুষ্ঠানিক নোট মূলত পত্র হিসাবেই ব্যবহৃত হয়, নোটশিট হিসাবে নহে; এবং
+                </span>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td class="w-5"></td>
+            <td class="w-4 whitespace-nowrap"><span>(৪)</span></td>
+            <td class="whitespace-nowrap">
+                <span>
+                    প্রয়োজনে অনানুষ্ঠানিক নোটের অনুলিপি প্রেরণ করা যাইবে।
                 </span>
             </td>
             <td></td>
