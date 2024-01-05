@@ -8,12 +8,8 @@ class PdfController
     {
         $pathOrName = $this->pathFinder($docId);
 
-
         $preview = view('letterbuilder::frontend.'.$pathOrName.'.pdf');
         $mpdf = new \Mpdf\Mpdf(['format' => 'A4-P']);
-
-
-
 
         $mpdf->autoScriptToLang = true;
         $mpdf->autoLangToFont   = true;
@@ -43,15 +39,15 @@ class PdfController
         }elseif($docId == 3){
             return "circular-sample";
         }elseif($docId == 4){
-            return "government-letter-sample";
+            return "official-letter";
         }elseif($docId == 5){
-            return "informal-note";
+            return "unofficial-note";
         }elseif($docId == 6){
             return "meeting-minutes";
         }elseif($docId == 7){
             return "notification-sample";
         }elseif($docId == 8){
-            return "office-order-sample";
+            return "office-order";
         }elseif($docId == 9){
             return "semi-govt-letter-sample";
         }
