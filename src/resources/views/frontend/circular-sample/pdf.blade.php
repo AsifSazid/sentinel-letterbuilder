@@ -191,7 +191,7 @@
     <x-pdf-instructionNo :instruction="'নির্দেশ নম্বর_১৩৯'" />
 
     <!-- Header -->
-    <x-pdf-letterName :letterName="'পরিপত্রের নমুনা'" />
+    {{-- <x-pdf-letterName :letterName="'পরিপত্রের নমুনা'" /> --}}
 
     <!-- Govt. Ministry/Division Row Website-->
     <x-pdf-govtMinistryWeb />

@@ -9,13 +9,183 @@
     <style>
         table {
             width: 100%;
+            table-layout: auto;
             font-family: "Nikosh", sans-serif;
             border-collapse: collapse;
         }
 
-        tr td {
-            padding-top: 3px;
-            padding-bottom: 2px;
+        .w-1px {
+            width: 1px !important;
+        }
+
+        .w-1 {
+            width: 1% !important;
+        }
+
+        .w-2 {
+            width: 2% !important;
+        }
+
+        .w-3 {
+            width: 3% !important;
+        }
+
+        .w-4 {
+            width: 4% !important;
+        }
+
+        .w-5 {
+            width: 5% !important;
+        }
+
+        .w-6 {
+            width: 6% !important;
+        }
+
+        .w-10 {
+            width: 10% !important;
+        }
+
+        .w-15 {
+            width: 15% !important;
+        }
+
+        .w-20 {
+            width: 20% !important;
+        }
+
+        .w-25 {
+            width: 25% !important;
+        }
+
+        .w-30 {
+            width: 30% !important;
+        }
+
+        .w-35 {
+            width: 35% !important;
+        }
+
+        .w-40 {
+            width: 40% !important;
+        }
+
+        .w-45 {
+            width: 45% !important;
+        }
+
+        .w-50 {
+            width: 50% !important;
+        }
+
+        .w-55 {
+            width: 55% !important;
+        }
+
+        .w-60 {
+            width: 60% !important;
+        }
+
+        .w-65 {
+            width: 65% !important;
+        }
+
+        .w-70 {
+            width: 70% !important;
+        }
+
+        .w-75 {
+            width: 75% !important;
+        }
+
+        .w-80 {
+            width: 80% !important;
+        }
+
+        .w-85 {
+            width: 85% !important;
+        }
+
+        .w-90 {
+            width: 90% !important;
+        }
+
+        .w-95 {
+            width: 95% !important;
+        }
+
+        .w-100 {
+            width: 100% !important;
+        }
+
+        .w-auto {
+            width: auto !important;
+        }
+
+        .border-bottom {
+            border-bottom: 1px dotted #000 !important;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        .font-bold {
+            font-weight: bold;
+        }
+
+        .pt-10 {
+            padding-top: 10px !important;
+        }
+
+        .pt-20 {
+            padding-top: 20px !important;
+        }
+
+        .mt-5 {
+            margin-top: 5px !important;
+        }
+
+        .mt-10 {
+            margin-top: 10px !important;
+        }
+
+        .mt-15 {
+            margin-top: 15px !important;
+        }
+
+        .mt-20 {
+            margin-top: 20px !important;
+        }
+
+        .mt-30 {
+            margin-top: 30px !important;
+        }
+
+        .mt-40 {
+            margin-top: 40px !important;
+        }
+
+        .bt-10 {
+            bottom: 10px !important;
+        }
+
+        .whitespace-nowrap {
+            white-space: nowrap !important;
+        }
+
+        .dashed-line {
+            width: 5%;
+            border-top: 2px dashed black;
+            text-align: right;
         }
     </style>
 </head>
@@ -23,300 +193,213 @@
 <body>
 
     <!-- Header section -->
-    <table style="text-align: right; font-weight: bold;">
+    <!-- Intruction No -->
+    <x-pdf-instructionNo :instruction="'নির্দেশ নম্বর_১৩৯'" />
+    
+    <!-- Header -->
+    {{-- <x-pdf-letterName :letterName="'আধা-সরকারি পত্রের নমুনা'" /> --}}
+    <table class="text-center mt-10">
         <tr>
-            <td><span>{নির্দেশ নম্বর_১৪০ (২)}</span></td>
+            <td><span class="font-bold">আধা-সরকারি পত্রের নমুনা</span></td>
         </tr>
     </table>
     <table>
         <tr>
-            <td style="text-align: center; font-weight: bold;">
-                <span>
-                    আধা-সরকারি পত্রের নমুনা
-                </span>
+            <td class="text-center">
+                <span class="font-bold">( অফিসিয়াল প্যাড )</span>
             </td>
         </tr>
     </table>
-    <table>
+
+    {{-- Sender Info --}}
+    <table class="mt-40">
         <tr>
-            <td style="text-align: center; font-weight: bold;">
-                <span>( অফিসিয়াল প্যাড )</span>
-            </td>
-        </tr>
-    </table>
-    <!-- Website Row -->
-    <table>
-        <tr>
-            <td style="width: 60%;"></td>
-            <td style="width: auto; text-align: left;">
+            <td class="w-70"></td>
+            <td>
                 <table>
                     <tr>
-                        <td><br /></td>
+                        <td class="w-1px whitespace-nowrap"><span>পত্র প্রেরকের নাম</span></td>
+                        <td class="border-bottom"></td>
                     </tr>
                 </table>
-                <table>
+                <table class="mt-5">
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            <span>পত্র প্রেরকের নাম</span>
-                        </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
+                        <td class="w-1px whitespace-nowrap"><span>পদনাম</span></td>
+                        <td class="border-bottom"></td>
                     </tr>
                 </table>
-                <table>
+                <table class="mt-5">
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            <span> পদনাম</span>
-                        </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
+                        <td class="w-1px"><span>ফোন</span></td>
+                        <td class="border-bottom"></td>
                     </tr>
                 </table>
-                <table>
+                <table class="mt-5">
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            <span>ফোন</span>
-                        </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
+                        <td class="w-1px"><span>ফ্যাক্স</span></td>
+                        <td class="border-bottom"></td>
                     </tr>
                 </table>
-                <table>
+                <table class="mt-5">
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            <span>ফ্যাক্স</span>
-                        </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            <span>ই-মেইল</span>
-                        </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td><br /></td>
+                        <td class="w-1px whitespace-nowrap"><span>ই-মেইল</span></td>
+                        <td class="border-bottom"></td>
                     </tr>
                 </table>
             </td>
         </tr>
     </table>
     <!-- Date and Number Row -->
-
-    <table style="width: 100%;">
+    <table class="mt-10">
         <tr>
-            <td style="text-align: left; width: 1%; white-space: nowrap;">
+            <td class="w-1px whitespace-nowrap">
                 <span>আধা-সরকারি পত্র নম্বর</span>
             </td>
-            <td style="border-bottom: 1px dotted #000; width: 18%;"></td>
-            <td style="width: auto;"></td>
-            <td style="text-align: right; width: 3%;">
-                <span>তারিখ: </span>
+            <td class="w-15 border-bottom"></td>
+            <td class="w-45"></td>
+            <td class="w-20">
+                <x-pdf-date />
             </td>
-            <td style="border-bottom: 1px dotted #000; width: 17%;"></td>
-        </tr>
-    </table>
-
-    <!-- new line -->
-    <table>
-        <tr>
-            <td><br /></td>
         </tr>
     </table>
 
     <!-- letter designation section -->
-    <table style="text-align: left;">
+    <table class="mt-10">
         <tr>
-            <td style="width: 30%;">
-                <table>
-                    <tr>
-                        <td>
-                            <span style="white-space: nowrap;">প্রিয়........./জনাব/মহোদয়,</span>
-                        </td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td>
-                            <span style="white-space: nowrap;">(সম্ভাষণ স্বহস্তে লিখন)</span>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-            <td style="width: auto;"></td>
+            <td class=""><span>প্রিয়........./জনাব/মহোদয়,</span></td>
+        </tr>
+        <tr>
+            <td class=""><span>(সম্ভাষণ স্বহস্তে লিখন)</span></td>
         </tr>
     </table>
-    <!-- new line -->
-    <table>
-        <tr>
-            <td><br /></td>
-        </tr>
-    </table>
-
+    
     <!-- letter body -->
-    <table>
+    <table class="mt-30">
         <tr>
-            <td style="width: 1px; white-space: nowrap;">
+            <td class="w-1px whitespace-nowrap">
                 <span>পূর্বাপর উল্লেখপূর্বক পত্রের বিষয়বস্তু</span>
             </td>
-            <td style="border-bottom: 1px dotted #000; width: auto;"></td>
+            <td class="w-80 border-bottom"></td>
         </tr>
     </table>
-    <table style="line-height: 1.5;">
+    <table class="mt-10">
         <tr>
-            <td style="border-bottom: 1px dotted #000; width: auto; text-align: right; color: transparent;">
-                .
-            </td>
+            <td class="w-5 border-bottom"></td>
+            <td class="w-95 border-bottom"></td>
         </tr>
     </table>
-    <table style="line-height: 1.5;">
+    <table class="mt-10">
         <tr>
-            <td style="border-bottom: 1px dotted #000; width: 15%; text-align: right;"></td>
-            <td style="width: auto; text-align: left;">।</td>
+            <td class="w-15 border-bottom"></td>
+            <td class="w-1px">।</td>
+            <td style="w-80"></td>
         </tr>
     </table>
-    <!-- new line -->
-    <table>
-        <tr>
-            <td><br /></td>
-        </tr>
-    </table>
+    
     <!-- letter body ending -->
-    <table>
+    <table class="mt-30">
         <tr>
-            <td style="width: 1px; white-space: nowrap;">
+            <td class="w-1px whitespace-nowrap">
                 <span>সুনির্দিষ্ট প্রস্তাবনা</span>
             </td>
-            <td style="border-bottom: 1px dotted #000; width: auto;"></td>
+            <td class="w-95 border-bottom"></td>
         </tr>
     </table>
-    <table style="line-height: 1.5;">
+    <table class="mt-10">
         <tr>
-            <td style="border-bottom: 1px dotted #000; width: 25%; text-align: right;"></td>
-            <td style="width: auto; text-align: left;"><span>।</span></td>
-        </tr>
-    </table>
-
-    <!-- new line -->
-    <table>
-        <tr>
-            <td><br /></td>
+            <td class="w-20 border-bottom"></td>
+            <td class="w-1px"><span>।</span></td>
+            <td class="w-75"></td>
         </tr>
     </table>
 
     <!-- sender name -->
-    <table style="text-align: left;">
+    <table class="mt-20 bt-10">
         <tr>
-            <td style="width: 30%;">
-                <table>
-                    <tr>
-                        <td>
-                            <span>শুভেচ্ছান্তে/শ্রদ্ধান্তে,</span>
-                        </td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td>
-                            <span>(স্বহস্তে লিখন)</span>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-            <td style="width: auto;"></td>
+            <td class="w-20"><span>শুভেচ্ছান্তে/শ্রদ্ধান্তে,</span></td>
+            <td class="w-80"></td>
+            {{-- <td><span>(স্বহস্তে লিখন)</span></td> --}}
+        </tr>
+        <tr>
+            <td class="w-10"><span>(স্বহস্তে লিখন)</span></td>
+            <td class="w-90"></td>
         </tr>
     </table>
 
-    <!-- new line -->
-    <table>
-        <tr>
-            <td><br /></td>
-        </tr>
-    </table>
     <!-- sender signature -->
-    <table>
+    <table class="mt-20 text-center">
         <tr>
-            <td style="width: 80%;"></td>
-            <td style="width: auto;">
-                <table>
-                    <tr>
-                        <td>
-                            <table>
-                                <tr>
-                                    <td>
-                                        <span style="white-space: nowrap;">
-                                            আন্তরিকভাবে আপনার
-                                        </span>
-                                    </td>
-                                </tr>
-                            </table>
-                            <table>
-                                <tr>
-                                    <td style="border-bottom: 1px dotted #000; color: transparent; line-height: 1;">
-                                        <span>
-                                            .
-                                        </span>
-                                    </td>
-                                </tr>
-                            </table>
-                            <table>
-                                <tr>
-                                    <td>
-                                        <span style="white-space: nowrap;">
-                                            সাক্ষরকারীর নাম
-                                        </span>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-            </td>
+            <td class="w-80"></td>
+            <td class="w-20"><span>আন্তরিকভাবে আপনার</span></td>
+        </tr>
+        <tr class="mt-10">
+            <td class="w-80"></td>
+            <td class="w-20"></td>
+        </tr>
+        <tr class="mt-10">
+            <td class="w-80"></td>
+            <td class="w-15 border-bottom"></td>
+            <td class="w-5"></td>
+        </tr>
+        <tr class="mt-10">
+            <td class="w-80"></td>
+            <td class="w-20"><span>সাক্ষরকারীর নাম</span></td>
         </tr>
     </table>
 
     <!-- sender address -->
-    <table>
+    <table class="mt-40">
         <tr>
             <td>
                 <table>
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            প্রাপকের নাম
-                        </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
+                        <td class="w-1px whitespace-nowrap"><span>প্রাপকের নাম</span></td>
+                        <td class="border-bottom"></td>
                     </tr>
                 </table>
-                <table>
+                <table class="mt-5">
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            পদনাম
-                        </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
+                        <td class="w-1px"><span>পদনাম</span></td>
+                        <td class="border-bottom"></td>
                     </tr>
                 </table>
-                <table>
+                <table class="mt-5">
                     <tr>
-                        <td style="width: 1px; white-space: nowrap;">
-                            ঠিকানা
-                        </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
+                        <td class="w-1px whitespace-nowrap"><span>ঠিকানা</span></td>
+                        <td class="border-bottom"></td>
                     </tr>
                 </table>
             </td>
-            <td style="width: 65%;"></td>
+            <td class="w-65"></td>
         </tr>
-    </table>
+    </table> 
 
-    <!-- new line -->
+    <!-- Tikaa -->
+    <table class="mt-40">
+        <tr>
+            <td class="w-20"><span>টীকা :</span></td>
+            <td class="w-80"></td>
+        </tr>
+        
+        
+    </table>
     <table>
         <tr>
-            <td><br /></td>
+            <td class="w-5"></td>
+            <td class="w-95"><span>(১)আধা-সরকারি পত্র আবশ্যিকভাবে ব্যক্তি নামে প্রেরণ
+                করিতে হইবে।</span></td>
         </tr>
     </table>
-
-    <!-- letter terms -->
+    <table>
+        <tr>
+            <td class="w-5"></td>
+            <td class="w-95"><span>(২)প্রযোজ্য ক্ষেত্রে আধা-সরকারি পত্রের অনুলিপি
+                দেওয়া যাইবে। তবে মূলপত্রে অনুলিপি না লিখাই শ্র্রেয়।</span></td>
+        </tr>
+    </table>
+    {{-- <table>
+        <tr></tr>
+    </table>
     <table style="text-align: left;">
         <tr>
             <td>
@@ -341,10 +424,9 @@
             <td style="width: 1%; white-space: nowrap; text-align: left;">
                 (২)
             </td>
-            <td style="width: auto; text-align: left"><span>প্রযোজ্য ক্ষেত্রে আধা-সরকারি পত্রের অনুলিপি
-                দেওয়া যাইবে। তবে মূলপত্রে অনুলিপি না লিখাই শ্র্রেয়।</span></td>
+            <td style="width: auto; text-align: left"><span></span></td>
         </tr>
-    </table>
+    </table> --}}
 
 </body>
 
