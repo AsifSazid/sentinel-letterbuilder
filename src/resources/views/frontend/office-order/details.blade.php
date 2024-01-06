@@ -7,7 +7,7 @@
                 <!--begin::Title-->
                 <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 fs-3"><a href="{{ route('home') }}"
                         class="text-gray-900">{{ __('Home') }}</a>
-                    &nbsp;{{ __('/ All Templates ') }}{{ __('/ Office Order Sample') }}</h1>
+                    &nbsp;{{ __('/ All Templates ') }}{{ __('/ Office Order') }}</h1>
                 <!--end::Title-->
             </div>
             <!--end::Page title-->
@@ -28,13 +28,13 @@
                             <!--begin::Body-->
                             <div class="card-body d-flex justify-content-between flex-column ps-xl-18">
                                 <!--begin::Heading-->
-                                <h3 class="fw-bold text-white fs-2x mb-5 ms-n1">Office Order Sample</h3>
+                                <h3 class="fw-bold text-white fs-2x mb-5 ms-n1">Office Order</h3>
                                 <!--end::Heading-->
                                 <!--begin::Action-->
                                 <div class="mb-xl-10 mb-3">
                                     <a href='#' class="btn btn-primary fw-semibold me-2" data-bs-toggle="modal"
                                         data-bs-target="#kt_modal_upgrade_plan">{{ __('Download') }}</a>
-                                    <a href="{{route('web.preview', $docId = 8)}}"
+                                    <a href="{{ route('web.preview', $docId = 8) }}"
                                         class="btn btn-color-white bg-transparent btn-outline fw-semibold"
                                         style="border: 1px solid rgba(255, 255, 255, 0.3)">{{ __('Preview') }}</a>
                                 </div>
@@ -64,7 +64,7 @@
                                                 <!--begin::Title-->
                                                 <span
                                                     class="opacity-75 fw-bold">{{ __('Last
-                                                                                                                                                                                                                Update') }}</span>
+                                                                                                                                                                                                                                                                                                                        Update') }}</span>
                                                 <!--end::Title-->
                                             </div>
                                         </div>
@@ -338,7 +338,7 @@
                                                 <div class="text-start">
                                                     <span
                                                         class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">
-                                                        {{ __('Informal Note') }}
+                                                        {{ __('Unofficial Note') }}
                                                     </span>
                                                     <span class="text-gray-500 mt-1 fw-bold fs-6">
                                                         {{ __('Total Download:') }}

@@ -5,7 +5,10 @@
             <!--begin::Page title-->
             <div class="page-title d-flex flex-column me-3">
                 <!--begin::Title-->
-                <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 text-bangla fs-2x"><a href="{{route('bn.home')}}" class="text-gray-900">{{__('হোম')}}</a> <a href="{{route('bn.multipleTemplate')}}" class="text-gray-900"> &nbsp;{{__('/ সকল টেমপ্লেট ')}} </a> &nbsp;{{__('/ পরিপত্রের নমুনা ')}}</h1>
+                <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 text-bangla fs-2x"><a
+                        href="{{ route('bn.home') }}" class="text-gray-900">{{ __('হোম') }}</a> <a
+                        href="{{ route('bn.multipleTemplate') }}" class="text-gray-900"> &nbsp;{{ __('/ সকল টেমপ্লেট ') }}
+                    </a> &nbsp;{{ __('/ পরিপত্রের নমুনা ') }}</h1>
                 <!--end::Title-->
             </div>
             <!--end::Page title-->
@@ -22,21 +25,21 @@
                     <!--begin::Engage widget 6-->
                     <div class="row pb-lg-8 pb-4">
                         <div class="card flex-grow-1 bgi-no-repeat bgi-size-contain bgi-position-x-end h-xl-500px"
-                        style="background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/circular-sample.png">
-                        <!--begin::Body-->
-                        <div class="card-body d-flex justify-content-between flex-column ps-xl-18">
-                            <!--begin::Heading-->
-                            <span class="text-gray-800 text-bangla fs-2x mb-5">{{__('পরিপত্রের নমুনা')}}</span>
+                            style="background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/circular-sample.png">
+                            <!--begin::Body-->
+                            <div class="card-body d-flex justify-content-between flex-column ps-xl-18">
+                                <!--begin::Heading-->
+                                <span class="text-gray-800 text-bangla fs-2x mb-5">{{ __('পরিপত্রের নমুনা') }}</span>
                                 <!--begin::Action-->
                                 <div class="mb-xl-10 mb-3">
-                                    <a href='#' class="btn btn-primary fw-semibold me-2 text-bangla" data-bs-toggle="modal"
-                                        data-bs-target="#kt_modal_upgrade_plan">
+                                    <a href='#' class="btn btn-primary fw-semibold me-2 text-bangla"
+                                        data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">
                                         {{-- {{__('Download')}} --}}ডাউনলোড
                                     </a>
-                                    <a href="{{route('bn.web.preview', $docId = 3)}}"
+                                    <a href="{{ route('bn.web.preview', $docId = 3) }}"
                                         class="btn btn-primary fw-semibold me-2 text-bangla"
                                         style="border: 1px solid rgba(255, 255, 255, 0.3)">
-                                        {{-- {{__('Preview')}} --}}প্রিভিউ 
+                                        {{-- {{__('Preview')}} --}}প্রিভিউ
                                     </a>
                                 </div>
                                 <!--begin::Action-->
@@ -63,7 +66,7 @@
                             <div class="card-body pt-2 pb-4">
                                 <div class="separator separator-dashed my-5"></div>
                                 <ul>
-                                    <li><span>{{__('Built on top of Vue JS 3.x with Vite JS compitible')}}</span></li>
+                                    <li><span>{{ __('Built on top of Vue JS 3.x with Vite JS compitible') }}</span></li>
                                     <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
                                     <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
                                     <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
@@ -117,7 +120,7 @@
                 </div>
                 <!--end::Col-->
             </div>
-            
+
             <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
                 <div class="col-4">
                     <div class="card card-flush h-xl-100" id="kt_player_widget_2">
@@ -138,7 +141,7 @@
                                         <!--begin::Title-->
                                         <span
                                             class="opacity-75 fw-bold">{{ __('Last
-                                                                                                                                                                                                                                                            Update') }}</span>
+                                                                                                                                                                                                                                                                                                        Update') }}</span>
                                         <!--end::Title-->
                                     </div>
                                 </div>
@@ -154,8 +157,7 @@
                                 <div class="col-5">
                                     <div class="text-left mb-5">
                                         <!--begin::Title-->
-                                        <span
-                                            class="text-white opacity-75 fw-bold">{{ __('Published') }}</span>
+                                        <span class="text-white opacity-75 fw-bold">{{ __('Published') }}</span>
                                         <!--end::Title-->
                                     </div>
                                 </div>
@@ -377,7 +379,7 @@
                                                     <div class="text-start">
                                                         <span
                                                             class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">
-                                                            {{ __('Informal Note') }}
+                                                            {{ __('Unofficial Note') }}
                                                         </span>
                                                         <span class="text-gray-500 mt-1 fw-bold fs-6">
                                                             {{ __('Total Download:') }}

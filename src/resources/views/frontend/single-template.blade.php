@@ -336,7 +336,7 @@
                                                 <div class="text-start">
                                                     <span
                                                         class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">
-                                                        {{__('Informal Note')}}
+                                                        {{__('Unofficial Note')}}
                                                     </span>
                                                     <span class="text-gray-500 mt-1 fw-bold fs-6">
                                                         {{__('Total Download:')}} 

@@ -135,7 +135,7 @@
                                         <!--begin::Title-->
                                         <span
                                             class="opacity-75 fw-bold">{{ __('Last
-                                                                                                                                                                                                                                                            Update') }}</span>
+                                                                                                                                                                                                                                                                                                        Update') }}</span>
                                         <!--end::Title-->
                                     </div>
                                 </div>
@@ -151,8 +151,7 @@
                                 <div class="col-5">
                                     <div class="text-left mb-5">
                                         <!--begin::Title-->
-                                        <span
-                                            class="text-white opacity-75 fw-bold">{{ __('Published') }}</span>
+                                        <span class="text-white opacity-75 fw-bold">{{ __('Published') }}</span>
                                         <!--end::Title-->
                                     </div>
                                 </div>
@@ -374,7 +373,7 @@
                                                     <div class="text-start">
                                                         <span
                                                             class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">
-                                                            {{ __('Informal Note') }}
+                                                            {{ __('Unofficial Note') }}
                                                         </span>
                                                         <span class="text-gray-500 mt-1 fw-bold fs-6">
                                                             {{ __('Total Download:') }}

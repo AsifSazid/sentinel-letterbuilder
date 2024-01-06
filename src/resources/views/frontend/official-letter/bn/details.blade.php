@@ -5,7 +5,10 @@
             <!--begin::Page title-->
             <div class="page-title d-flex flex-column me-3">
                 <!--begin::Title-->
-                <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 text-bangla fs-2x"><a href="{{route('bn.home')}}" class="text-gray-900">{{__('হোম')}}</a> <a href="{{route('bn.multipleTemplate')}}" class="text-gray-900"> &nbsp;{{__('/ সকল টেমপ্লেট ')}} </a> &nbsp;{{__('/ সরকারি পত্রের নমুনা ')}}</h1>
+                <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 text-bangla fs-2x"><a
+                        href="{{ route('bn.home') }}" class="text-gray-900">{{ __('হোম') }}</a> <a
+                        href="{{ route('bn.multipleTemplate') }}" class="text-gray-900"> &nbsp;{{ __('/ সকল টেমপ্লেট ') }}
+                    </a> &nbsp;{{ __('/ সরকারি পত্রের নমুনা ') }}</h1>
                 <!--end::Title-->
             </div>
             <!--end::Page title-->
@@ -22,18 +25,18 @@
                     <!--begin::Engage widget 6-->
                     <div class="row pb-lg-8 pb-4">
                         <div class="card flex-grow-1 bgi-no-repeat bgi-size-contain bgi-position-x-end h-xl-500px"
-                        style="background-color:#020202;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/government-letter-sample.png">
-                        <!--begin::Body-->
-                        <div class="card-body d-flex justify-content-between flex-column ps-xl-18">
-                            <!--begin::Heading-->
-                            <span class="text-white text-bangla fs-2x mb-5">{{__('সরকারি পত্রের নমুনা')}}</span>
+                            style="background-color:#020202;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/government-letter-sample.png">
+                            <!--begin::Body-->
+                            <div class="card-body d-flex justify-content-between flex-column ps-xl-18">
+                                <!--begin::Heading-->
+                                <span class="text-white text-bangla fs-2x mb-5">{{ __('সরকারি পত্রের নমুনা') }}</span>
                                 <!--begin::Action-->
                                 <div class="mb-xl-10 mb-3">
-                                    <a href='#' class="btn btn-primary fw-semibold me-2 text-bangla" data-bs-toggle="modal"
-                                        data-bs-target="#kt_modal_upgrade_plan">
+                                    <a href='#' class="btn btn-primary fw-semibold me-2 text-bangla"
+                                        data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">
                                         {{-- {{__('Download')}} --}}ডাউনলোড
                                     </a>
-                                    <a href="{{route('bn.web.preview', $docId = 4)}}"
+                                    <a href="{{ route('bn.web.preview', $docId = 4) }}"
                                         class="btn btn-color-white bg-transparent btn-outline fw-semibold text-bangla"
                                         style="border: 1px solid rgba(255, 255, 255, 0.3)">
                                         {{-- {{__('Preview')}} --}}প্রিভিউ
@@ -63,7 +66,7 @@
                             <div class="card-body pt-2 pb-4">
                                 <div class="separator separator-dashed my-5"></div>
                                 <ul>
-                                    <li><span>{{__('Built on top of Vue JS 3.x with Vite JS compitible')}}</span></li>
+                                    <li><span>{{ __('Built on top of Vue JS 3.x with Vite JS compitible') }}</span></li>
                                     <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
                                     <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
                                     <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
@@ -98,14 +101,14 @@
                                                 <span class="opacity-75 fw-bold text-bangla">
                                                     {{-- {{__('Last Update')}} --}}সর্বশেষ আপডেট
 
-                                                    </span>
+                                                </span>
                                                 <!--end::Title-->
                                             </div>
                                         </div>
                                         <div class="col-7">
                                             <div class="text-left mb-5">
                                                 <!--begin::Title-->
-                                                <span class="opacity-75">{{__('8 November 2023')}}</span>
+                                                <span class="opacity-75">{{ __('8 November 2023') }}</span>
                                                 <!--end::Title-->
                                             </div>
                                         </div>
@@ -123,7 +126,7 @@
                                         <div class="col-7">
                                             <div class="text-left mb-5">
                                                 <!--begin::Title-->
-                                                <span class="text-white opacity-75">{{__('2 June 2020')}}</span>
+                                                <span class="text-white opacity-75">{{ __('2 June 2020') }}</span>
                                                 <!--end::Title-->
                                             </div>
                                         </div>
@@ -139,7 +142,7 @@
                                 <div class="card-header border-0 pt-5">
                                     <h3 class="card-title align-items-start flex-column">
                                         <span class="card-label fw-bold text-gray-800 text-bangla">
-                                            {{-- {{__('Technology')}} --}}টেকনোলজি 
+                                            {{-- {{__('Technology')}} --}}টেকনোলজি
                                         </span>
                                     </h3>
                                     <!--begin::Toolbar-->
@@ -159,8 +162,8 @@
                                             <div class="d-flex flex-stack">
                                                 <!--begin::Symbol-->
                                                 <div class="symbol symbol-circle symbol-60px me-4">
-                                                    <img src="{{ asset('ui/frontend/assets')}}/media/logos/html.png" class=""
-                                                        alt="" />
+                                                    <img src="{{ asset('ui/frontend/assets') }}/media/logos/html.png"
+                                                        class="" alt="" />
                                                 </div>
                                                 <!--end::Symbol-->
                                             </div>
@@ -169,8 +172,8 @@
                                             <div class="d-flex flex-stack">
                                                 <!--begin::Symbol-->
                                                 <div class="symbol symbol-circle symbol-60px me-4">
-                                                    <img src="{{ asset('ui/frontend/assets')}}/media/logos/css.png" class=""
-                                                        alt="" />
+                                                    <img src="{{ asset('ui/frontend/assets') }}/media/logos/css.png"
+                                                        class="" alt="" />
                                                 </div>
                                                 <!--end::Symbol-->
                                             </div>
@@ -185,8 +188,8 @@
                                             <div class="d-flex flex-stack">
                                                 <!--begin::Symbol-->
                                                 <div class="symbol symbol-circle symbol-60px me-4">
-                                                    <img src="{{ asset('ui/frontend/assets')}}/media/logos/js.png" class=""
-                                                        alt="" />
+                                                    <img src="{{ asset('ui/frontend/assets') }}/media/logos/js.png"
+                                                        class="" alt="" />
                                                 </div>
                                                 <!--end::Symbol-->
                                             </div>
@@ -206,8 +209,8 @@
                             <div class="card-header pt-7">
                                 <!--begin::Title-->
                                 <h3 class="card-title align-items-start flex-column">
-                                    <span class="card-label fw-bold text-gray-800 text-bangla">লগ পরিবর্তন                                  
-            
+                                    <span class="card-label fw-bold text-gray-800 text-bangla">লগ পরিবর্তন
+
                                     </span>
                                 </h3>
                                 <!--end::Title-->
@@ -216,11 +219,11 @@
                             <!--begin::Body-->
                             <div class="card-body pt-2 pb-4">
                                 <div class="separator separator-dashed my-5"></div>
-                                <h4 class="fw-bold text-gray-500 mb-6">{{__('Version 1.0 - Dec 30, 2023')}}</h4>
+                                <h4 class="fw-bold text-gray-500 mb-6">{{ __('Version 1.0 - Dec 30, 2023') }}</h4>
                                 <ul>
                                     <li><span class="text-bangla">
-                                        {{-- {{__('Initial Release')}} --}}প্রাথমিক রিলিজ
-                                    </span></li>
+                                            {{-- {{__('Initial Release')}} --}}প্রাথমিক রিলিজ
+                                        </span></li>
                                 </ul>
                             </div>
                             <!--end: Card Body-->
@@ -270,7 +273,8 @@
                                                 </div>
                                                 <!--end::Image-->
                                                 <!--begin::Action-->
-                                                <div class="overlay-layer card-rounded bg-dark bg-opacity-25">
+                                                <div class="overlay-layer
+                                                    card-rounded bg-dark bg-opacity-25">
                                                     <i class="ki-duotone ki-eye fs-3x text-white">
                                                         <span class="path1"></span>
                                                         <span class="path2"></span>
@@ -286,15 +290,16 @@
                                                 <div class="text-start">
                                                     <span
                                                         class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block text-bangla">
-                                                        {{-- {{__('Government Letter Sample')}} --}}সরকারি পত্রের নমুনা 
+                                                        {{-- {{__('Government Letter Sample')}} --}}সরকারি পত্রের নমুনা
                                                     </span>
                                                     <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
-                                                        {{-- {{__('Total Download:')}} --}}মোট ডাউনলোড 
+                                                        {{-- {{__('Total Download:')}} --}}মোট ডাউনলোড
                                                     </span>
                                                 </div>
                                                 <!--end::Title-->
                                                 <!--begin::Total-->
-                                                <span class="text-gray-600 text-end fw-bold fs-6">{{__('17,035')}}</span>
+                                                <span
+                                                    class="text-gray-600 text-end fw-bold fs-6">{{ __('17,035') }}</span>
                                                 <!--end::Total-->
                                             </div>
                                             <!--end::Info-->
@@ -303,13 +308,15 @@
                                         <!--begin::Footer-->
                                         <div class="card-footer d-flex flex-stack pt-0">
                                             <!--begin::Link-->
-                                            <a href="{{route('pdfDownload', $docId="4")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
-                                                {{__('ডাউনলোড')}}
+                                            <a href="{{ route('pdfDownload', $docId = '4') }}"
+                                                class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                                {{ __('ডাউনলোড') }}
                                             </a>
                                             <!--end::Link-->
                                             <!--begin::Link-->
-                                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.web.preview', $docId = 4)}}">
-                                                {{__('বিস্তারিত দেখুন')}}
+                                            <a class="btn btn-sm btn-light flex-shrink-0"
+                                                href="{{ route('bn.web.preview', $docId = 4) }}">
+                                                {{ __('বিস্তারিত দেখুন') }}
                                             </a>
                                             <!--end::Link-->
                                         </div>
@@ -335,7 +342,8 @@
                                                 </div>
                                                 <!--end::Image-->
                                                 <!--begin::Action-->
-                                                <div class="overlay-layer card-rounded bg-dark bg-opacity-25">
+                                                <div class="overlay-layer
+                                                    card-rounded bg-dark bg-opacity-25">
                                                     <i class="ki-duotone ki-eye fs-3x text-white">
                                                         <span class="path1"></span>
                                                         <span class="path2"></span>
@@ -351,15 +359,16 @@
                                                 <div class="text-start">
                                                     <span
                                                         class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block text-bangla">
-                                                        {{-- {{__('Informal Note')}} --}}অনানুষ্ঠানিক নোট
+                                                        {{-- {{__('Unofficial Note')}} --}}অনানুষ্ঠানিক নোট
                                                     </span>
                                                     <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
-                                                        {{-- {{__('Total Download:')}} --}} মোট ডাউনলোড 
+                                                        {{-- {{__('Total Download:')}} --}} মোট ডাউনলোড
                                                     </span>
                                                 </div>
                                                 <!--end::Title-->
                                                 <!--begin::Total-->
-                                                <span class="text-gray-600 text-end fw-bold fs-6">{{__('2,630')}}</span>
+                                                <span
+                                                    class="text-gray-600 text-end fw-bold fs-6">{{ __('2,630') }}</span>
                                                 <!--end::Total-->
                                             </div>
                                             <!--end::Info-->
@@ -368,13 +377,15 @@
                                         <!--begin::Footer-->
                                         <div class="card-footer d-flex flex-stack pt-0">
                                             <!--begin::Link-->
-                                            <a href="{{route('pdfDownload', $docId="5")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
-                                                {{__('ডাউনলোড')}}
+                                            <a href="{{ route('pdfDownload', $docId = '5') }}"
+                                                class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                                {{ __('ডাউনলোড') }}
                                             </a>
                                             <!--end::Link-->
                                             <!--begin::Link-->
-                                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.web.preview', $docId = 5)}}">
-                                                {{__('বিস্তারিত দেখুন')}}
+                                            <a class="btn btn-sm btn-light flex-shrink-0"
+                                                href="{{ route('bn.web.preview', $docId = 5) }}">
+                                                {{ __('বিস্তারিত দেখুন') }}
                                             </a>
                                             <!--end::Link-->
                                         </div>
@@ -400,7 +411,8 @@
                                                 </div>
                                                 <!--end::Image-->
                                                 <!--begin::Action-->
-                                                <div class="overlay-layer card-rounded bg-dark bg-opacity-25">
+                                                <div class="overlay-layer
+                                                    card-rounded bg-dark bg-opacity-25">
                                                     <i class="ki-duotone ki-eye fs-3x text-white">
                                                         <span class="path1"></span>
                                                         <span class="path2"></span>
@@ -416,15 +428,16 @@
                                                 <div class="text-start">
                                                     <span
                                                         class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block text-bangla">
-                                                        {{-- {{__('Notification Sample')}} --}}প্রজ্ঞাপনের নমুনা 
+                                                        {{-- {{__('Notification Sample')}} --}}প্রজ্ঞাপনের নমুনা
                                                     </span>
                                                     <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
-                                                        {{-- {{__('Total Download:')}} --}} মোট ডাউনলোড 
+                                                        {{-- {{__('Total Download:')}} --}} মোট ডাউনলোড
                                                     </span>
                                                 </div>
                                                 <!--end::Title-->
                                                 <!--begin::Total-->
-                                                <span class="text-gray-600 text-end fw-bold fs-6">{{__('2,630')}}</span>
+                                                <span
+                                                    class="text-gray-600 text-end fw-bold fs-6">{{ __('2,630') }}</span>
                                                 <!--end::Total-->
                                             </div>
                                             <!--end::Info-->
@@ -433,13 +446,15 @@
                                         <!--begin::Footer-->
                                         <div class="card-footer d-flex flex-stack pt-0">
                                             <!--begin::Link-->
-                                            <a href="{{route('pdfDownload', $docId="7")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
-                                                {{__('ডাউনলোড')}}
+                                            <a href="{{ route('pdfDownload', $docId = '7') }}"
+                                                class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                                {{ __('ডাউনলোড') }}
                                             </a>
                                             <!--end::Link-->
                                             <!--begin::Link-->
-                                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.web.preview', $docId = 7)}}">
-                                                {{__('বিস্তারিত দেখুন')}}
+                                            <a class="btn btn-sm btn-light flex-shrink-0"
+                                                href="{{ route('bn.web.preview', $docId = 7) }}">
+                                                {{ __('বিস্তারিত দেখুন') }}
                                             </a>
                                             <!--end::Link-->
                                         </div>
