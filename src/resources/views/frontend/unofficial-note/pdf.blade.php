@@ -219,8 +219,24 @@
             margin-bottom: 20px !important;
         }
 
+        .ml-10 {
+            margin-left: 10px !important;
+        }
+
+        .ml-15 {
+            margin-left: 15px !important;
+        }
+
+        .ml-20 {
+            margin-left: 20px !important;
+        }
+
         .whitespace-nowrap {
             white-space: nowrap !important;
+        }
+
+        .opacity-10 {
+            opacity: .1;
         }
     </style>
 </head>
@@ -236,20 +252,20 @@
     {{-- letter name --}}
     <x-pdf-letterName :name="'অনানুষ্ঠানিক নোটের নমুনা'" />
 
-    {{-- মন্ত্রণালয়/বিভাগ --}}
     <table class="mt-40">
         <tr>
             <td class="w-70"></td>
-            <td class="w-15 border-bottom"></td>
-            <td class="text-lef w-5 whitespace-nowrap"><span>মন্ত্রণালয়/বিভাগ</span></td>
+            <td>
+                {{-- মন্ত্রণালয়/বিভাগ --}}
+                <x-pdf-borderBottomAndText :text="'মন্ত্রণালয়/বিভাগ'" />
+            </td>
         </tr>
-    </table>
-    {{-- শাখা/অধিশাখা --}}
-    <table class="">
         <tr>
             <td class="w-70"></td>
-            <td class="w-15 border-bottom"></td>
-            <td class="text-lef w-5 whitespace-nowrap"><span>শাখা/অধিশাখা</span></td>
+            <td>
+                {{-- শাখা/অধিশাখা --}}
+                <x-pdf-borderBottomAndText :text="'শাখা/অধিশাখা'" />
+            </td>
         </tr>
     </table>
 
@@ -263,14 +279,14 @@
             <td><span>।</span></td>
         </tr>
     </table>
-    <!-- সূত্র-->
-    <table class="mt-10">
+
+    {{-- সূত্র --}}
+    <table>
         <tr>
-            <td class="w-15 whitespace-nowrap">
-                <span>সূত্র : (যদি থাকে)</span>
+            <td>
+                <x-pdf-textAndBorderBottom :text="'সূত্র : (যদি থাকে)'" />
             </td>
-            <td class="w-40 border-bottom"></td>
-            <td></td>
+            <td class="w-45"></td>
         </tr>
     </table>
     <!-- নোটের বিষয়বস্তু-->
@@ -317,54 +333,12 @@
         <tr>
             <td class="w-65"></td>
             <td class="w-auto">
-                <table>
-                    <tr>
-                        <td class="w-1px whitespace-nowrap">
-                            <span>স্বাক্ষর</span>
-                        </td>
-                        <td class="border-bottom"></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td class="w-1px whitespace-nowrap">
-                            <span>নাম</span>
-                        </td>
-                        <td class="border-bottom"></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td class="w-1px whitespace-nowrap">
-                            <span>পদনাম</span>
-                        </td>
-                        <td class="border-bottom"></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td class="w-1px whitespace-nowrap">
-                            <span>ফোন</span>
-                        </td>
-                        <td class="border-bottom"></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td class="w-1px whitespace-nowrap">
-                            <span>ফ্যাক্স</span>
-                        </td>
-                        <td class="border-bottom"></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td class="w-1px whitespace-nowrap">
-                            <span>ই-মেইল</span>
-                        </td>
-                        <td class="border-bottom"></td>
-                    </tr>
-                </table>
+                <x-pdf-textAndBorderBottom :text="'স্বাক্ষর'" />
+                <x-pdf-textAndBorderBottom :text="'নাম'" />
+                <x-pdf-textAndBorderBottom :text="'পদনাম'" />
+                <x-pdf-textAndBorderBottom :text="'ফোন'" />
+                <x-pdf-textAndBorderBottom :text="'ফ্যাক্স'" />
+                <x-pdf-textAndBorderBottom :text="'ই-মেইল'" />
             </td>
         </tr>
     </table>
@@ -406,61 +380,17 @@
     </table>
 
     {{-- টীকা --}}
-    <table class="mt-30">
+    <table class="mt-30 ml-15">
         <tr>
             <td>
                 <span>টীকা :</span>
             </td>
         </tr>
     </table>
-    <table>
-        <tr>
-            <td class="w-5"></td>
-            <td class="w-4 whitespace-nowrap"><span>(১)</span></td>
-            <td class="whitespace-nowrap">
-                <span>
-                    অনানুষ্ঠানিক নোট নোটশিটে প্রেরণ করিতে হয়;
-                </span>
-            </td>
-            <td></td>
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <td class="w-5"></td>
-            <td class="w-4 whitespace-nowrap"><span>(২)</span></td>
-            <td class="whitespace-nowrap">
-                <span>
-                    অভ্যন্তরীণ পরামর্শ/যোগাযোগের জন্য ইউ ও নোট ব্যবহৃত হয়;
-                </span>
-            </td>
-            <td></td>
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <td class="w-5"></td>
-            <td class="w-4 whitespace-nowrap"><span>(৩)</span></td>
-            <td class="whitespace-nowrap">
-                <span>
-                    অনানুষ্ঠানিক নোট মূলত পত্র হিসাবেই ব্যবহৃত হয়, নোটশিট হিসাবে নহে; এবং
-                </span>
-            </td>
-            <td></td>
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <td class="w-5"></td>
-            <td class="w-4 whitespace-nowrap"><span>(৪)</span></td>
-            <td class="whitespace-nowrap">
-                <span>
-                    প্রয়োজনে অনানুষ্ঠানিক নোটের অনুলিপি প্রেরণ করা যাইবে।
-                </span>
-            </td>
-            <td></td>
-        </tr>
-    </table>
+    <x-pdf-annotation :index="'(১)'" :text="'অনানুষ্ঠানিক নোট নোটশিটে প্রেরণ করিতে হয়; '" :leftWidth="'w-7'" /> {{-- leftWidth optional, default value = w-5 --}}
+    <x-pdf-annotation :index="'(২)'" :text="'অভ্যন্তরীণ পরামর্শ/যোগাযোগের জন্য ইউ ও নোট ব্যবহৃত হয়; '" :leftWidth="'w-7'" />
+    <x-pdf-annotation :index="'(৩)'" :text="'অনানুষ্ঠানিক নোট মূলত পত্র হিসাবেই ব্যবহৃত হয়, নোটশিট হিসাবে নহে; এবং '" :leftWidth="'w-7'" />
+    <x-pdf-annotation :index="'(৪)'" :text="'প্রয়োজনে অনানুষ্ঠানিক নোটের অনুলিপি প্রেরণ করা যাইবে। '" :leftWidth="'w-7'" />
 
 
 </body>

@@ -9,156 +9,286 @@
     <style>
         table {
             width: 100%;
+            table-layout: auto;
             font-family: "Nikosh", sans-serif;
+            font-size: 16px;
             border-collapse: collapse;
         }
 
-        tr td {
-            padding-top: 3px;
-            padding-bottom: 2px;
+        .w-1px {
+            width: 1px !important;
+        }
+
+        .w-1 {
+            width: 1% !important;
+        }
+
+        .w-2 {
+            width: 2% !important;
+        }
+
+        .w-3 {
+            width: 3% !important;
+        }
+
+        .w-4 {
+            width: 4% !important;
+        }
+
+        .w-5 {
+            width: 5% !important;
+        }
+
+        .w-6 {
+            width: 6% !important;
+        }
+
+        .w-7 {
+            width: 7% !important;
+        }
+
+        .w-8 {
+            width: 8% !important;
+        }
+
+        .w-9 {
+            width: 9% !important;
+        }
+
+        .w-10 {
+            width: 10% !important;
+        }
+
+        .w-11 {
+            width: 11% !important;
+        }
+
+        .w-12 {
+            width: 12% !important;
+        }
+
+        .w-13 {
+            width: 13% !important;
+        }
+
+        .w-15 {
+            width: 15% !important;
+        }
+
+        .w-18 {
+            width: 18% !important;
+        }
+
+        .w-20 {
+            width: 20% !important;
+        }
+
+        .w-25 {
+            width: 25% !important;
+        }
+
+        .w-30 {
+            width: 30% !important;
+        }
+
+        .w-35 {
+            width: 35% !important;
+        }
+
+        .w-40 {
+            width: 40% !important;
+        }
+
+        .w-45 {
+            width: 45% !important;
+        }
+
+        .w-50 {
+            width: 50% !important;
+        }
+
+        .w-55 {
+            width: 55% !important;
+        }
+
+        .w-60 {
+            width: 60% !important;
+        }
+
+        .w-65 {
+            width: 65% !important;
+        }
+
+        .w-70 {
+            width: 70% !important;
+        }
+
+        .w-75 {
+            width: 75% !important;
+        }
+
+        .w-80 {
+            width: 80% !important;
+        }
+
+        .w-85 {
+            width: 85% !important;
+        }
+
+        .w-90 {
+            width: 90% !important;
+        }
+
+        .w-92 {
+            width: 92% !important;
+        }
+
+        .w-95 {
+            width: 95% !important;
+        }
+
+        .w-auto {
+            width: auto !important;
+        }
+
+        .border-bottom {
+            border-bottom: 1px dotted #000 !important;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        .vertial-align-top {
+            vertical-align: top;
+        }
+
+        .font-bold {
+            font-weight: bold;
+        }
+
+        .pt-10 {
+            padding-top: 10px !important;
+        }
+
+        .pt-20 {
+            padding-top: 20px !important;
+        }
+
+        .mt-5 {
+            margin-top: 5px !important;
+        }
+
+        .mt-10 {
+            margin-top: 10px !important;
+        }
+
+        .mt-15 {
+            margin-top: 15px !important;
+        }
+
+        .mt-20 {
+            margin-top: 20px !important;
+        }
+
+        .mt-25 {
+            margin-top: 25px !important;
+        }
+
+        .mt-30 {
+            margin-top: 30px !important;
+        }
+
+        .mt-40 {
+            margin-top: 40px !important;
+        }
+
+        .mb-10 {
+            margin-bottom: 10px !important;
+        }
+
+        .mb-20 {
+            margin-bottom: 20px !important;
+        }
+
+        .ml-10 {
+            margin-left: 10px !important;
+        }
+
+        .ml-15 {
+            margin-left: 15px !important;
+        }
+
+        .ml-20 {
+            margin-left: 20px !important;
+        }
+
+        .whitespace-nowrap {
+            white-space: nowrap !important;
+        }
+
+        .opacity-10 {
+            opacity: .1;
         }
     </style>
 </head>
 
 <body>
+    {{-- Govt Logo --}}
 
-    <table>
-        <tr>
-            <td style="text-align: center;padding: 8px;">
-                <!-- <span><img src="./images/govt_logo.png" alt="Govt Logo"></span> -->
-                <span><img style="margin-top: 30px" src="https://shorturl.at/deoB2" alt="Govt Logo"></span>
-            </td>
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <td style="text-align: center; ">
-                <span>গণপ্রজাতন্ত্রী বাংলাদেশ সরকার</span>
-            </td>
-        </tr>
-    </table>
-    <!-- Ministry/Division Row -->
-    
-    <table style="width: 100%; line-height: 1;">
-        <tr>
-            <td style="width: 40%;"></td>
-            <td style="text-align: center; width: auto; white-space: nowrap;">
-                <span> মন্ত্রণালয়ের নাম লিখুন</span>
-            </td>
-            <td style="width: 42%;"></td>
-        </tr>
-    </table>
-            
 
-    <!-- test office -->
+    {{-- গণপ্রজাতন্ত্রী বাংলাদেশ সরকার --}}
+    <x-pdf-govt />
 
-    <table style="width: 100%; line-height: 1; ">
+    {{--  মন্ত্রণালয়ের নাম লিখুন --}}
+    <x-pdf-textCenter :text="'মন্ত্রণালয়ের নাম লিখুন'" />
+
+    {{-- টেস্ট অফিস --}}
+    <table class="text-center">
         <tr>
-            <td style="width: 44%; text-align: center;">বাম শিরোনাম</td>
-            <td style="text-align: center; width: auto; white-space: nowrap;">
-                <span>টেস্ট অফিস ফর নথি ভার্শন-২
-                </span>
+            <td class="w-25"><span>বাম শিরোনাম</span></td>
+            <td>
+                <span>টেস্ট অফিস ফর নথি ভার্শন-২</span>
             </td>
-            <td style="width: 44%; text-align: center;">ডান শিরোনাম</td>
+            <td class="w-25"><span>ডান শিরোনাম</span></td>
         </tr>
     </table>
 
-    <!-- managing director -->
+    {{--  ব্যবস্থাপনা পরিচালক এর দপ্তর --}}
+    <x-pdf-textCenter :text="'ব্যবস্থাপনা পরিচালক এর দপ্তর'" />
 
-    <table style="width: 100%; line-height: 1;">
-        <tr>
-            <td style="width: 42%;"></td>
-            <td style="text-align: center; width: auto; white-space: nowrap;">
-                <span>ব্যবস্থাপনা পরিচালক এর দপ্তর
-                </span>
-            </td>
-            <td style="width: 44%;"></td>
-        </tr>
-    </table>
-    
-    <!-- note body -->
-    <table style="text-align: center">
-        <tr>
-            <td>......</td>
-        </tr>
-    </table>
-    <table style="text-align: center">
-        <tr>
-            <td>......</td>
-        </tr>
-    </table>
-    <table style="text-align: center">
-        <tr>
-            <td style="font-weight: bold;">......</td>
-        </tr>
-    </table>
-    <hr style="opacity: .4;;">
-    <!-- new line -->
-    <table>
-        <tr>
-            <td><br /></td>
-        </tr>
-    </table>
+    {{-- note body (class name should match to the existing internal css in head tag) --}}
+    <x-pdf-textCenter :text="'......'" />
+    <x-pdf-textCenter :text="'......'" />
+    <x-pdf-textCenter :text="'......'" :bold="'font-bold'" /> {{-- if need more css property then add them in component.blade file first --}}
+
+
+    <hr class="opacity-10">
 
     <!-- note details -->
     <table>
         <tr>
-            <td style="width: auto; text-align: left;">
+            <td class="w-auto">
+                <x-pdf-textAndBorderBottom :text="'সভাপতি'" />
+                <x-pdf-textAndBorderBottom :text="'সভার তারিখ'" />
+                <x-pdf-textAndBorderBottom :text="'সভার সময়'" />
+                <x-pdf-textAndBorderBottom :text="'স্থান'" />
+                <x-pdf-textAndBorderBottom :text="'উপস্থিতি'" />
+                <x-pdf-textAndBorderBottom :text="'সভাপতি'" />
 
-                <table>
-                    <tr>
-                        <td style="width: 40%; white-space: nowrap;">
-                            <span>সভাপতি</span>
-                        </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td style="width: 40%; white-space: nowrap;">
-                            <span>সভার তারিখ</span>
-                        </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td style="width: 40%; white-space: nowrap;">
-                            <span>সভার সময়</span>
-                        </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td style="width: 40%; white-space: nowrap;">
-                            <span>স্থান</span>
-                        </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td style="width: 40%; white-space: nowrap;">
-                            <span> উপস্থিতি
-
-                            </span>
-                        </td>
-                        <td style="width: auto; border-bottom: 1px dotted #000;"></td>
-                    </tr>
-                </table>
-
-                <table>
-                    <tr>
-                        <td><br /></td>
-                    </tr>
-                </table>
             </td>
-            <td style="width: 65%;"></td>
+            <td class="w-60"></td>
 
         </tr>
     </table>
-
 
 </body>
 
