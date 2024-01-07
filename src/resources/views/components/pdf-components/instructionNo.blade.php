@@ -1,4 +1,4 @@
-@props(['instruction' => 'default value'])
+@props(['instruction' => 'নির্দেশ নম্বর'])
 
 <table class="text-right">
     <tr>

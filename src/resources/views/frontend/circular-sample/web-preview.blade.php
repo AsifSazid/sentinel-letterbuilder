@@ -195,13 +195,13 @@
 
                         <!-- Cromopottro -->
 
-                        <x-pdf-postscript />
+                        <x-pdf-postscript :postscript="'ক্রোড়পত্র_১৯'"/>
 
                         <!-- Intruction No -->
-                        <x-pdf-instructionNo />
+                        <x-pdf-instructionNo :instruction="'নির্দেশ নম্বর_১৩৯'" />
 
                         <!-- Header -->
-                        <x-pdf-letterName />
+                        <x-pdf-letterName :name="'পরিপত্রের নমুনা'" :bold="'font-bold'" />
 
                         <!-- Govt. Ministry/Division Row Website-->
                         <x-pdf-govtMinistryWeb />
@@ -373,29 +373,15 @@
                         <table>
                             <tr>
                                 <td class="w-4 text-left"><span>১২---</span></td>
-                                <td style="w-4 border-top: 2px solid"></td>
+                                <td style="w-4 "></td>
                                 <td class="w-2"></td>
                                 <td class="w-90"></td>
                             </tr>
-                            <tr>
-                                {{-- <td style="border-top: 2px solid"></td> --}}
-                            </tr>
+                            
                         </table>
-                        {{-- <table>
-                            <tr>
-                                <td rowspan="2" style="width: 5%;"></td>
-                                <td rowspan="2" style="width: 5%; text-align: right;"><span>১২</span></td>
-                                <td style="width: 5;"></td>
-                                <td rowspan="2" style="width: 25%;"></td>
-                                <td rowspan="2" style="width: 60%;"></td>
-                            </tr>
-                            <tr>
-                                <td style="border-top: 2px solid"></td>
-                            </tr>
-                        </table> --}}
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Download PDF</a>
+                        <a href="{{ route('pdfDownload', $docId = '3') }}" class="btn btn-primary">Download PDF</a>
                     </div>
                 </div>
             </div>

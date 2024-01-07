@@ -32,8 +32,10 @@
                                 <!--end::Heading-->
                                 <!--begin::Action-->
                                 <div class="mb-xl-10 mb-3">
-                                    <a href='#' class="btn btn-primary fw-semibold me-2" data-bs-toggle="modal"
-                                        data-bs-target="#kt_modal_upgrade_plan">{{ __('Download') }}</a>
+                                    <a href='{{ route('pdfDownload', $docId = '3') }}' class="btn btn-primary fw-semibold me-2" 
+                                        >{{ __('Download') }}</a>
+                                    {{-- <a href='#' class="btn btn-primary fw-semibold me-2" data-bs-toggle="modal"
+                                        data-bs-target="#kt_modal_upgrade_plan">{{ __('Download') }}</a> --}}
                                     <a href="{{ route('web.preview', $docId = 3) }}"
                                         class="btn btn-primary fw-semibold me-2"
                                         style="border: 1px solid rgba(255, 255, 255, 0.3)">{{ __('Preview') }}</a>
@@ -100,9 +102,7 @@
                                         </li>
                                         <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
                                         <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
-                                        <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
-                                        <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
-                                        <li><span>Built on top of Vue JS 3.x with Vite JS compitible</span></li>
+                                        
                                     </ul>
                                 </div>
                                 <!--end: Card Body-->
