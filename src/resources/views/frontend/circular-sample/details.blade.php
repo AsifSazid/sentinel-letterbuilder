@@ -26,10 +26,15 @@
                         <div class="card flex-grow-1 bgi-no-repeat bgi-size-contain bgi-position-x-end h-xl-500px"
                             style="background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/circular-sample.png">
                             <!--begin::Body-->
-                            <div class="card-body d-flex justify-content-between flex-column ps-xl-18">
+                            <div class="card-body d-flex justify-content-between flex-column ps-xl-18" >
                                 <!--begin::Heading-->
                                 <h3 class="fw-bold text-gray-800 fs-2x mb-5 ms-n1">Circular Sample</h3>
                                 <!--end::Heading-->
+                                <div class="row" style="vertical-align: top">
+                                    <div class="col-xl-6" >
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque voluptates quia beatae totam error modi.</p>
+                                    </div>
+                                </div>
                                 <!--begin::Action-->
                                 <div class="mb-xl-10 mb-3">
                                     <a href='{{ route('pdfDownload', $docId = '3') }}' class="btn btn-primary fw-semibold me-2" 
