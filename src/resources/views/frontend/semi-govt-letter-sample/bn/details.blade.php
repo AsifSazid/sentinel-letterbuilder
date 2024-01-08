@@ -332,11 +332,11 @@
                                                     <!--begin::Title-->
                                                     <div class="text-start">
                                                         <span
-                                                            class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">
-                                                            {{ __('Government Letter Sample') }}
+                                                            class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block text-bangla">
+                                                            {{-- {{ __('Government Letter Sample') }} --}}সরকারি পত্রের নমুনা
                                                         </span>
-                                                        <span class="text-gray-500 mt-1 fw-bold fs-6">
-                                                            {{ __('Total Download:') }}
+                                                        <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
+                                                            {{-- {{ __('Total Download:') }} --}}মোট ডাউনলোড
                                                         </span>
                                                     </div>
                                                     <!--end::Title-->
@@ -352,14 +352,14 @@
                                             <div class="card-footer d-flex flex-stack pt-0">
                                                 <!--begin::Link-->
                                                 <a href="{{ route('pdfDownload', $docId = '4') }}"
-                                                    class="btn btn-sm btn-primary flex-shrink-0 me-2">
-                                                    {{ __('Download') }}
+                                                    class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla">
+                                                    {{-- {{ __('Download') }} --}}ডাউনলোড
                                                 </a>
                                                 <!--end::Link-->
                                                 <!--begin::Link-->
-                                                <a class="btn btn-sm btn-light flex-shrink-0"
+                                                <a class="btn btn-sm btn-light flex-shrink-0 text-bangla"
                                                     href="{{ route('web.preview', $docId = 4) }}">
-                                                    {{ __('View Deatails') }}
+                                                    {{-- {{ __('View Deatails') }} --}}আরো দেখুন 
                                                 </a>
                                                 <!--end::Link-->
                                             </div>
@@ -396,11 +396,11 @@
                                                     <!--begin::Title-->
                                                     <div class="text-start">
                                                         <span
-                                                            class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">
-                                                            {{ __('Unofficial Note') }}
+                                                            class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block text-bangla">
+                                                            {{-- {{ __('Unofficial Note') }} --}}অনানুষ্ঠানিক নোট
                                                         </span>
-                                                        <span class="text-gray-500 mt-1 fw-bold fs-6">
-                                                            {{ __('Total Download:') }}
+                                                        <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
+                                                            {{-- {{ __('Total Download:') }} --}}মোট ডাউনলোড
                                                         </span>
                                                     </div>
                                                     <!--end::Title-->
@@ -416,14 +416,14 @@
                                             <div class="card-footer d-flex flex-stack pt-0">
                                                 <!--begin::Link-->
                                                 <a href="{{ route('pdfDownload', $docId = '5') }}"
-                                                    class="btn btn-sm btn-primary flex-shrink-0 me-2">
-                                                    {{ __('Download') }}
+                                                    class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla">
+                                                    {{-- {{ __('Download') }} --}}ডাউনলোড
                                                 </a>
                                                 <!--end::Link-->
                                                 <!--begin::Link-->
-                                                <a class="btn btn-sm btn-light flex-shrink-0"
+                                                <a class="btn btn-sm btn-light flex-shrink-0 text-bangla"
                                                     href="{{ route('web.preview', $docId = 5) }}">
-                                                    {{ __('View Deatails') }}
+                                                    {{-- {{ __('View Deatails') }} --}}আরো দেখুন 
                                                 </a>
                                                 <!--end::Link-->
                                             </div>
@@ -460,11 +460,11 @@
                                                     <!--begin::Title-->
                                                     <div class="text-start">
                                                         <span
-                                                            class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block">
-                                                            {{ __('Notification Sample') }}
+                                                            class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block text-bangla">
+                                                            {{-- {{ __('Notification Sample') }} --}}প্রজ্ঞাপনের নমুনা
                                                         </span>
-                                                        <span class="text-gray-500 mt-1 fw-bold fs-6">
-                                                            {{ __('Total Download:') }}
+                                                        <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
+                                                            {{-- {{ __('Total Download:') }} --}}মোট ডাউনলোড
                                                         </span>
                                                     </div>
                                                     <!--end::Title-->
@@ -480,14 +480,14 @@
                                             <div class="card-footer d-flex flex-stack pt-0">
                                                 <!--begin::Link-->
                                                 <a href="{{ route('pdfDownload', $docId = '7') }}"
-                                                    class="btn btn-sm btn-primary flex-shrink-0 me-2">
-                                                    {{ __('Download') }}
+                                                    class="btn btn-sm btn-primary flex-shrink-0 me-2 text-bangla">
+                                                    {{-- {{ __('Download') }} --}}ডাউনলোড
                                                 </a>
                                                 <!--end::Link-->
                                                 <!--begin::Link-->
-                                                <a class="btn btn-sm btn-light flex-shrink-0"
+                                                <a class="btn btn-sm btn-light flex-shrink-0 text-bangla"
                                                     href="{{ route('web.preview', $docId = 7) }}">
-                                                    {{ __('View Deatails') }}
+                                                    {{-- {{ __('View Deatails') }} --}}আরো দেখুন 
                                                 </a>
                                                 <!--end::Link-->
                                             </div>
