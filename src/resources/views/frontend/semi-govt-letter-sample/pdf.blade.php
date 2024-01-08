@@ -174,10 +174,6 @@
             margin-top: 40px !important;
         }
 
-        .bt-10 {
-            bottom: 10px !important;
-        }
-
         .whitespace-nowrap {
             white-space: nowrap !important;
         }
@@ -288,7 +284,7 @@
             <td class="w-95 border-bottom"></td>
         </tr>
     </table>
-    <table class="mt-10">
+    <table>
         <tr>
             <td class="w-15 border-bottom"></td>
             <td class="w-1px">।</td>
@@ -305,7 +301,7 @@
             <td class="w-95 border-bottom"></td>
         </tr>
     </table>
-    <table class="mt-10">
+    <table>
         <tr>
             <td class="w-20 border-bottom"></td>
             <td class="w-1px"><span>।</span></td>
@@ -332,18 +328,17 @@
             <td class="w-80"></td>
             <td class="w-20"><span>আন্তরিকভাবে আপনার</span></td>
         </tr>
-        <tr class="mt-10">
+    </table>
+    <table class="mt-20">
+        <tr>
             <td class="w-80"></td>
-            <td class="w-20"></td>
+            <td class="w-20 border-bottom"></td>
         </tr>
+    </table>
+    <table>
         <tr class="mt-10">
             <td class="w-80"></td>
-            <td class="w-15 border-bottom"></td>
-            <td class="w-5"></td>
-        </tr>
-        <tr class="mt-10">
-            <td class="w-80"></td>
-            <td class="w-20"><span>সাক্ষরকারীর নাম</span></td>
+            <td class="w-20 text-center"><span>সাক্ষরকারীর নাম</span></td>
         </tr>
     </table>
 
