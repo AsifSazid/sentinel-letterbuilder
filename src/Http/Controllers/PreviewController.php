@@ -187,8 +187,8 @@ class PreviewController
                 '5' => "Built on top of Vue JS 3.x with Vite JS compitible",
             ];
             $versionDetails = [
-                "last update" => "8 November 2023",
-                "published" => "2 June 2020",
+                "Last Update" => "8 November 2023",
+                "Published" => "2 June 2020",
             ];
             $technologies = [
                 "1" => "html",
