@@ -5,7 +5,8 @@
             <!--begin::Page title-->
             <div class="page-title d-flex flex-column me-3">
                 <!--begin::Title-->
-                <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 text-bangla fs-2x"><a href="{{route('bn.home')}}" class="text-gray-900">{{__('হোম')}}</a> &nbsp;{{__('/ যেভাবে ব্যবহার করব ')}}</h1>
+                <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 fs-3 text-bangla"><a href="{{ route('bn.home') }}"
+                        class="text-gray-900">{{ __('হোম') }}</a> &nbsp;{{ __('/ যেভাবে ব্যবহার করব ') }}</h1>
                 <!--end::Title-->
             </div>
             <!--end::Page title-->
@@ -39,25 +40,29 @@
                                             <!--begin::Title-->
                                             <div class="mb-6">
                                                 <a href="#"
-                                                    class="text-gray-800 text-hover-primary fs-1 fw-bold text-bangla">
+                                                    class="text-gray-800 text-hover-primary fs-2x fw-bold text-bangla">
                                                     {{-- {{__('Service Standard')}}সার্ভিস স্ট্যান্ডার্ড --}}
                                                     লেটার বিল্ডার যেভাবে কাজ করে
                                                 </a>
-                                                </div>
+                                            </div>
                                             <!--end::Title-->
                                         </div>
                                         <!--end::Header-->
                                         <!--begin::Body-->
-                                        <div
-                                            class="d-flex flex-column text-left pt-5 pb-7 mb-8 card-rounded">
-                                            <span class="fw-bold text-gray-800 fs-3 text-bangla">
-                                                লেটার বিল্ডার ব্যবহার করার জন্য, সরকারী কর্মচারীদের কেবলমাত্র একটি ওয়েব ব্রাউজার এবং একটি ইন্টারনেট সংযোগ প্রয়োজন। তারা লেটার বিল্ডার ওয়েবসাইটে যান এবং একটি ব্যবহারকারী নাম এবং পাসওয়ার্ড তৈরি করেন। একবার তারা সাইন ইন করলে, তারা একটি নতুন চিঠি তৈরি করতে পারেন বা একটি বিদ্যমান চিঠি সম্পাদনা করতে পারেন।                                            </span>
+                                        <div class="d-flex flex-column text-left mb-4 card-rounded">
+                                            <span class="text-gray-800 fs-xl text-bangla">
+                                                লেটার বিল্ডার ব্যবহার করার জন্য, সরকারী কর্মচারীদের কেবলমাত্র একটি ওয়েব
+                                                ব্রাউজার এবং একটি ইন্টারনেট সংযোগ প্রয়োজন। তারা লেটার বিল্ডার
+                                                ওয়েবসাইটে যান এবং একটি ব্যবহারকারী নাম এবং পাসওয়ার্ড তৈরি করেন। একবার
+                                                তারা সাইন ইন করলে, তারা একটি নতুন চিঠি তৈরি করতে পারেন বা একটি বিদ্যমান
+                                                চিঠি সম্পাদনা করতে পারেন। </span>
                                         </div>
                                         <!--end::Body-->
                                         <!--begin::Footer-->
                                         <div class="d-flex flex-stack mt-auto bd-highlight">
                                             <!--begin::Actions-->
-                                            <a href="#" class="btn btn-primary btn-sm flex-shrink-0 ms-auto text-bangla"
+                                            <a href="#"
+                                                class="btn btn-primary btn-sm flex-shrink-0 ms-auto text-bangla"
                                                 data-bs-toggle="modal" data-bs-target="#kt_modal_bidding">
                                                 {{-- {{__('View Details')}} --}}বিস্তারিত দেখুন
                                             </a>
@@ -93,7 +98,7 @@
                                             <!--begin::Title-->
                                             <div class="mb-6">
                                                 <a href="#"
-                                                    class="text-gray-800 text-hover-primary fs-1 fw-bold text-bangla">
+                                                    class="text-gray-800 text-hover-primary fs-2x fw-bold text-bangla">
                                                     {{-- {{__('Application Development Guidance')}}অ্যাপ্লিকেশন উন্নয়ন নির্দেশিকা --}}
                                                     লেটার বিল্ডারের ভবিষ্যত
                                                 </a>
@@ -102,23 +107,27 @@
                                         </div>
                                         <!--end::Header-->
                                         <!--begin::Body-->
-                                        <div
-                                            class="d-flex flex-column text-left pt-5 pb-7 mb-8 card-rounded">
-                                            <span class="fw-bold text-gray-800 fs-3 text-bangla">
+                                        <div class="d-flex flex-column text-left mb-4 card-rounded">
+                                            <span class="text-gray-800 fs-xl text-bangla">
                                                 {{-- {{__('Guidance for application developers of applications which will be run on devices ...')}} --}}
                                                 {{-- অ্যাপ্লিকেশনগুলির অ্যাপ্লিকেশন বিকাশকারীদের জন্য নির্দেশিকা যা ডিভাইসগুলিতে চালানো হবে … --}}
-                                                লেটার বিল্ডার বাংলাদেশ সরকারের উচ্চাভিলাষী উদ্যোগ, 'স্মার্ট বাংলাদেশ,' রূপকল্প ২০৪১-এর সাথেও সংযুক্ত। এই প্ল্যাটফর্মটি সরকারী অফিসগুলিকে আরও দক্ষ এবং কার্যকর করে তোলার জন্য সহায়তা করে, যা শেষ পর্যন্ত নাগরিকদের জন্য আরও ভাল পরিষেবা প্রদান করে।
-লেটার বিল্ডার একটি উদ্ভাবনী প্ল্যাটফর্ম যা সরকারী যোগাযোগকে আরও সহজ, দক্ষ এবং কার্যকর করে তুলতে সহায়তা করছে এবং ভবিষ্যতেও এটি অব্যাহত থাকবে। 
+                                                লেটার বিল্ডার বাংলাদেশ সরকারের উচ্চাভিলাষী উদ্যোগ, 'স্মার্ট বাংলাদেশ,'
+                                                রূপকল্প ২০৪১-এর সাথেও সংযুক্ত। এই প্ল্যাটফর্মটি সরকারী অফিসগুলিকে আরও
+                                                দক্ষ এবং কার্যকর করে তোলার জন্য সহায়তা করে, যা শেষ পর্যন্ত নাগরিকদের
+                                                জন্য আরও ভাল পরিষেবা প্রদান করে।
+                                                লেটার বিল্ডার একটি উদ্ভাবনী প্ল্যাটফর্ম যা সরকারী যোগাযোগকে আরও সহজ,
+                                                দক্ষ এবং কার্যকর করে তুলতে সহায়তা করছে এবং ভবিষ্যতেও এটি অব্যাহত থাকবে।
                                             </span>
                                         </div>
                                         <!--end::Body-->
                                         <!--begin::Footer-->
                                         <div class="d-flex flex-stack mt-auto bd-highlight">
                                             <!--begin::Actions-->
-                                            <a href="#" class="btn btn-primary btn-sm flex-shrink-0 ms-auto text-bangla"
+                                            <a href="#"
+                                                class="btn btn-primary btn-sm flex-shrink-0 ms-auto text-bangla"
                                                 data-bs-toggle="modal" data-bs-target="#kt_modal_bidding">
                                                 {{-- {{__('View Details')}} --}}বিস্তারিত দেখুন
-                                                </a>
+                                            </a>
                                             <!--end::Actions-->
                                         </div>
                                         <!--end::Footer-->

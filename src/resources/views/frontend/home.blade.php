@@ -10,18 +10,14 @@
                     <div class="col-sm-8 col-xxl-8">
                         <div class="row">
                             <h1 class="d-flex text-gray-900 opacity-75 fs-2tx fw-bold my-4">
-                                {{ __('Elevate Government Correspondence:') }}
+                                {{ __('Elevate Government Correspondence') }}
                             </h1>
-                            <h2 class="d-flex text-gray-900 opacity-75 fs-2x fw-bold my-1">
-                                {{ __('Letter Builder - Where Time-Saving Solutions ') }}
-                            </h2>
-                            <h2 class="d-flex text-gray-900 opacity-75 fs-2x fw-bold my-1">
-                                {{ __('Meet Precision in Communication Excellence!') }}
-                            </h2>
-                            <h2 class="d-flex text-gray-900 opacity-75 fs-xl my-1">
-                                "Letter Builder" is a system for creating letters in various formats according to the
+                            <h2 class="d-flex text-gray-900 opacity-75 fs-x fw-bold my-1">
+                                {{ __('Letter Builder - Where Time-Saving Solutions Meet Precision in Communication Excellence!') }}
+                                "Letter Builder" is a technology-driven system crafting letters in various formats, meeting user needs effortlessly, and saving time.
+                                {{-- "Letter Builder" is a system for creating letters in various formats according to the
                                 user's needs easily, in less time, using technology for online or external communication
-                                in government offices.
+                                in government offices. --}}
                             </h2>
                         </div>
                     </div>
@@ -419,34 +415,27 @@
                                     <div class="d-flex flex-column h-100">
                                         <!--begin::Header-->
                                         <div class="mb-7">
-                                            <!--begin::Title-->
-                                            <div class="mb-6">
-                                                <a href="#"
-                                                    class="text-gray-800 text-hover-primary fs-1 fw-bold">
-                                                    {{-- {{ __('Service Standard') }} --}}How Letter Builder Works
-                                                </a>
-                                            </div>
-                                            <!--end::Title-->
+                                            <a href="#"
+                                                class="text-gray-800 text-hover-primary fs-xl fw-bold">
+                                                {{-- {{__('Service Standard')}} --}}How Letter Builder Works
+                                            </a>
                                         </div>
                                         <!--end::Header-->
                                         <!--begin::Body-->
                                         <div
-                                            class="d-flex flex-column border border-1 border-gray-300 text-center pt-5 pb-7 mb-8 card-rounded">
-                                            <span class="fw-bold text-gray-800 fs-xl">
-                                                {{-- {{ __('The service standard helps to create and run great public services ...') }} --}}
-                                                To use Letter Builder, government employees only need a web browser and
-                                                an Internet connection. They go to the Letter Builder website and create
-                                                a username and password. Once they sign in, they can create a new letter
-                                                or edit an existing letter.
-                                            </span>
+                                            class="d-flex flex-column text-left mb-4 card-rounded">
+                                            <span class="text-gray-800 fs-lg">
+                                                {{-- {{__('The service standard helps to create and run great public services ...')}} --}}
+                                                To use Letter Builder, government employees only need a web browser and an Internet connection. They go to the Letter Builder website and create a username and password. Once they sign in, they can create a new letter or edit an existing letter.
+                                                </span>
                                         </div>
                                         <!--end::Body-->
                                         <!--begin::Footer-->
                                         <div class="d-flex flex-stack mt-auto bd-highlight">
                                             <!--begin::Actions-->
                                             <a href="#" class="btn btn-primary btn-sm flex-shrink-0 ms-auto"
-                                                data-bs-toggle="modal"
-                                                data-bs-target="#kt_modal_bidding">{{ __('View Details') }}</a>
+                                                data-bs-toggle="modal" data-bs-target="#kt_modal_bidding">{{__('View
+                                                Details')}}</a>
                                             <!--end::Actions-->
                                         </div>
                                         <!--end::Footer-->
@@ -476,38 +465,27 @@
                                     <div class="d-flex flex-column h-100">
                                         <!--begin::Header-->
                                         <div class="mb-7">
-                                            <!--begin::Title-->
-                                            <div class="mb-6">
-                                                <a href="#"
-                                                    class="text-gray-800 text-hover-primary fs-1 fw-bold">
-                                                    {{-- {{ __('Application Development Guidance') }} --}}
-                                                    The future of Letter Builder
-                                                </a>
-                                            </div>
-                                            <!--end::Title-->
+                                            <a href="#"
+                                                class="text-gray-800 text-hover-primary fs-xl fw-bold">
+                                                {{-- {{__('Application Development Guidance')}} --}}The future of Letter Builder
+                                            </a>
                                         </div>
                                         <!--end::Header-->
                                         <!--begin::Body-->
                                         <div
-                                            class="d-flex flex-column border border-1 border-gray-300 text-center pt-5 pb-7 mb-8 card-rounded">
-                                            <span class="fw-bold text-gray-800 fs-xl">
-                                                {{-- {{ __('Guidance for application developers of applications which will be run on devices ...') }} --}}
-                                                LetterBuilder is also aligned with Bangladesh Government's ambitious
-                                                initiative, 'Smart Bangladesh,' Vision 2041. This platform helps in
-                                                making government offices more efficient and effective, ultimately
-                                                providing better services to citizens. Letter Builder is an innovative
-                                                platform that is helping to make government communications easier, more
-                                                efficient and effective, and will continue to do so in the future.
-                                            </span>
+                                            class="d-flex flex-column text-left mb-4 card-rounded">
+                                            <span class="text-gray-800 fs-lg">
+                                                {{-- {{__('Guidance for application developers of applications which will be run on devices ...')}} --}}
+                                                Letter Builder is also aligned with Bangladesh Government's ambitious initiative, 'Smart Bangladesh,' Vision 2041. This platform helps in making government offices more efficient and effective, ultimately providing better services to citizens. Letter Builder is an innovative platform that is helping to make government communications easier, more efficient and effective, and will continue to do so in the future.
+                                                </span>
                                         </div>
                                         <!--end::Body-->
                                         <!--begin::Footer-->
                                         <div class="d-flex flex-stack mt-auto bd-highlight">
                                             <!--begin::Actions-->
                                             <a href="#" class="btn btn-primary btn-sm flex-shrink-0 ms-auto"
-                                                data-bs-toggle="modal"
-                                                data-bs-target="#kt_modal_bidding">{{ __('View
-                                                                                                                                                                                                                                                Details') }}</a>
+                                                data-bs-toggle="modal" data-bs-target="#kt_modal_bidding">{{__('View
+                                                Details')}}</a>
                                             <!--end::Actions-->
                                         </div>
                                         <!--end::Footer-->
@@ -565,7 +543,7 @@
                             <div class="d-flex justify-content-center">
                                 <a href="https://www.nothi.gov.bd/login">
                                     <img src="https://www.nothi.gov.bd/img/nothi_logo_login.png"
-                                        class="d-block img-fluid" height="20px" alt="...">
+                                        class="d-block img-fluid" height="20" alt="...">
                                 </a>
 
                             </div>

@@ -1,4 +1,4 @@
-<x-lbs-master>
+<x-lbs-bn-master>
     {{-- @dd($doc) --}}
     @php
         $features = $doc['features'];
@@ -15,9 +15,9 @@
             <!--begin::Page title-->
             <div class="page-title d-flex flex-column me-3">
                 <!--begin::Title-->
-                <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 fs-3"><a href="{{ route('home') }}"
-                        class="text-gray-900">{{ __('Home') }}</a>
-                    &nbsp;{{ __('/ All Templates /') }} {{ $doc['doc_name']}}</h1>
+                <h1 class="d-flex text-gray-900 opacity-75 fw-bold my-1 fs-3 text-bangla"><a href="{{ route('home') }}"
+                        class="text-gray-900 text-bangla">{{ __('হোম') }}</a>
+                    &nbsp;{{ __('/ সকল টেমপ্লেট /') }} {{ $doc['doc_name_bn']}}</h1>
                 <!--end::Title-->
             </div>
             <!--end::Page title-->
@@ -38,7 +38,7 @@
                             <!--begin::Body-->
                             <div class="card-body d-flex justify-content-between flex-column ps-xl-18" >
                                 <!--begin::Heading-->
-                                <h3 class="fw-bold text-gray-800 fs-2x mb-5 ms-n1">{{$doc['doc_name']}}</h3>
+                                <h3 class="fw-bold text-gray-800 fs-2x mb-5 ms-n1 text-bangla">{{$doc['doc_name_bn']}}</h3>
                                 <!--end::Heading-->
                                 <div class="row" style="vertical-align: top">
                                     <div class="col-xl-6" >
@@ -68,7 +68,7 @@
                             <div class="card-header pt-7">
                                 <!--begin::Title-->
                                 <h3 class="card-title align-items-start flex-column">
-                                    <span class="card-label fw-bold text-gray-800">{{ __('Features') }}</span>
+                                    <span class="card-label fw-bold text-gray-800 text-bangla">{{ __('বৈশিষ্ট্য') }}</span>
                                 </h3>
                                 <!--end::Title-->
                             </div>
@@ -481,4 +481,4 @@
         </div>
         <!--end::Post-->
     </div>
-</x-lbs-master>
+</x-lbs-bn-master>

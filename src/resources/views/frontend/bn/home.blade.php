@@ -9,7 +9,7 @@
                     <!--begin::Col-->
                     <div class="col-sm-8 col-xxl-8">
                         <div class="row">
-                            <h1 class="d-flex text-gray-900 opacity-75 fs-2tx fw-bold my-4 text-bangla">
+                            <h1 class="d-flex text-gray-900 opacity-75 fs-2tx fw-bold text-bangla">
                                 {{-- {{__('Elevate Government Correspondence:')}} --}}
                                 সরকারি চিঠিপত্র আধুনিকীকরণ
                             </h1>
@@ -17,11 +17,9 @@
                                 {{-- {{__('Letter Builder - Where Time-saving Solutions Meet Precision')}} --}}
                                 {{-- লেটার বিল্ডার - যেখানে সময় সাশ্রয়ী সমাধানগুলি যথার্থতা পূরণ করে --}}
                                 লেটার বিল্ডার - সরকারি যোগাযোগকে আরও সহজ এবং কার্যকর করে তোলার একটি উদ্ভাবনী প্ল্যাটফর্ম
-                             </h2>
-                            <h2 class="d-flex text-gray-900 opacity-75 fs-1x fw-bold my-1 text-bangla"> 
-                                {{-- {{__('in Communication Excellence!')}} --}}
-                                {{-- কমিউনিকেশন এক্সিলেন্সে! --}}
-                                সরকারি অফিসসমূহে অভ্যন্তরীণ বা বাহ্যিক যোগাযোগের জন্য প্রযুক্তি ব্যবহার করে সহজে, কম সময়ে, ব্যবহারকারীর চাহিদা অনুযায়ী বিভিন্ন ফরম্যাটে পত্র তৈরির সিস্টেমই হলো লেটার বিল্ডার। 
+                                সরকারি অফিসসমূহে অভ্যন্তরীণ বা বাহ্যিক যোগাযোগের জন্য প্রযুক্তি ব্যবহার করে সহজে, কম
+                                সময়ে, ব্যবহারকারীর চাহিদা অনুযায়ী বিভিন্ন ফরম্যাটে পত্র তৈরির সিস্টেমই হলো লেটার
+                                বিল্ডার।
                             </h2>
                         </div>
                     </div>
@@ -50,14 +48,15 @@
                 <!--begin::Value-->
                 <div class="text-center">
                     <div class="fs-lg-2hx fs-2x fw-bold d-flex flex-center">
-                        <div class="min-w-70px" data-kt-countup="true" data-kt-countup-value="46" data-kt-countup-suffix="">
+                        <div class="min-w-70px" data-kt-countup="true" data-kt-countup-value="46"
+                            data-kt-countup-suffix="">
                             0</div>
                     </div>
                     <!--end::Value-->
-    
+
                     <!--begin::Label-->
                     <span class="text-gray-600 fw-semibold fs-5 lh-0">
-                        {{__('মন্ত্রণালয়/বিভাগ')}}
+                        {{ __('মন্ত্রণালয়/বিভাগ') }}
                     </span>
                     <!--end::Label-->
                 </div>
@@ -76,10 +75,10 @@
                             data-kt-countup-suffix="k+">0</div>
                     </div>
                     <!--end::Value-->
-    
+
                     <!--begin::Label-->
                     <span class="text-gray-600 fw-semibold fs-5 lh-0">
-                        {{__('অফিস')}} 
+                        {{ __('অফিস') }}
                     </span>
                     <!--end::Label-->
                 </div>
@@ -98,10 +97,10 @@
                             data-kt-countup-suffix="k+">0</div>
                     </div>
                     <!--end::Value-->
-    
+
                     <!--begin::Label-->
                     <span class="text-gray-600 fw-semibold fs-5 lh-0">
-                        {{__('ব্যবহারকারী')}} 
+                        {{ __('ব্যবহারকারী') }}
                     </span>
                     <!--end::Label-->
                 </div>
@@ -120,10 +119,10 @@
                             data-kt-countup-suffix="">0</div>
                     </div>
                     <!--end::Value-->
-    
+
                     <!--begin::Label-->
                     <span class="text-gray-600 fw-semibold fs-5 lh-0">
-                        {{__('টেমপ্লেট')}}
+                        {{ __('টেমপ্লেট') }}
                     </span>
                     <!--end::Label-->
                 </div>
@@ -177,12 +176,12 @@
                                         {{-- {{__('Notice')}} --}}নোটিশ
                                     </span>
                                     <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
-                                        {{-- {{__('Total Download:')}} --}} মোট ডাউনলোড 
+                                        {{-- {{__('Total Download:')}} --}} মোট ডাউনলোড
                                     </span>
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
-                                <span class="text-gray-600 text-end fw-bold fs-6">{{__('2,630')}}</span>
+                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('2,630') }}</span>
                                 <!--end::Total-->
                             </div>
                             <!--end::Info-->
@@ -191,13 +190,14 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a href="{{route('pdfDownload', $docId="1")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
-                                {{__('ডাউনলোড')}}
+                            <a href="{{ route('pdfDownload', $docId = '1') }}"
+                                class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{ __('ডাউনলোড') }}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.details', $docId = 1)}}">
-                                {{__('বিস্তারিত দেখুন')}}
+                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{ route('bn.details', $docId = 1) }}">
+                                {{ __('বিস্তারিত দেখুন') }}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -240,12 +240,12 @@
                                         {{-- {{__('Office Memo')}} --}}অফিস স্মারক
                                     </span>
                                     <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
-                                        {{-- {{__('Total Download:')}} --}}মোট ডাউনলোড 
+                                        {{-- {{__('Total Download:')}} --}}মোট ডাউনলোড
                                     </span>
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
-                                <span class="text-gray-600 text-end fw-bold fs-6">{{__('17,035')}}</span>
+                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('17,035') }}</span>
                                 <!--end::Total-->
                             </div>
                             <!--end::Info-->
@@ -254,13 +254,15 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a href="{{route('pdfDownload', $docId="2")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
-                                {{__('ডাউনলোড')}}
+                            <a href="{{ route('pdfDownload', $docId = '2') }}"
+                                class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{ __('ডাউনলোড') }}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.details', $docId = 2)}}">
-                                {{__('বিস্তারিত দেখুন')}}
+                            <a class="btn btn-sm btn-light flex-shrink-0"
+                                href="{{ route('bn.details', $docId = 2) }}">
+                                {{ __('বিস্তারিত দেখুন') }}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -300,15 +302,15 @@
                                 <div class="text-start">
                                     <span
                                         class="fw-bold text-gray-800 cursor-pointer text-hover-primary fs-4 d-block text-bangla">
-                                        {{-- {{__('Circular Sample')}} --}}পরিপত্রের নমুনা 
+                                        {{-- {{__('Circular Sample')}} --}}পরিপত্রের নমুনা
                                     </span>
                                     <span class="text-gray-500 mt-1 fw-bold fs-6 text-bangla">
-                                        {{-- {{__('Total Download:')}} --}}মোট ডাউনলোড 
+                                        {{-- {{__('Total Download:')}} --}}মোট ডাউনলোড
                                     </span>
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
-                                <span class="text-gray-600 text-end fw-bold fs-6">{{__('2,630')}}</span>
+                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('2,630') }}</span>
                                 <!--end::Total-->
                             </div>
                             <!--end::Info-->
@@ -317,13 +319,15 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a href="{{route('pdfDownload', $docId="3")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
-                                {{__('ডাউনলোড')}}
+                            <a href="{{ route('pdfDownload', $docId = '3') }}"
+                                class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{ __('ডাউনলোড') }}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.details', $docId = 3)}}">
-                                {{__('বিস্তারিত দেখুন')}}
+                            <a class="btn btn-sm btn-light flex-shrink-0"
+                                href="{{ route('bn.details', $docId = 3) }}">
+                                {{ __('বিস্তারিত দেখুন') }}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -366,12 +370,12 @@
                                         {{-- {{__('Meeting Minutes')}} --}}সভার কার্যবিবরণী
                                     </span>
                                     <span class="text-gray-500 text-bangla mt-1 fw-bold fs-6">
-                                        {{-- {{__('Total Download:')}} --}} মোট ডাউনলোড 
+                                        {{-- {{__('Total Download:')}} --}} মোট ডাউনলোড
                                     </span>
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
-                                <span class="text-gray-600 text-end fw-bold fs-6">{{__('17,035')}}</span>
+                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('17,035') }}</span>
                                 <!--end::Total-->
                             </div>
                             <!--end::Info-->
@@ -380,13 +384,15 @@
                         <!--begin::Footer-->
                         <div class="card-footer d-flex flex-stack pt-0">
                             <!--begin::Link-->
-                            <a href="{{route('pdfDownload', $docId="6")}}" class="btn btn-sm btn-primary flex-shrink-0 me-2">
-                                {{__('ডাউনলোড')}}
+                            <a href="{{ route('pdfDownload', $docId = '6') }}"
+                                class="btn btn-sm btn-primary flex-shrink-0 me-2">
+                                {{ __('ডাউনলোড') }}
                             </a>
                             <!--end::Link-->
                             <!--begin::Link-->
-                            <a class="btn btn-sm btn-light flex-shrink-0" href="{{route('bn.details', $docId = 6)}}">
-                                {{__('বিস্তারিত দেখুন')}}
+                            <a class="btn btn-sm btn-light flex-shrink-0"
+                                href="{{ route('bn.details', $docId = 6) }}">
+                                {{ __('বিস্তারিত দেখুন') }}
                             </a>
                             <!--end::Link-->
                         </div>
@@ -396,7 +402,8 @@
                 </div>
                 <!--end::Col-->
                 <div class="col-sm-12 col-xxl-12 text-center">
-                    <a href="{{route('bn.multipleTemplate')}}" class="btn btn-primary btn-sm flex-shrink-0 ms-auto text-bangla">
+                    <a href="{{ route('bn.multipleTemplate') }}"
+                        class="btn btn-primary btn-sm flex-shrink-0 ms-auto text-bangla">
                         {{-- {{__('View More')}} --}}আরো দেখুন
 
                     </a>
@@ -427,7 +434,7 @@
                                             <!--begin::Title-->
                                             <div class="mb-6">
                                                 <a href="#"
-                                                    class="text-gray-800 text-hover-primary fs-1 fw-bold text-bangla">
+                                                    class="text-gray-800 text-hover-primary fs-2x fw-bold text-bangla">
                                                     {{-- {{__('Service Standard')}}সার্ভিস স্ট্যান্ডার্ড --}}
                                                     লেটার বিল্ডার যেভাবে কাজ করে
                                                 </a>
@@ -436,20 +443,20 @@
                                         </div>
                                         <!--end::Header-->
                                         <!--begin::Body-->
-                                        <div
-                                            class="d-flex flex-column border border-1 border-gray-300 text-center pt-5 pb-7 mb-8 card-rounded">
-                                            <span class="fw-bold text-gray-800 fs-3 text-bangla">
-                                                {{-- {{__('The service standard helps to create and run great public services ...')}} --}}
-                                                {{-- পরিষেবার মান পাবলিক পরিষেবা তৈরি করতে এবং চালাতে সাহায্য করে… --}}
-                                                লেটার বিল্ডার ব্যবহার করার জন্য, সরকারী কর্মচারীদের কেবলমাত্র একটি ওয়েব ব্রাউজার এবং একটি ইন্টারনেট সংযোগ প্রয়োজন। তারা লেটার বিল্ডার ওয়েবসাইটে যান এবং একটি ব্যবহারকারী নাম এবং পাসওয়ার্ড তৈরি করেন। একবার তারা সাইন ইন করলে, তারা একটি নতুন চিঠি তৈরি করতে পারেন বা একটি বিদ্যমান চিঠি সম্পাদনা করতে পারেন।                                            </span>
-
-                                            </span>
+                                        <div class="d-flex flex-column text-left mb-4 card-rounded">
+                                            <span class="text-gray-800 fs-xl text-bangla">
+                                                লেটার বিল্ডার ব্যবহার করার জন্য, সরকারী কর্মচারীদের কেবলমাত্র একটি ওয়েব
+                                                ব্রাউজার এবং একটি ইন্টারনেট সংযোগ প্রয়োজন। তারা লেটার বিল্ডার
+                                                ওয়েবসাইটে যান এবং একটি ব্যবহারকারী নাম এবং পাসওয়ার্ড তৈরি করেন। একবার
+                                                তারা সাইন ইন করলে, তারা একটি নতুন চিঠি তৈরি করতে পারেন বা একটি বিদ্যমান
+                                                চিঠি সম্পাদনা করতে পারেন। </span>
                                         </div>
                                         <!--end::Body-->
                                         <!--begin::Footer-->
                                         <div class="d-flex flex-stack mt-auto bd-highlight">
                                             <!--begin::Actions-->
-                                            <a href="#" class="btn btn-primary btn-sm flex-shrink-0 ms-auto text-bangla"
+                                            <a href="#"
+                                                class="btn btn-primary btn-sm flex-shrink-0 ms-auto text-bangla"
                                                 data-bs-toggle="modal" data-bs-target="#kt_modal_bidding">
                                                 {{-- {{__('View Details')}} --}}বিস্তারিত দেখুন
                                             </a>
@@ -485,29 +492,33 @@
                                             <!--begin::Title-->
                                             <div class="mb-6">
                                                 <a href="#"
-                                                    class="text-gray-800 text-hover-primary fs-1 fw-bold text-bangla">
-                                                    {{-- {{__('Application Development Guidance')}}</a> --}}
-                                                    {{-- অ্যাপ্লিকেশন উন্নয়ন নির্দেশিকা --}}
+                                                    class="text-gray-800 text-hover-primary fs-2x fw-bold text-bangla">
+                                                    {{-- {{__('Application Development Guidance')}}অ্যাপ্লিকেশন উন্নয়ন নির্দেশিকা --}}
                                                     লেটার বিল্ডারের ভবিষ্যত
+                                                </a>
                                             </div>
                                             <!--end::Title-->
                                         </div>
                                         <!--end::Header-->
                                         <!--begin::Body-->
-                                        <div
-                                            class="d-flex flex-column border border-1 border-gray-300 text-center pt-5 pb-7 mb-8 card-rounded">
-                                            <span class="fw-bold text-gray-800 fs-3 text-bangla">
+                                        <div class="d-flex flex-column text-left mb-4 card-rounded">
+                                            <span class="text-gray-800 fs-xl text-bangla">
                                                 {{-- {{__('Guidance for application developers of applications which will be run on devices ...')}} --}}
                                                 {{-- অ্যাপ্লিকেশনগুলির অ্যাপ্লিকেশন বিকাশকারীদের জন্য নির্দেশিকা যা ডিভাইসগুলিতে চালানো হবে … --}}
-                                                লেটার বিল্ডার বাংলাদেশ সরকারের উচ্চাভিলাষী উদ্যোগ, 'স্মার্ট বাংলাদেশ,' রূপকল্প ২০৪১-এর সাথেও সংযুক্ত। এই প্ল্যাটফর্মটি সরকারী অফিসগুলিকে আরও দক্ষ এবং কার্যকর করে তোলার জন্য সহায়তা করে, যা শেষ পর্যন্ত নাগরিকদের জন্য আরও ভাল পরিষেবা প্রদান করে।
-                                                লেটার বিল্ডার একটি উদ্ভাবনী প্ল্যাটফর্ম যা সরকারী যোগাযোগকে আরও সহজ, দক্ষ এবং কার্যকর করে তুলতে সহায়তা করছে এবং ভবিষ্যতেও এটি অব্যাহত থাকবে। 
+                                                লেটার বিল্ডার বাংলাদেশ সরকারের উচ্চাভিলাষী উদ্যোগ, 'স্মার্ট বাংলাদেশ,'
+                                                রূপকল্প ২০৪১-এর সাথেও সংযুক্ত। এই প্ল্যাটফর্মটি সরকারী অফিসগুলিকে আরও
+                                                দক্ষ এবং কার্যকর করে তোলার জন্য সহায়তা করে, যা শেষ পর্যন্ত নাগরিকদের
+                                                জন্য আরও ভাল পরিষেবা প্রদান করে।
+                                                লেটার বিল্ডার একটি উদ্ভাবনী প্ল্যাটফর্ম যা সরকারী যোগাযোগকে আরও সহজ,
+                                                দক্ষ এবং কার্যকর করে তুলতে সহায়তা করছে এবং ভবিষ্যতেও এটি অব্যাহত থাকবে।
                                             </span>
                                         </div>
                                         <!--end::Body-->
                                         <!--begin::Footer-->
                                         <div class="d-flex flex-stack mt-auto bd-highlight">
                                             <!--begin::Actions-->
-                                            <a href="#" class="btn btn-primary btn-sm flex-shrink-0 ms-auto text-bangla"
+                                            <a href="#"
+                                                class="btn btn-primary btn-sm flex-shrink-0 ms-auto text-bangla"
                                                 data-bs-toggle="modal" data-bs-target="#kt_modal_bidding">
                                                 {{-- {{__('View Details')}} --}}বিস্তারিত দেখুন
                                             </a>
@@ -528,9 +539,9 @@
                 <!--end::Col-->
             </div>
             <!--end::Row-->
-            
+
             <!--begin::Carousel Row-->
-            <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
+            {{-- <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
                 <div id="kt_carousel_2_carousel" class="carousel carousel-custom slide" data-bs-ride="carousel"
                     data-bs-interval="3000">
                     <!--begin::Heading-->
@@ -555,16 +566,12 @@
                                 <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active">
                                         <div class="col-md-4">
-                                            {{-- <div class="card">
-                                                <div class="card-img"> --}}
-                                                    <div class="d-flex justify-content-center">
-                                                        <a href="https://www.mygov.bd/">
-                                                            <img src="https://doptor-portal-admin-v2.bokhshi.com/images/platformimage/oL8ZybJ6D9MxVnWozhR8N7jOPrs0UpYr2zjGyptI.png"
-                                                                class="d-block img-fluid" alt="...">
-                                                        </a>
-                                                    </div>
-                                                {{-- </div> 
-                                            </div> --}}
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://www.mygov.bd/">
+                                                    <img src="https://doptor-portal-admin-v2.bokhshi.com/images/platformimage/oL8ZybJ6D9MxVnWozhR8N7jOPrs0UpYr2zjGyptI.png"
+                                                        class="d-block img-fluid" alt="...">
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
@@ -577,8 +584,8 @@
                                             </div>
                                         </div>
                                     </div>                                    
-                                    {{-- Report Img --}}
-                                    {{-- <div class="carousel-item">
+                                    <!--Report Img
+                                    <div class="carousel-item">
                                         <div class="col-md-4">
                                                     <div class="d-flex justify-content-center">
                                                         <a href="https://www.report.gov.bd/">
@@ -589,7 +596,7 @@
                                                         </a>
                                                     </div>
                                         </div>
-                                    </div> --}}
+                                    </div> -->
                                 </div>
                                 <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel"
                                     role="button" data-bs-slide="prev">
@@ -603,8 +610,68 @@
                         </div>
                     </div>
                 </div>
+            </div> --}}
+            <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
+                <div id="kt_carousel_2_carousel" class="carousel carousel-custom slide" data-bs-ride="carousel"
+                    data-bs-interval="3000">
+                    <!--begin::Heading-->
+                    <div class="d-flex align-items-center justify-content-between flex-wrap">
+                        <!--begin::Label-->
+                        <span class="d-flex text-gray-800 fw-bold pt-4 pb-4 text-bangla fw-bold" style="font-size: 1.75rem">গুরুত্বপূর্ণ সব ই-গভর্নমেন্ট সিস্টেম যা লেটার বিল্ডার ব্যবহার করে</span>
+
+                        <!--end::Label-->
+
+                        <!--begin::Carousel Indicators-->
+                        <ol class="p-0 m-0 carousel-indicators carousel-indicators-bullet">
+                            <li data-bs-target="#kt_carousel_2_carousel" data-bs-slide-to="0" class="ms-1 active">
+                            </li>
+                            <li data-bs-target="#kt_carousel_2_carousel" data-bs-slide-to="1" class="ms-1"></li>
+                            <li data-bs-target="#kt_carousel_2_carousel" data-bs-slide-to="2" class="ms-1"></li>
+                        </ol>
+                        <!--end::Carousel Indicators-->
+                    </div>
+                    <!--end::Heading-->
+
+                    <!--begin::Carousel-->
+                    <div class="carousel-inner pt-8">
+                        <!--begin::Item-->
+                        <div class="carousel-item active">
+                            <div class="d-flex justify-content-center">
+                                <a href="link-to-logo1">
+                                    <img src="https://doptor-portal-admin-v2.bokhshi.com/images/platformimage/oL8ZybJ6D9MxVnWozhR8N7jOPrs0UpYr2zjGyptI.png"
+                                        class="d-block img-fluid" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                        <!--end::Item-->
+
+                        <!--begin::Item-->
+                        <div class="carousel-item">
+                            <div class="d-flex justify-content-center">
+                                <a href="https://www.nothi.gov.bd/login">
+                                    <img src="https://www.nothi.gov.bd/img/nothi_logo_login.png"
+                                        class="d-block img-fluid" height="20" alt="...">
+                                </a>
+
+                            </div>
+                        </div>
+                        <!--end::Item-->
+                    </div>
+                    <!--end::Carousel-->
+
+
+                        <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+                </div>
             </div>
             <!--begin::Row-->
+
         </div>
         <!--end::Post-->
     </div>
