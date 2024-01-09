@@ -11,9 +11,17 @@
                             class="logo-sticky h-40px" />
                     </a>
                 </div>
+<<<<<<< HEAD
                 <div class="mt-4 w-75">
                     <img class="img-fluid" src="{{ asset('ui/frontend/assets') }}/media/logos/a2i-all.png"
                         alt="a2i partners">
+=======
+                <div class="rounded">
+                    <p class="pt-4">"Letter Builder" is a system for creating letters in various formats according to the user's needs easily, in less time, using technology for online or external communication in government offices.</p>
+                    <div class="a2i-no-repeat pt-2"
+                        style="height: 180px; width: auto; background-image:url('{{ asset('ui/frontend/assets')}}/media/logos/a2i-all.png'); background-position: left top; background-size: 60% auto;">
+                    </div>
+>>>>>>> 2ac478b85952bb4fe2a2835349bdbbad44e18a6e
                 </div>
             </div>
             <!--end::Col-->

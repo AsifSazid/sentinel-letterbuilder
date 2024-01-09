@@ -13,8 +13,9 @@
                     </a>
                 </div>
                 <div class="rounded">
-                    <div class="a2i-no-repeat"
-                        style="height: 180px; width: auto; background-image:url('{{ asset('ui/frontend/assets')}}/media/logos/a2i-all.png'); background-position: left top; background-size: 100% auto;">
+                    <p class="text-bangla fs-5 pt-4">সরকারি অফিসসমূহে অভ্যন্তরীণ বা বাহ্যিক যোগাযোগের জন্য প্রযুক্তি ব্যবহার করে সহজে, কম সময়ে, ব্যবহারকারীর চাহিদা অনুযায়ী বিভিন্ন ফরম্যাটে পত্র তৈরির সিস্টেমই হলো লেটার বিল্ডার।</p>
+                    <div class="a2i-no-repeat pt-2"
+                        style="height: 180px; width: auto; background-image:url('{{ asset('ui/frontend/assets')}}/media/logos/a2i-all.png'); background-position: left top; background-size: 60% auto;">
                     </div>
                 </div>
             </div>

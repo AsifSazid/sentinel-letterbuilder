@@ -11,7 +11,7 @@ class PreviewController
         }elseif($docId == 2){
             return view('letterbuilder::frontend.office_memo.preview');
         }elseif($docId == 3){
-            return view('letterbuilder::frontend.circular_sample.preview');
+            return view('letterbuilder::frontend.circular-sample.preview');
         }elseif($docId == 4){
             return view('letterbuilder::frontend.official-letter.preview');
         }elseif($docId == 5){
@@ -74,46 +74,175 @@ class PreviewController
     public function detailsView($docId)
     {
         if($docId == 1){
-            return view('letterbuilder::frontend.notice.details');
+            $doc = $this->get_detail_infos();
+            $doc['doc_name'] = "Notice";
+            $doc['doc_id'] = "1";
+            return view('letterbuilder::frontend.details', compact('doc'));
         }elseif($docId == 2){
-            return view('letterbuilder::frontend.office-memo.details');
+            $doc = $this->get_detail_infos();
+            $doc['doc_name'] = "Office Memo";
+            $doc['doc_id'] = "2";
+            return view('letterbuilder::frontend.details', compact('doc'));
         }elseif($docId == 3){
-            return view('letterbuilder::frontend.circular-sample.details');
+            $doc = $this->get_detail_infos();
+            $doc['doc_name'] = "Circular Sample";
+            $doc['doc_id'] = "3";
+            return view('letterbuilder::frontend.details', compact('doc'));
         }elseif($docId == 4){
-            return view('letterbuilder::frontend.official-letter.details');
+            $doc = $this->get_detail_infos();
+            $doc['doc_name'] = "Government Letter Sample";
+            $doc['doc_id'] = "4";
+            return view('letterbuilder::frontend.details', compact('doc'));
         }elseif($docId == 5){
-            return view('letterbuilder::frontend.unofficial-note.details');
+            $doc = $this->get_detail_infos();
+            $doc['doc_name'] = "Unofficial Note";
+            $doc['doc_id'] = "5";
+            return view('letterbuilder::frontend.details', compact('doc'));
         }elseif($docId == 6){
-            return view('letterbuilder::frontend.meeting-minutes.details');
+            $doc = $this->get_detail_infos();
+            $doc['doc_name'] = "Meeting Minutes";
+            $doc['doc_id'] = "6";
+            return view('letterbuilder::frontend.details', compact('doc'));
         }elseif($docId == 7){
-            return view('letterbuilder::frontend.notification-sample.details');
+            $doc = $this->get_detail_infos();
+            $doc['doc_name'] = "Notification Sample";
+            $doc['doc_id'] = "7";
+            return view('letterbuilder::frontend.details', compact('doc'));
         }elseif($docId == 8){
-            return view('letterbuilder::frontend.office-order.details');
+            $doc = $this->get_detail_infos();
+            $doc['doc_name'] = "Office Order";
+            $doc['doc_id'] = "8";
+            return view('letterbuilder::frontend.details', compact('doc'));
         }elseif($docId == 9){
-            return view('letterbuilder::frontend.semi-govt-letter-sample.details');
+            $doc = $this->get_detail_infos();
+            $doc['doc_name'] = "Semi Govt Letter Sample";
+            $doc['doc_id'] = "9";
+            return view('letterbuilder::frontend.details', compact('doc'));
         }
     }
 
     public function detailsViewBn($docId)
     {
         if($docId == 1){
-            return view('letterbuilder::frontend.notice.bn.details');
+            $doc = $this->get_detail_infos_bn();
+            $doc['doc_name'] = "Notice";
+            $doc['doc_name_bn'] = "নোটিশ";
+            $doc['doc_id'] = "1";
+            return view('letterbuilder::frontend.bn.details', compact('doc'));
         }elseif($docId == 2){
             return view('letterbuilder::frontend.office-memo.bn.details');
         }elseif($docId == 3){
-            return view('letterbuilder::frontend.circular-sample.bn.details');
+            $doc = $this->get_detail_infos_bn();
+            $doc['doc_name'] = "Circular Sample";
+            $doc['doc_name_bn'] = "পরিপত্রের নমুনা";
+            $doc['doc_id'] = "3";
+            return view('letterbuilder::frontend.bn.details', compact('doc'));
         }elseif($docId == 4){
-            return view('letterbuilder::frontend.official-letter.bn.details');
+            $doc = $this->get_detail_infos_bn();
+            $doc['doc_name'] = "Government Letter Sample";
+            $doc['doc_name_bn'] = "সরকারি পত্রের নমুনা";
+            $doc['doc_id'] = "4";
+            return view('letterbuilder::frontend.bn.details', compact('doc'));
         }elseif($docId == 5){
-            return view('letterbuilder::frontend.unofficial-note.bn.details');
+            $doc = $this->get_detail_infos_bn();
+            $doc['doc_name'] = "Unofficial Note";
+            $doc['doc_name_bn'] = "অনানুষ্ঠানিক নোট";
+            $doc['doc_id'] = "5";
+            return view('letterbuilder::frontend.bn.details', compact('doc'));
         }elseif($docId == 6){
-            return view('letterbuilder::frontend.meeting-minutes.bn.details');
+            $doc = $this->get_detail_infos_bn();
+            $doc['doc_name'] = "Meeting Minutes";
+            $doc['doc_name_bn'] = "সভার কার্যবিবরণী";
+            $doc['doc_id'] = "6";
+            return view('letterbuilder::frontend.bn.details', compact('doc'));
         }elseif($docId == 7){
-            return view('letterbuilder::frontend.notification-sample.bn.details');
+            $doc = $this->get_detail_infos_bn();
+            $doc['doc_name'] = "Notification Sample";
+            $doc['doc_name_bn'] = "প্রজ্ঞাপনের নমুনা";
+            $doc['doc_id'] = "7";
+            return view('letterbuilder::frontend.bn.details', compact('doc'));
         }elseif($docId == 8){
-            return view('letterbuilder::frontend.office-order.bn.details');
+            $doc = $this->get_detail_infos_bn();
+            $doc['doc_name'] = "Office Order";
+            $doc['doc_name_bn'] = "অফিস আদেশের নমুনা";
+            $doc['doc_id'] = "8";
+            return view('letterbuilder::frontend.bn.details', compact('doc'));
         }elseif($docId == 9){
-            return view('letterbuilder::frontend.semi-govt-letter-sample.bn.details');
+            $doc = $this->get_detail_infos_bn();
+            $doc['doc_name'] = "Semi Govt Letter Sample";
+            $doc['doc_name_bn'] = "আধা-সরকারি পত্রের নমুনা";
+            $doc['doc_id'] = "9";
+            return view('letterbuilder::frontend.bn.details', compact('doc'));
         }
+    }
+
+    public function get_detail_infos(){
+        $doc = [];
+            $docName = '';
+            $features = [
+                '1' => "Built on top of Vue JS 3.x with Vite JS compitible",
+                '2' => "Built on top of Vue JS 3.x with Vite JS compitible",
+                '3' => "Built on top of Vue JS 3.x with Vite JS compitible",
+                '4' => "Built on top of Vue JS 3.x with Vite JS compitible",
+                '5' => "Built on top of Vue JS 3.x with Vite JS compitible",
+            ];
+            $versionDetails = [
+                "last update" => "8 November 2023",
+                "published" => "2 June 2020",
+            ];
+            $technologies = [
+                "1" => "html",
+                "2" => "css",
+                "3" => "js",
+                "4" => "html",
+                "5" => "css",
+                "6" => "js",
+            ];
+            $changeLogs = [
+                "Initial Release" => "Version 1.0 - Dec 30, 2023"
+            ];
+            $doc = [
+                "doc_name" => $docName, 
+                "features" => $features, 
+                "version_details" => $versionDetails, 
+                "technologies" => $technologies, 
+                "change_logs" => $changeLogs
+            ];
+            return $doc;
+    }
+
+    public function get_detail_infos_bn(){
+        $doc = [];
+            $docName = '';
+            $features = [
+                '1' => "Built on top of Vue JS 3.x with Vite JS compitible",
+                '2' => "Built on top of Vue JS 3.x with Vite JS compitible",
+                '3' => "Built on top of Vue JS 3.x with Vite JS compitible",
+                '4' => "Built on top of Vue JS 3.x with Vite JS compitible",
+                '5' => "Built on top of Vue JS 3.x with Vite JS compitible",
+            ];
+            $versionDetails = [
+                "Last Update" => "8 November 2023",
+                "Published" => "2 June 2020",
+            ];
+            $technologies = [
+                "1" => "html",
+                "2" => "css",
+                "3" => "js",
+                "4" => "html",
+                "5" => "css",
+                "6" => "js",
+            ];
+            $changeLogs = [
+                "Initial Release" => "Version 1.0 - Dec 30, 2023"
+            ];
+            $doc = [
+                "doc_name" => $docName, 
+                "features" => $features, 
+                "version_details" => $versionDetails, 
+                "technologies" => $technologies, 
+                "change_logs" => $changeLogs
+            ];
+            return $doc;
     }
 }
