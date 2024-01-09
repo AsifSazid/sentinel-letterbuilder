@@ -11,7 +11,7 @@ class PreviewController
         }elseif($docId == 2){
             return view('letterbuilder::frontend.office_memo.preview');
         }elseif($docId == 3){
-            return view('letterbuilder::frontend.circular_sample.preview');
+            return view('letterbuilder::frontend.circular-sample.preview');
         }elseif($docId == 4){
             return view('letterbuilder::frontend.official-letter.preview');
         }elseif($docId == 5){
@@ -78,7 +78,35 @@ class PreviewController
         }elseif($docId == 2){
             return view('letterbuilder::frontend.office-memo.details');
         }elseif($docId == 3){
-            return view('letterbuilder::frontend.circular-sample.details');
+            $doc = [];
+            $docName = 'Circular Sample';
+            $features = [
+                '1' => "Built on top of Vue JS 3.x with Vite JS compitible",
+                '2' => "Built on top of Vue JS 3.x with Vite JS compitible",
+                '3' => "Built on top of Vue JS 3.x with Vite JS compitible",
+                '4' => "Built on top of Vue JS 3.x with Vite JS compitible",
+                '5' => "Built on top of Vue JS 3.x with Vite JS compitible",
+            ];
+            $versionDetails = [
+                "last update" => "8 November 2023",
+                "published" => "2 June 2020",
+            ];
+            $technology = [
+                "1" => "html",
+                "2" => "css",
+                "3" => "js"
+            ];
+            $changeLog = [
+                "Initial Release" => "Version 1.0 - Dec 30, 2023"
+            ];
+            $doc = [
+                "doc_name" => $docName, 
+                "features" => $features, 
+                "version_details" => $versionDetails, 
+                "technology" => $technology, 
+                "change_log" => $changeLog
+            ];
+            return view('letterbuilder::frontend.details', compact('doc'));
         }elseif($docId == 4){
             return view('letterbuilder::frontend.official-letter.details');
         }elseif($docId == 5){
