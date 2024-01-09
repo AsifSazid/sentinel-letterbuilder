@@ -90,7 +90,7 @@ class PreviewController
             return view('letterbuilder::frontend.details', compact('doc'));
         }elseif($docId == 4){
             $doc = $this->get_detail_infos();
-            $doc['doc_name'] = "Government Letter Sample";
+            $doc['doc_name'] = "Official Letter";
             $doc['doc_id'] = "4";
             return view('letterbuilder::frontend.details', compact('doc'));
         }elseif($docId == 5){
@@ -139,7 +139,7 @@ class PreviewController
             return view('letterbuilder::frontend.bn.details', compact('doc'));
         }elseif($docId == 4){
             $doc = $this->get_detail_infos_bn();
-            $doc['doc_name'] = "Government Letter Sample";
+            $doc['doc_name'] = "Official Letter";
             $doc['doc_name_bn'] = "সরকারি পত্রের নমুনা";
             $doc['doc_id'] = "4";
             return view('letterbuilder::frontend.bn.details', compact('doc'));

@@ -33,6 +33,7 @@
                 <div class="col-xl-8">
                     <!--begin::Engage widget 6-->
                     <div class="row pb-lg-8 pb-4">
+                        {{-- @dd($logo_locations.'.png') --}}
                         <div class="card flex-grow-1 bgi-no-repeat bgi-size-contain bgi-position-x-end h-xl-500px"
                             style="background-image:url('{{ asset('ui/frontend/assets/media/forms/'.$logo_locations.'.png') }} ')">
                             <!--begin::Body-->
@@ -47,11 +48,11 @@
                                 </div>
                                 <!--begin::Action-->
                                 <div class="mb-xl-10 mb-3">
-                                    <a href='{{ route('pdfDownload', $docId = '3') }}' class="btn btn-primary fw-semibold me-2" 
+                                    <a href='{{ route('pdfDownload', $docId = $doc['doc_id']) }}' class="btn btn-primary fw-semibold me-2" 
                                         >{{ __('Download') }}</a>
                                     {{-- <a href='#' class="btn btn-primary fw-semibold me-2" data-bs-toggle="modal"
                                         data-bs-target="#kt_modal_upgrade_plan">{{ __('Download') }}</a> --}}
-                                    <a href="{{ route('web.preview', $docId = 3) }}"
+                                    <a href="{{ route('web.preview', $docId = $doc['doc_id']) }}"
                                         class="btn btn-primary fw-semibold me-2"
                                         style="border: 1px solid rgba(255, 255, 255, 0.3)">{{ __('Preview') }}</a>
                                 </div>
@@ -315,7 +316,7 @@
                                                     <!--end::Title-->
                                                     <!--begin::Total-->
                                                     <span
-                                                        class="text-gray-600 text-end fw-bold fs-6">{{ __('17,035') }}</span>
+                                                        class="text-gray-600 text-end fw-bold fs-6">{{ __('35') }}</span>
                                                     <!--end::Total-->
                                                 </div>
                                                 <!--end::Info-->
@@ -379,7 +380,7 @@
                                                     <!--end::Title-->
                                                     <!--begin::Total-->
                                                     <span
-                                                        class="text-gray-600 text-end fw-bold fs-6">{{ __('2,630') }}</span>
+                                                        class="text-gray-600 text-end fw-bold fs-6">{{ __('20') }}</span>
                                                     <!--end::Total-->
                                                 </div>
                                                 <!--end::Info-->
@@ -443,7 +444,7 @@
                                                     <!--end::Title-->
                                                     <!--begin::Total-->
                                                     <span
-                                                        class="text-gray-600 text-end fw-bold fs-6">{{ __('2,630') }}</span>
+                                                        class="text-gray-600 text-end fw-bold fs-6">{{ __('63') }}</span>
                                                     <!--end::Total-->
                                                 </div>
                                                 <!--end::Info-->
