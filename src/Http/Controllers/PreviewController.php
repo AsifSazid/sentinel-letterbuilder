@@ -99,7 +99,7 @@ class PreviewController
         if($docId == 1){
             return view('letterbuilder::frontend.notice.bn.details');
         }elseif($docId == 2){
-            return view('letterbuilder::frontend.office_memo.bn.details');
+            return view('letterbuilder::frontend.office-memo.bn.details');
         }elseif($docId == 3){
             return view('letterbuilder::frontend.circular-sample.bn.details');
         }elseif($docId == 4){
