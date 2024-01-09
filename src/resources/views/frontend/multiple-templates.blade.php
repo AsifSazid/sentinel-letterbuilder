@@ -59,7 +59,7 @@
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
-                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('2,630') }}</span>
+                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('63') }}</span>
                                 <!--end::Total-->
                             </div>
                             <!--end::Info-->
@@ -122,7 +122,7 @@
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
-                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('17,035') }}</span>
+                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('35') }}</span>
                                 <!--end::Total-->
                             </div>
                             <!--end::Info-->
@@ -185,7 +185,7 @@
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
-                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('2,630') }}</span>
+                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('20') }}</span>
                                 <!--end::Total-->
                             </div>
                             <!--end::Info-->
@@ -218,10 +218,10 @@
                         <div class="card-body text-center pb-5">
                             <!--begin::Overlay-->
                             <a class="d-block overlay" data-fslightbox="lightbox-hot-sales"
-                                href="{{ asset('ui/frontend/assets') }}/media/forms/government-letter-sample.png">
+                                href="{{ asset('ui/frontend/assets') }}/media/forms/official-letter.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/government-letter-sample.png'); background-position: center top;">
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/official-letter.png'); background-position: center top;">
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -248,7 +248,7 @@
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
-                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('17,035') }}</span>
+                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('15') }}</span>
                                 <!--end::Total-->
                             </div>
                             <!--end::Info-->
@@ -281,10 +281,10 @@
                         <div class="card-body text-center pb-5">
                             <!--begin::Overlay-->
                             <a class="d-block overlay" data-fslightbox="lightbox-hot-sales"
-                                href="{{ asset('ui/frontend/assets') }}/media/forms/informal-note.png">
+                                href="{{ asset('ui/frontend/assets') }}/media/forms/unofficial-note.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/informal-note.png'); background-position: center top;">
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/unofficial-note.png'); background-position: center top;">
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -311,7 +311,7 @@
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
-                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('2,630') }}</span>
+                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('24') }}</span>
                                 <!--end::Total-->
                             </div>
                             <!--end::Info-->
@@ -374,7 +374,7 @@
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
-                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('17,035') }}</span>
+                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('13') }}</span>
                                 <!--end::Total-->
                             </div>
                             <!--end::Info-->
@@ -437,7 +437,7 @@
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
-                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('2,630') }}</span>
+                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('17') }}</span>
                                 <!--end::Total-->
                             </div>
                             <!--end::Info-->
@@ -470,10 +470,10 @@
                         <div class="card-body text-center pb-5">
                             <!--begin::Overlay-->
                             <a class="d-block overlay" data-fslightbox="lightbox-hot-sales"
-                                href="{{ asset('ui/frontend/assets') }}/media/forms/office-order-sample.png">
+                                href="{{ asset('ui/frontend/assets') }}/media/forms/office-order.png">
                                 <!--begin::Image-->
                                 <div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded mb-7"
-                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/office-order-sample.png'); background-position: center top;">
+                                    style="height: 266px;background-image:url('{{ asset('ui/frontend/assets') }}/media/forms/office-order.png'); background-position: center top;">
                                 </div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
@@ -500,7 +500,7 @@
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
-                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('17,035') }}</span>
+                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('75') }}</span>
                                 <!--end::Total-->
                             </div>
                             <!--end::Info-->
@@ -563,7 +563,7 @@
                                 </div>
                                 <!--end::Title-->
                                 <!--begin::Total-->
-                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('17,035') }}</span>
+                                <span class="text-gray-600 text-end fw-bold fs-6">{{ __('38') }}</span>
                                 <!--end::Total-->
                             </div>
                             <!--end::Info-->
